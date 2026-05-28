@@ -11,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=6">
+<link rel="stylesheet" href="css/style.css?v=7">
 </head>
 <body>
 
@@ -152,6 +152,48 @@
         <div id="audio-practice-area"></div>
       </div>
 
+      <!-- PLACEMENT TEST -->
+      <div class="page" id="page-placement">
+        <div class="page-title">🧭 Placement test</div>
+        <div class="page-sub">მოკლე დიაგნოსტიკა, რომელიც დონეს და სასწავლო გზას გირჩევს</div>
+        <div id="placement-area"></div>
+      </div>
+
+      <!-- WEAK POINTS -->
+      <div class="page" id="page-dashboard">
+        <div class="page-title">📊 Weak points</div>
+        <div class="page-sub">სუსტი სიტყვები, გრამატიკა და pronunciation ერთ ადგილზე</div>
+        <div id="weak-dashboard-area"></div>
+      </div>
+
+      <!-- WRITING -->
+      <div class="page" id="page-writing">
+        <div class="page-title">✍️ Writing mode</div>
+        <div class="page-sub">ქართულიდან გერმანულად დაწერე წინადადება და მიიღე შეფასება</div>
+        <div id="writing-area"></div>
+      </div>
+
+      <!-- DIALOGUES -->
+      <div class="page" id="page-dialogues">
+        <div class="page-title">💬 რეალური დიალოგები</div>
+        <div class="page-sub">ექიმთან, სამსახურში, მაღაზიაში და მოგზაურობაში გამოსაყენებელი სცენარები</div>
+        <div id="dialogues-area"></div>
+      </div>
+
+      <!-- C1/C2 READING -->
+      <div class="page" id="page-reading">
+        <div class="page-title">📚 C1/C2 Reading</div>
+        <div class="page-sub">რთული ტექსტები, comprehension questions და მაღალი დონის ლექსიკა</div>
+        <div id="reading-area"></div>
+      </div>
+
+      <!-- NOTES -->
+      <div class="page" id="page-notes">
+        <div class="page-title">🗒️ პირადი შენიშვნები</div>
+        <div class="page-sub">სიტყვებზე საკუთარი მინიშნებები, მაგალითები და ასოციაციები</div>
+        <div id="notes-area"></div>
+      </div>
+
       <!-- TESTS -->
       <div class="page" id="page-tests">
         <div class="page-title">📋 ტესტები</div>
@@ -253,6 +295,8 @@
       <div class="rs-nav-item active" onclick="navigate('home')" data-page="home"><span class="rs-nav-icon">🏠</span><span class="rs-nav-text">მთავარი</span></div>
 
       <div class="rs-nav-label">სწავლა</div>
+      <div class="rs-nav-item" onclick="navigate('placement')" data-page="placement"><span class="rs-nav-icon">🧭</span><span class="rs-nav-text">Placement test</span></div>
+      <div class="rs-nav-item" onclick="navigate('dashboard')" data-page="dashboard"><span class="rs-nav-icon">📊</span><span class="rs-nav-text">Weak points</span></div>
       <div class="rs-nav-item" onclick="startLearningSession()" data-page="learn"><span class="rs-nav-icon">🚀</span><span class="rs-nav-text">სწავლის სესია</span></div>
       <div class="rs-nav-item" onclick="navigate('vocab')" data-page="vocab"><span class="rs-nav-icon">📖</span><span class="rs-nav-text">ლექსიკონი</span></div>
       <div class="rs-nav-item" onclick="navigate('grammar')" data-page="grammar"><span class="rs-nav-icon">📝</span><span class="rs-nav-text">გრამატიკა</span></div>
@@ -265,10 +309,14 @@
       </div>
       <div class="rs-nav-item" onclick="navigate('quiz')" data-page="quiz"><span class="rs-nav-icon">🎮</span><span class="rs-nav-text">კვიზი</span></div>
       <div class="rs-nav-item" onclick="navigate('audio')" data-page="audio"><span class="rs-nav-icon">🎧</span><span class="rs-nav-text">მოსმენა/მეტყველება</span></div>
+      <div class="rs-nav-item" onclick="navigate('writing')" data-page="writing"><span class="rs-nav-icon">✍️</span><span class="rs-nav-text">Writing</span></div>
+      <div class="rs-nav-item" onclick="navigate('dialogues')" data-page="dialogues"><span class="rs-nav-icon">💬</span><span class="rs-nav-text">დიალოგები</span></div>
+      <div class="rs-nav-item" onclick="navigate('reading')" data-page="reading"><span class="rs-nav-icon">📚</span><span class="rs-nav-text">C1/C2 Reading</span></div>
       <div class="rs-nav-item" onclick="navigate('tests')" data-page="tests"><span class="rs-nav-icon">📋</span><span class="rs-nav-text">ტესტები</span></div>
 
       <div class="rs-nav-label">პროფილი</div>
       <div class="rs-nav-item" onclick="navigate('achievements')" data-page="achievements"><span class="rs-nav-icon">🏆</span><span class="rs-nav-text">მიღწევები</span></div>
+      <div class="rs-nav-item" onclick="navigate('notes')" data-page="notes"><span class="rs-nav-icon">🗒️</span><span class="rs-nav-text">შენიშვნები</span></div>
       <div class="rs-nav-item" onclick="navigate('settings')" data-page="settings"><span class="rs-nav-icon">⚙️</span><span class="rs-nav-text">პარამეტრები</span></div>
     </div>
   </nav>
@@ -277,7 +325,7 @@
 
 <div id="sidebar-overlay" onclick="closeAllSidebars()"></div>
 
-<script src="js/main.js?v=6"></script>
+<script src="js/main.js?v=7"></script>
 <script>
 // PWA Service Worker registration
 if("serviceWorker" in navigator){
