@@ -1,0 +1,8422 @@
+[
+  {
+    "id": "hallo",
+    "de": "Hallo",
+    "ka": "გამარჯობა",
+    "phonetic": "[ˈhaloː]",
+    "cat": "მისალმება",
+    "level": "A1",
+    "article": "",
+    "example": "Hallo, wie geht es dir?"
+  },
+  {
+    "id": "guten-morgen",
+    "de": "Guten Morgen",
+    "ka": "დილა მშვიდობისა",
+    "phonetic": "[ˌɡuːtən ˈmɔʁɡən]",
+    "cat": "მისალმება",
+    "level": "A1",
+    "article": "",
+    "example": "Guten Morgen! Hast du gut geschlafen?"
+  },
+  {
+    "id": "guten-tag",
+    "de": "Guten Tag",
+    "ka": "შუადღე მშვიდობისა",
+    "phonetic": "[ˌɡuːtən ˈtaːk]",
+    "cat": "მისალმება",
+    "level": "A1",
+    "article": "",
+    "example": "Guten Tag, darf ich mich vorstellen?"
+  },
+  {
+    "id": "guten-abend",
+    "de": "Guten Abend",
+    "ka": "საღამო მშვიდობისა",
+    "phonetic": "[ˌɡuːtən ˈaːbənt]",
+    "cat": "მისალმება",
+    "level": "A1",
+    "article": "",
+    "example": "Guten Abend! Wie war Ihr Tag?"
+  },
+  {
+    "id": "auf-wiedersehen",
+    "de": "Auf Wiedersehen",
+    "ka": "ნახვამდის",
+    "phonetic": "[ˌaʊf ˈviːdɐzeːən]",
+    "cat": "მისალმება",
+    "level": "A1",
+    "article": "",
+    "example": "Auf Wiedersehen und gute Nacht!"
+  },
+  {
+    "id": "tschuess",
+    "de": "Tschüss",
+    "ka": "ნახვამდის (არაფორმ.)",
+    "phonetic": "[tʃʏs]",
+    "cat": "მისალმება",
+    "level": "A1",
+    "article": "",
+    "example": "Tschüss, bis morgen!"
+  },
+  {
+    "id": "gute-nacht",
+    "de": "Gute Nacht",
+    "ka": "ღამე მშვიდობისა",
+    "phonetic": "[ˌɡuːtə ˈnaxt]",
+    "cat": "მისალმება",
+    "level": "A1",
+    "article": "",
+    "example": "Gute Nacht! Schlaf gut!"
+  },
+  {
+    "id": "wie-geht-es-ihnen",
+    "de": "Wie geht es Ihnen",
+    "ka": "როგორ ხართ? (ფორმ.)",
+    "phonetic": "[viː ɡeːt ɛs ˈiːnən]",
+    "cat": "მისალმება",
+    "level": "A1",
+    "article": "",
+    "example": "Wie geht es Ihnen heute?"
+  },
+  {
+    "id": "wie-geht-s",
+    "de": "Wie geht's",
+    "ka": "როგორ ხარ? (არაფ.)",
+    "phonetic": "[viː ɡeːts]",
+    "cat": "მისალმება",
+    "level": "A1",
+    "article": "",
+    "example": "Hey, wie geht's dir?"
+  },
+  {
+    "id": "danke-gut",
+    "de": "Danke gut",
+    "ka": "მადლობა, კარგად",
+    "phonetic": "[ˈdaŋkə ɡuːt]",
+    "cat": "მისალმება",
+    "level": "A1",
+    "article": "",
+    "example": "Danke gut, und Ihnen?"
+  },
+  {
+    "id": "bitte",
+    "de": "Bitte",
+    "ka": "გთხოვთ / არა უშავს",
+    "phonetic": "[ˈbɪtə]",
+    "cat": "ზოგადი",
+    "level": "A1",
+    "article": "",
+    "example": "Bitte geben Sie mir das Buch."
+  },
+  {
+    "id": "danke",
+    "de": "Danke",
+    "ka": "მადლობა",
+    "phonetic": "[ˈdaŋkə]",
+    "cat": "ზოგადი",
+    "level": "A1",
+    "article": "",
+    "example": "Danke für Ihre Hilfe!"
+  },
+  {
+    "id": "ja",
+    "de": "Ja",
+    "ka": "დიახ",
+    "phonetic": "[jaː]",
+    "cat": "ზოგადი",
+    "level": "A1",
+    "article": "",
+    "example": "Ja, das stimmt."
+  },
+  {
+    "id": "nein",
+    "de": "Nein",
+    "ka": "არა",
+    "phonetic": "[naɪn]",
+    "cat": "ზოგადი",
+    "level": "A1",
+    "article": "",
+    "example": "Nein, das ist falsch."
+  },
+  {
+    "id": "entschuldigung",
+    "de": "Entschuldigung",
+    "ka": "ბოდიში",
+    "phonetic": "[ɛntˈʃʊldɪɡʊŋ]",
+    "cat": "ზოგადი",
+    "level": "A1",
+    "article": "",
+    "example": "Entschuldigung, wo ist der Bahnhof?"
+  },
+  {
+    "id": "kein-problem",
+    "de": "Kein Problem",
+    "ka": "პრობლემა არ არის",
+    "phonetic": "[kaɪn pʁoˈbleːm]",
+    "cat": "ზოგადი",
+    "level": "A1",
+    "article": "",
+    "example": "Kein Problem, ich helfe gerne!"
+  },
+  {
+    "id": "ich-verstehe-nicht",
+    "de": "Ich verstehe nicht",
+    "ka": "მე არ მესმის",
+    "phonetic": "[ɪç fɛɐ̯ˈʃteːə nɪçt]",
+    "cat": "ზოგადი",
+    "level": "A1",
+    "article": "",
+    "example": "Ich verstehe nicht, bitte langsamer."
+  },
+  {
+    "id": "wie-bitte",
+    "de": "Wie bitte",
+    "ka": "ბოდიში, როგორ? / გამეორეთ",
+    "phonetic": "[viː ˈbɪtə]",
+    "cat": "ზოგადი",
+    "level": "A1",
+    "article": "",
+    "example": "Wie bitte? Ich habe Sie nicht verstanden."
+  },
+  {
+    "id": "ich-heisse",
+    "de": "Ich heiße",
+    "ka": "მე მქვია",
+    "phonetic": "[ɪç ˈhaɪsə]",
+    "cat": "ზოგადი",
+    "level": "A1",
+    "article": "",
+    "example": "Ich heiße Maria. Und Sie?"
+  },
+  {
+    "id": "wie-heissen-sie",
+    "de": "Wie heißen Sie",
+    "ka": "როგორ გქვიათ? (ფ.)",
+    "phonetic": "[viː ˈhaɪsən ziː]",
+    "cat": "ზოგადი",
+    "level": "A1",
+    "article": "",
+    "example": "Wie heißen Sie, bitte?"
+  },
+  {
+    "id": "der-mann",
+    "de": "der Mann",
+    "ka": "კაცი",
+    "phonetic": "[deːɐ̯ man]",
+    "cat": "ადამიანი",
+    "level": "A1",
+    "article": "der",
+    "example": "Der Mann liest eine Zeitung."
+  },
+  {
+    "id": "die-frau",
+    "de": "die Frau",
+    "ka": "ქალი",
+    "phonetic": "[diː fʁaʊ]",
+    "cat": "ადამიანი",
+    "level": "A1",
+    "article": "die",
+    "example": "Die Frau arbeitet im Büro."
+  },
+  {
+    "id": "das-kind",
+    "de": "das Kind",
+    "ka": "ბავშვი",
+    "phonetic": "[das kɪnt]",
+    "cat": "ადამიანი",
+    "level": "A1",
+    "article": "das",
+    "example": "Das Kind spielt im Garten."
+  },
+  {
+    "id": "der-junge",
+    "de": "der Junge",
+    "ka": "ბიჭი",
+    "phonetic": "[deːɐ̯ ˈjʊŋə]",
+    "cat": "ადამიანი",
+    "level": "A1",
+    "article": "der",
+    "example": "Der Junge ist acht Jahre alt."
+  },
+  {
+    "id": "das-maedchen",
+    "de": "das Mädchen",
+    "ka": "გოგო",
+    "phonetic": "[das ˈmɛːtçən]",
+    "cat": "ადამიანი",
+    "level": "A1",
+    "article": "das",
+    "example": "Das Mädchen singt sehr schön."
+  },
+  {
+    "id": "der-freund",
+    "de": "der Freund",
+    "ka": "მეგობარი (მამ.)",
+    "phonetic": "[deːɐ̯ fʁɔɪnt]",
+    "cat": "ადამიანი",
+    "level": "A1",
+    "article": "der",
+    "example": "Mein Freund wohnt in Berlin."
+  },
+  {
+    "id": "die-freundin",
+    "de": "die Freundin",
+    "ka": "მეგობარი (მდ.)",
+    "phonetic": "[diː ˈfʁɔɪndɪn]",
+    "cat": "ადამიანი",
+    "level": "A1",
+    "article": "die",
+    "example": "Meine Freundin lernt Deutsch."
+  },
+  {
+    "id": "der-nachbar",
+    "de": "der Nachbar",
+    "ka": "მეზობელი (მამ.)",
+    "phonetic": "[deːɐ̯ ˈnaxbaːɐ̯]",
+    "cat": "ადამიანი",
+    "level": "A2",
+    "article": "der",
+    "example": "Mein Nachbar ist sehr nett."
+  },
+  {
+    "id": "die-familie",
+    "de": "die Familie",
+    "ka": "ოჯახი",
+    "phonetic": "[diː faˈmiːliə]",
+    "cat": "ოჯახი",
+    "level": "A1",
+    "article": "die",
+    "example": "Meine Familie wohnt in Georgien."
+  },
+  {
+    "id": "die-mutter",
+    "de": "die Mutter",
+    "ka": "დედა",
+    "phonetic": "[diː ˈmʊtɐ]",
+    "cat": "ოჯახი",
+    "level": "A1",
+    "article": "die",
+    "example": "Meine Mutter kocht sehr gut."
+  },
+  {
+    "id": "der-vater",
+    "de": "der Vater",
+    "ka": "მამა",
+    "phonetic": "[deːɐ̯ ˈfaːtɐ]",
+    "cat": "ოჯახი",
+    "level": "A1",
+    "article": "der",
+    "example": "Mein Vater arbeitet als Ingenieur."
+  },
+  {
+    "id": "der-bruder",
+    "de": "der Bruder",
+    "ka": "ძმა",
+    "phonetic": "[deːɐ̯ ˈbʁuːdɐ]",
+    "cat": "ოჯახი",
+    "level": "A1",
+    "article": "der",
+    "example": "Mein Bruder studiert Medizin."
+  },
+  {
+    "id": "die-schwester",
+    "de": "die Schwester",
+    "ka": "და",
+    "phonetic": "[diː ˈʃvɛstɐ]",
+    "cat": "ოჯახი",
+    "level": "A1",
+    "article": "die",
+    "example": "Meine Schwester ist Lehrerin."
+  },
+  {
+    "id": "der-sohn",
+    "de": "der Sohn",
+    "ka": "ვაჟი",
+    "phonetic": "[deːɐ̯ zoːn]",
+    "cat": "ოჯახი",
+    "level": "A1",
+    "article": "der",
+    "example": "Unser Sohn ist fünf Jahre alt."
+  },
+  {
+    "id": "die-tochter",
+    "de": "die Tochter",
+    "ka": "ქალიშვილი",
+    "phonetic": "[diː ˈtɔxtɐ]",
+    "cat": "ოჯახი",
+    "level": "A1",
+    "article": "die",
+    "example": "Unsere Tochter geht in die Schule."
+  },
+  {
+    "id": "der-grossvater",
+    "de": "der Großvater",
+    "ka": "პაპა",
+    "phonetic": "[deːɐ̯ ˈɡʁoːsfaːtɐ]",
+    "cat": "ოჯახი",
+    "level": "A1",
+    "article": "der",
+    "example": "Mein Großvater ist 80 Jahre alt."
+  },
+  {
+    "id": "die-grossmutter",
+    "de": "die Großmutter",
+    "ka": "ბებია",
+    "phonetic": "[diː ˈɡʁoːsmʊtɐ]",
+    "cat": "ოჯახი",
+    "level": "A1",
+    "article": "die",
+    "example": "Meine Großmutter backt leckere Kuchen."
+  },
+  {
+    "id": "der-onkel",
+    "de": "der Onkel",
+    "ka": "ბიძა",
+    "phonetic": "[deːɐ̯ ˈɔŋkəl]",
+    "cat": "ოჯახი",
+    "level": "A1",
+    "article": "der",
+    "example": "Mein Onkel lebt in München."
+  },
+  {
+    "id": "die-tante",
+    "de": "die Tante",
+    "ka": "დეიდა / მამიდა",
+    "phonetic": "[diː ˈtantə]",
+    "cat": "ოჯახი",
+    "level": "A1",
+    "article": "die",
+    "example": "Meine Tante ist Ärztin."
+  },
+  {
+    "id": "das-haus",
+    "de": "das Haus",
+    "ka": "სახლი",
+    "phonetic": "[das haʊs]",
+    "cat": "სახლი",
+    "level": "A1",
+    "article": "das",
+    "example": "Das Haus hat einen großen Garten."
+  },
+  {
+    "id": "die-wohnung",
+    "de": "die Wohnung",
+    "ka": "ბინა",
+    "phonetic": "[diː ˈvoːnʊŋ]",
+    "cat": "სახლი",
+    "level": "A1",
+    "article": "die",
+    "example": "Meine Wohnung hat drei Zimmer."
+  },
+  {
+    "id": "das-zimmer",
+    "de": "das Zimmer",
+    "ka": "ოთახი",
+    "phonetic": "[das ˈtsɪmɐ]",
+    "cat": "სახლი",
+    "level": "A1",
+    "article": "das",
+    "example": "Das Zimmer ist sehr hell und sauber."
+  },
+  {
+    "id": "die-kueche",
+    "de": "die Küche",
+    "ka": "სამზარეულო",
+    "phonetic": "[diː ˈkʏçə]",
+    "cat": "სახლი",
+    "level": "A1",
+    "article": "die",
+    "example": "In der Küche gibt es einen Herd."
+  },
+  {
+    "id": "das-bad",
+    "de": "das Bad",
+    "ka": "სააბაზანო",
+    "phonetic": "[das baːt]",
+    "cat": "სახლი",
+    "level": "A1",
+    "article": "das",
+    "example": "Das Bad ist im Erdgeschoss."
+  },
+  {
+    "id": "die-tuer",
+    "de": "die Tür",
+    "ka": "კარი",
+    "phonetic": "[diː tyːɐ̯]",
+    "cat": "სახლი",
+    "level": "A1",
+    "article": "die",
+    "example": "Bitte schließ die Tür!"
+  },
+  {
+    "id": "das-fenster",
+    "de": "das Fenster",
+    "ka": "ფანჯარა",
+    "phonetic": "[das ˈfɛnstɐ]",
+    "cat": "სახლი",
+    "level": "A1",
+    "article": "das",
+    "example": "Das Fenster ist offen."
+  },
+  {
+    "id": "das-bett",
+    "de": "das Bett",
+    "ka": "საწოლი",
+    "phonetic": "[das bɛt]",
+    "cat": "სახლი",
+    "level": "A1",
+    "article": "das",
+    "example": "Das Bett ist sehr bequem."
+  },
+  {
+    "id": "der-tisch",
+    "de": "der Tisch",
+    "ka": "მაგიდა",
+    "phonetic": "[deːɐ̯ tɪʃ]",
+    "cat": "სახლი",
+    "level": "A1",
+    "article": "der",
+    "example": "Der Tisch steht im Wohnzimmer."
+  },
+  {
+    "id": "der-stuhl",
+    "de": "der Stuhl",
+    "ka": "სკამი",
+    "phonetic": "[deːɐ̯ ʃtuːl]",
+    "cat": "სახლი",
+    "level": "A1",
+    "article": "der",
+    "example": "Der Stuhl ist aus Holz."
+  },
+  {
+    "id": "das-sofa",
+    "de": "das Sofa",
+    "ka": "დივანი",
+    "phonetic": "[das ˈzoːfa]",
+    "cat": "სახლი",
+    "level": "A1",
+    "article": "das",
+    "example": "Das Sofa ist sehr bequem."
+  },
+  {
+    "id": "der-schrank",
+    "de": "der Schrank",
+    "ka": "კარადა",
+    "phonetic": "[deːɐ̯ ʃʁaŋk]",
+    "cat": "სახლი",
+    "level": "A1",
+    "article": "der",
+    "example": "Die Kleider sind im Schrank."
+  },
+  {
+    "id": "eins",
+    "de": "eins",
+    "ka": "ერთი",
+    "phonetic": "[aɪns]",
+    "cat": "რიცხვები",
+    "level": "A1",
+    "article": "",
+    "example": "Ich möchte eins davon."
+  },
+  {
+    "id": "zwei",
+    "de": "zwei",
+    "ka": "ორი",
+    "phonetic": "[tsvaɪ]",
+    "cat": "რიცხვები",
+    "level": "A1",
+    "article": "",
+    "example": "Zwei Kaffee, bitte."
+  },
+  {
+    "id": "drei",
+    "de": "drei",
+    "ka": "სამი",
+    "phonetic": "[dʁaɪ]",
+    "cat": "რიცხვები",
+    "level": "A1",
+    "article": "",
+    "example": "Drei plus drei ist sechs."
+  },
+  {
+    "id": "vier",
+    "de": "vier",
+    "ka": "ოთხი",
+    "phonetic": "[fiːɐ̯]",
+    "cat": "რიცხვები",
+    "level": "A1",
+    "article": "",
+    "example": "Wir sind zu viert."
+  },
+  {
+    "id": "fuenf",
+    "de": "fünf",
+    "ka": "ხუთი",
+    "phonetic": "[fʏnf]",
+    "cat": "რიცხვები",
+    "level": "A1",
+    "article": "",
+    "example": "Ich habe fünf Geschwister."
+  },
+  {
+    "id": "sechs",
+    "de": "sechs",
+    "ka": "ექვსი",
+    "phonetic": "[zɛks]",
+    "cat": "რიცხვები",
+    "level": "A1",
+    "article": "",
+    "example": "Die Schule beginnt um sechs Uhr."
+  },
+  {
+    "id": "sieben",
+    "de": "sieben",
+    "ka": "შვიდი",
+    "phonetic": "[ˈziːbən]",
+    "cat": "რიცხვები",
+    "level": "A1",
+    "article": "",
+    "example": "Sieben Tage hat eine Woche."
+  },
+  {
+    "id": "acht",
+    "de": "acht",
+    "ka": "რვა",
+    "phonetic": "[axt]",
+    "cat": "რიცხვები",
+    "level": "A1",
+    "article": "",
+    "example": "Ich schlafe acht Stunden."
+  },
+  {
+    "id": "neun",
+    "de": "neun",
+    "ka": "ცხრა",
+    "phonetic": "[nɔɪn]",
+    "cat": "რიცხვები",
+    "level": "A1",
+    "article": "",
+    "example": "Der Film beginnt um neun Uhr."
+  },
+  {
+    "id": "zehn",
+    "de": "zehn",
+    "ka": "ათი",
+    "phonetic": "[tseːn]",
+    "cat": "რიცხვები",
+    "level": "A1",
+    "article": "",
+    "example": "Zehn Minuten bis zum Bahnhof."
+  },
+  {
+    "id": "zwanzig",
+    "de": "zwanzig",
+    "ka": "ოცი",
+    "phonetic": "[ˈtsvantsɪç]",
+    "cat": "რიცხვები",
+    "level": "A1",
+    "article": "",
+    "example": "Ich bin zwanzig Jahre alt."
+  },
+  {
+    "id": "dreissig",
+    "de": "dreißig",
+    "ka": "ოცდაათი",
+    "phonetic": "[ˈdʁaɪsɪç]",
+    "cat": "რიცხვები",
+    "level": "A1",
+    "article": "",
+    "example": "Das Buch kostet dreißig Euro."
+  },
+  {
+    "id": "hundert",
+    "de": "hundert",
+    "ka": "ასი",
+    "phonetic": "[ˈhʊndɐt]",
+    "cat": "რიცხვები",
+    "level": "A1",
+    "article": "",
+    "example": "Das kostet hundert Euro."
+  },
+  {
+    "id": "tausend",
+    "de": "tausend",
+    "ka": "ათასი",
+    "phonetic": "[ˈtaʊzənt]",
+    "cat": "რიცხვები",
+    "level": "A1",
+    "article": "",
+    "example": "Die Stadt hat tausend Einwohner."
+  },
+  {
+    "id": "rot",
+    "de": "rot",
+    "ka": "წითელი",
+    "phonetic": "[ʁoːt]",
+    "cat": "ფერები",
+    "level": "A1",
+    "article": "",
+    "example": "Das Kleid ist rot."
+  },
+  {
+    "id": "blau",
+    "de": "blau",
+    "ka": "ლურჯი",
+    "phonetic": "[blaʊ]",
+    "cat": "ფერები",
+    "level": "A1",
+    "article": "",
+    "example": "Der Himmel ist blau."
+  },
+  {
+    "id": "gruen",
+    "de": "grün",
+    "ka": "მწვანე",
+    "phonetic": "[ɡʁyːn]",
+    "cat": "ფერები",
+    "level": "A1",
+    "article": "",
+    "example": "Das Gras ist grün."
+  },
+  {
+    "id": "gelb",
+    "de": "gelb",
+    "ka": "ყვითელი",
+    "phonetic": "[ɡɛlp]",
+    "cat": "ფერები",
+    "level": "A1",
+    "article": "",
+    "example": "Die Sonne ist gelb."
+  },
+  {
+    "id": "schwarz",
+    "de": "schwarz",
+    "ka": "შავი",
+    "phonetic": "[ʃvaʁts]",
+    "cat": "ფერები",
+    "level": "A1",
+    "article": "",
+    "example": "Die Katze ist schwarz."
+  },
+  {
+    "id": "weiss",
+    "de": "weiß",
+    "ka": "თეთრი",
+    "phonetic": "[vaɪs]",
+    "cat": "ფერები",
+    "level": "A1",
+    "article": "",
+    "example": "Der Schnee ist weiß."
+  },
+  {
+    "id": "orange",
+    "de": "orange",
+    "ka": "ნარინჯისფერი",
+    "phonetic": "[oˈʁaŋʒə]",
+    "cat": "ფერები",
+    "level": "A1",
+    "article": "",
+    "example": "Der Kürbis ist orange."
+  },
+  {
+    "id": "lila",
+    "de": "lila",
+    "ka": "იისფერი",
+    "phonetic": "[ˈliːla]",
+    "cat": "ფერები",
+    "level": "A1",
+    "article": "",
+    "example": "Ihre Lieblingsfarbe ist lila."
+  },
+  {
+    "id": "rosa",
+    "de": "rosa",
+    "ka": "ვარდისფერი",
+    "phonetic": "[ˈʁoːza]",
+    "cat": "ფერები",
+    "level": "A1",
+    "article": "",
+    "example": "Das Baby trägt rosa Kleidung."
+  },
+  {
+    "id": "braun",
+    "de": "braun",
+    "ka": "ყავისფერი",
+    "phonetic": "[bʁaʊn]",
+    "cat": "ფერები",
+    "level": "A1",
+    "article": "",
+    "example": "Der Tisch ist braun."
+  },
+  {
+    "id": "grau",
+    "de": "grau",
+    "ka": "რუხი",
+    "phonetic": "[ɡʁaʊ]",
+    "cat": "ფერები",
+    "level": "A1",
+    "article": "",
+    "example": "Die Wolken sind grau."
+  },
+  {
+    "id": "das-wasser",
+    "de": "das Wasser",
+    "ka": "წყალი",
+    "phonetic": "[das ˈvasɐ]",
+    "cat": "საჭმელ-სასმელი",
+    "level": "A1",
+    "article": "das",
+    "example": "Ich trinke viel Wasser."
+  },
+  {
+    "id": "das-brot",
+    "de": "das Brot",
+    "ka": "პური",
+    "phonetic": "[das bʁoːt]",
+    "cat": "საჭმელ-სასმელი",
+    "level": "A1",
+    "article": "das",
+    "example": "Das Brot ist frisch und lecker."
+  },
+  {
+    "id": "die-milch",
+    "de": "die Milch",
+    "ka": "რძე",
+    "phonetic": "[diː mɪlç]",
+    "cat": "საჭმელ-სასმელი",
+    "level": "A1",
+    "article": "die",
+    "example": "Kinder trinken gern Milch."
+  },
+  {
+    "id": "der-kaffee",
+    "de": "der Kaffee",
+    "ka": "ყავა",
+    "phonetic": "[deːɐ̯ ˈkafe]",
+    "cat": "საჭმელ-სასმელი",
+    "level": "A1",
+    "article": "der",
+    "example": "Morgens trinke ich immer Kaffee."
+  },
+  {
+    "id": "der-tee",
+    "de": "der Tee",
+    "ka": "ჩაი",
+    "phonetic": "[deːɐ̯ teː]",
+    "cat": "საჭმელ-სასმელი",
+    "level": "A1",
+    "article": "der",
+    "example": "Möchten Sie Tee oder Kaffee?"
+  },
+  {
+    "id": "das-fleisch",
+    "de": "das Fleisch",
+    "ka": "ხორცი",
+    "phonetic": "[das flaɪʃ]",
+    "cat": "საჭმელ-სასმელი",
+    "level": "A1",
+    "article": "das",
+    "example": "Das Fleisch ist zu hart."
+  },
+  {
+    "id": "der-fisch",
+    "de": "der Fisch",
+    "ka": "თევზი / თევზი (ცხ.)",
+    "phonetic": "[deːɐ̯ fɪʃ]",
+    "cat": "საჭმელ-სასმელი",
+    "level": "A1",
+    "article": "der",
+    "example": "Fisch ist sehr gesund."
+  },
+  {
+    "id": "das-ei",
+    "de": "das Ei",
+    "ka": "კვერცხი",
+    "phonetic": "[das aɪ]",
+    "cat": "საჭმელ-სასმელი",
+    "level": "A1",
+    "article": "das",
+    "example": "Ich esse gerne Eier zum Frühstück."
+  },
+  {
+    "id": "die-kartoffel",
+    "de": "die Kartoffel",
+    "ka": "კარტოფილი",
+    "phonetic": "[diː kaʁˈtɔfəl]",
+    "cat": "საჭმელ-სასმელი",
+    "level": "A1",
+    "article": "die",
+    "example": "Kartoffeln sind sehr sättigend."
+  },
+  {
+    "id": "der-apfel",
+    "de": "der Apfel",
+    "ka": "ვაშლი",
+    "phonetic": "[deːɐ̯ ˈapfəl]",
+    "cat": "საჭმელ-სასმელი",
+    "level": "A1",
+    "article": "der",
+    "example": "Ein Apfel am Tag hält den Arzt fern."
+  },
+  {
+    "id": "die-banane",
+    "de": "die Banane",
+    "ka": "ბანანი",
+    "phonetic": "[diː baˈnaːnə]",
+    "cat": "საჭმელ-სასმელი",
+    "level": "A1",
+    "article": "die",
+    "example": "Die Banane ist reif und süß."
+  },
+  {
+    "id": "das-gemuese",
+    "de": "das Gemüse",
+    "ka": "ბოსტნეული",
+    "phonetic": "[das ɡəˈmyːzə]",
+    "cat": "საჭმელ-სასმელი",
+    "level": "A1",
+    "article": "das",
+    "example": "Gemüse ist gesund und lecker."
+  },
+  {
+    "id": "das-obst",
+    "de": "das Obst",
+    "ka": "ხილი",
+    "phonetic": "[das oːpst]",
+    "cat": "საჭმელ-სასმელი",
+    "level": "A1",
+    "article": "das",
+    "example": "Obst enthält viele Vitamine."
+  },
+  {
+    "id": "der-kuchen",
+    "de": "der Kuchen",
+    "ka": "ტორტი / კექსი",
+    "phonetic": "[deːɐ̯ ˈkuːxən]",
+    "cat": "საჭმელ-სასმელი",
+    "level": "A1",
+    "article": "der",
+    "example": "Zum Geburtstag gibt es Kuchen."
+  },
+  {
+    "id": "der-saft",
+    "de": "der Saft",
+    "ka": "წვენი",
+    "phonetic": "[deːɐ̯ zaft]",
+    "cat": "საჭმელ-სასმელი",
+    "level": "A1",
+    "article": "der",
+    "example": "Ich trinke gerne Orangensaft."
+  },
+  {
+    "id": "das-bier",
+    "de": "das Bier",
+    "ka": "ლუდი",
+    "phonetic": "[das biːɐ̯]",
+    "cat": "საჭმელ-სასმელი",
+    "level": "A1",
+    "article": "das",
+    "example": "In Bayern trinkt man viel Bier."
+  },
+  {
+    "id": "der-wein",
+    "de": "der Wein",
+    "ka": "ღვინო",
+    "phonetic": "[deːɐ̯ vaɪn]",
+    "cat": "საჭმელ-სასმელი",
+    "level": "A1",
+    "article": "der",
+    "example": "Georgischer Wein ist sehr bekannt."
+  },
+  {
+    "id": "die-suppe",
+    "de": "die Suppe",
+    "ka": "წვნიანი",
+    "phonetic": "[diː ˈzʊpə]",
+    "cat": "საჭმელ-სასმელი",
+    "level": "A1",
+    "article": "die",
+    "example": "Die Suppe ist heiß und lecker."
+  },
+  {
+    "id": "die-nudeln",
+    "de": "die Nudeln",
+    "ka": "მაკარონი",
+    "phonetic": "[diː ˈnuːdəln]",
+    "cat": "საჭმელ-სასმელი",
+    "level": "A1",
+    "article": "die",
+    "example": "Nudeln koche ich sehr schnell."
+  },
+  {
+    "id": "der-reis",
+    "de": "der Reis",
+    "ka": "ბრინჯი",
+    "phonetic": "[deːɐ̯ ʁaɪs]",
+    "cat": "საჭმელ-სასმელი",
+    "level": "A1",
+    "article": "der",
+    "example": "Reis essen wir als Beilage."
+  },
+  {
+    "id": "der-kaese",
+    "de": "der Käse",
+    "ka": "ყველი",
+    "phonetic": "[deːɐ̯ ˈkɛːzə]",
+    "cat": "საჭმელ-სასმელი",
+    "level": "A1",
+    "article": "der",
+    "example": "Käse ist reich an Calcium."
+  },
+  {
+    "id": "die-butter",
+    "de": "die Butter",
+    "ka": "კარაქი",
+    "phonetic": "[diː ˈbʊtɐ]",
+    "cat": "საჭმელ-სასმელი",
+    "level": "A1",
+    "article": "die",
+    "example": "Ich streiche Butter auf das Brot."
+  },
+  {
+    "id": "das-salz",
+    "de": "das Salz",
+    "ka": "მარილი",
+    "phonetic": "[das zalts]",
+    "cat": "საჭმელ-სასმელი",
+    "level": "A1",
+    "article": "das",
+    "example": "Die Suppe braucht mehr Salz."
+  },
+  {
+    "id": "der-zucker",
+    "de": "der Zucker",
+    "ka": "შაქარი",
+    "phonetic": "[deːɐ̯ ˈtsʊkɐ]",
+    "cat": "საჭმელ-სასმელი",
+    "level": "A1",
+    "article": "der",
+    "example": "Nimmst du Zucker im Kaffee?"
+  },
+  {
+    "id": "montag",
+    "de": "Montag",
+    "ka": "ორშაბათი",
+    "phonetic": "[ˈmoːntaːk]",
+    "cat": "კვირის დღეები",
+    "level": "A1",
+    "article": "",
+    "example": "Am Montag beginnt die Arbeitswoche."
+  },
+  {
+    "id": "dienstag",
+    "de": "Dienstag",
+    "ka": "სამშაბათი",
+    "phonetic": "[ˈdiːnstaːk]",
+    "cat": "კვირის დღეები",
+    "level": "A1",
+    "article": "",
+    "example": "Am Dienstag habe ich Deutschkurs."
+  },
+  {
+    "id": "mittwoch",
+    "de": "Mittwoch",
+    "ka": "ოთხშაბათი",
+    "phonetic": "[ˈmɪtvoːx]",
+    "cat": "კვირის დღეები",
+    "level": "A1",
+    "article": "",
+    "example": "Mittwoch ist die Wochenmitte."
+  },
+  {
+    "id": "donnerstag",
+    "de": "Donnerstag",
+    "ka": "ხუთშაბათი",
+    "phonetic": "[ˈdɔnɐstaːk]",
+    "cat": "კვირის დღეები",
+    "level": "A1",
+    "article": "",
+    "example": "Am Donnerstag gehe ich ins Kino."
+  },
+  {
+    "id": "freitag",
+    "de": "Freitag",
+    "ka": "პარასკევი",
+    "phonetic": "[ˈfʁaɪtaːk]",
+    "cat": "კვირის დღეები",
+    "level": "A1",
+    "article": "",
+    "example": "Am Freitag machen wir eine Party."
+  },
+  {
+    "id": "samstag",
+    "de": "Samstag",
+    "ka": "შაბათი",
+    "phonetic": "[ˈzamstaːk]",
+    "cat": "კვირის დღეები",
+    "level": "A1",
+    "article": "",
+    "example": "Am Samstag schlafe ich lange."
+  },
+  {
+    "id": "sonntag",
+    "de": "Sonntag",
+    "ka": "კვირა",
+    "phonetic": "[ˈzɔntaːk]",
+    "cat": "კვირის დღეები",
+    "level": "A1",
+    "article": "",
+    "example": "Am Sonntag bleibe ich zu Hause."
+  },
+  {
+    "id": "der-beruf",
+    "de": "der Beruf",
+    "ka": "პროფესია",
+    "phonetic": "[deːɐ̯ bəˈʁuːf]",
+    "cat": "სამსახური",
+    "level": "A2",
+    "article": "der",
+    "example": "Was ist Ihr Beruf?"
+  },
+  {
+    "id": "die-arbeit",
+    "de": "die Arbeit",
+    "ka": "სამსახური / მუშაობა",
+    "phonetic": "[diː ˈaʁbaɪt]",
+    "cat": "სამსახური",
+    "level": "A2",
+    "article": "die",
+    "example": "Die Arbeit beginnt um acht Uhr."
+  },
+  {
+    "id": "der-chef",
+    "de": "der Chef",
+    "ka": "უფროსი",
+    "phonetic": "[deːɐ̯ ʃɛf]",
+    "cat": "სამსახური",
+    "level": "A2",
+    "article": "der",
+    "example": "Mein Chef ist sehr streng."
+  },
+  {
+    "id": "das-buero",
+    "de": "das Büro",
+    "ka": "ოფისი",
+    "phonetic": "[das byˈʁoː]",
+    "cat": "სამსახური",
+    "level": "A2",
+    "article": "das",
+    "example": "Mein Büro ist im dritten Stock."
+  },
+  {
+    "id": "der-kollege",
+    "de": "der Kollege",
+    "ka": "კოლეგა (მამ.)",
+    "phonetic": "[deːɐ̯ kɔˈleːɡə]",
+    "cat": "სამსახური",
+    "level": "A2",
+    "article": "der",
+    "example": "Mein Kollege hilft mir immer."
+  },
+  {
+    "id": "das-gehalt",
+    "de": "das Gehalt",
+    "ka": "ხელფასი",
+    "phonetic": "[das ɡəˈhalt]",
+    "cat": "სამსახური",
+    "level": "A2",
+    "article": "das",
+    "example": "Das Gehalt kommt am Monatsende."
+  },
+  {
+    "id": "die-besprechung",
+    "de": "die Besprechung",
+    "ka": "თათბირი / შეხვედრა",
+    "phonetic": "[diː bəˈʃpʁɛçʊŋ]",
+    "cat": "სამსახური",
+    "level": "B1",
+    "article": "die",
+    "example": "Die Besprechung dauert zwei Stunden."
+  },
+  {
+    "id": "die-bewerbung",
+    "de": "die Bewerbung",
+    "ka": "განაცხადი (სამ.) / განაცხადი / CV გაგზავნა",
+    "phonetic": "[diː bəˈvɛʁbʊŋ]",
+    "cat": "სამსახური",
+    "level": "B1",
+    "article": "die",
+    "example": "Ich schreibe eine Bewerbung."
+  },
+  {
+    "id": "der-computer",
+    "de": "der Computer",
+    "ka": "კომპიუტერი",
+    "phonetic": "[deːɐ̯ kɔmˈpjuːtɐ]",
+    "cat": "ტექნოლოგია",
+    "level": "A2",
+    "article": "der",
+    "example": "Ich arbeite täglich am Computer."
+  },
+  {
+    "id": "das-handy",
+    "de": "das Handy",
+    "ka": "მობილური ტელეფონი",
+    "phonetic": "[das ˈhɛndi]",
+    "cat": "ტექნოლოგია",
+    "level": "A2",
+    "article": "das",
+    "example": "Mein Handy ist kaputt."
+  },
+  {
+    "id": "das-internet",
+    "de": "das Internet",
+    "ka": "ინტერნეტი",
+    "phonetic": "[das ˈɪntɐnɛt]",
+    "cat": "ტექნოლოგია",
+    "level": "A2",
+    "article": "das",
+    "example": "Das Internet ist heute unverzichtbar."
+  },
+  {
+    "id": "die-app",
+    "de": "die App",
+    "ka": "აპლიკაცია",
+    "phonetic": "[diː ap]",
+    "cat": "ტექნოლოგია",
+    "level": "A2",
+    "article": "die",
+    "example": "Diese App ist sehr nützlich."
+  },
+  {
+    "id": "das-passwort",
+    "de": "das Passwort",
+    "ka": "პაროლი",
+    "phonetic": "[das ˈpasvɔʁt]",
+    "cat": "ტექნოლოგია",
+    "level": "A2",
+    "article": "das",
+    "example": "Vergiss dein Passwort nicht!"
+  },
+  {
+    "id": "die-e-mail",
+    "de": "die E-Mail",
+    "ka": "ელ-ფოსტა",
+    "phonetic": "[diː iːˈmeɪl]",
+    "cat": "ტექნოლოგია",
+    "level": "A2",
+    "article": "die",
+    "example": "Ich habe dir eine E-Mail geschickt."
+  },
+  {
+    "id": "das-foto",
+    "de": "das Foto",
+    "ka": "ფოტო",
+    "phonetic": "[das ˈfoːto]",
+    "cat": "ტექნოლოგია",
+    "level": "A2",
+    "article": "das",
+    "example": "Das Foto ist sehr schön geworden."
+  },
+  {
+    "id": "die-stadt",
+    "de": "die Stadt",
+    "ka": "ქალაქი",
+    "phonetic": "[diː ʃtat]",
+    "cat": "ადგილები",
+    "level": "A2",
+    "article": "die",
+    "example": "Berlin ist eine große Stadt."
+  },
+  {
+    "id": "der-bahnhof",
+    "de": "der Bahnhof",
+    "ka": "სარკინიგზო სადგური",
+    "phonetic": "[deːɐ̯ ˈbaːnhoːf]",
+    "cat": "ადგილები",
+    "level": "A2",
+    "article": "der",
+    "example": "Der Bahnhof ist in der Stadtmitte."
+  },
+  {
+    "id": "das-krankenhaus",
+    "de": "das Krankenhaus",
+    "ka": "საავადმყოფო",
+    "phonetic": "[das ˈkʁaŋkənhaʊs]",
+    "cat": "ადგილები",
+    "level": "A2",
+    "article": "das",
+    "example": "Das Krankenhaus ist gegenüber."
+  },
+  {
+    "id": "das-restaurant",
+    "de": "das Restaurant",
+    "ka": "რესტორანი",
+    "phonetic": "[das ʁɛstoˈʁɑ̃]",
+    "cat": "ადგილები",
+    "level": "A1",
+    "article": "das",
+    "example": "Heute gehen wir ins Restaurant."
+  },
+  {
+    "id": "der-supermarkt",
+    "de": "der Supermarkt",
+    "ka": "სუპერმარკეტი",
+    "phonetic": "[deːɐ̯ ˈzuːpɐmaʁkt]",
+    "cat": "ადგილები",
+    "level": "A1",
+    "article": "der",
+    "example": "Der Supermarkt ist bis 22 Uhr offen."
+  },
+  {
+    "id": "die-apotheke",
+    "de": "die Apotheke",
+    "ka": "აფთიაქი",
+    "phonetic": "[diː apoˈteːkə]",
+    "cat": "ადგილები",
+    "level": "A2",
+    "article": "die",
+    "example": "Die Apotheke ist nebenan."
+  },
+  {
+    "id": "das-hotel",
+    "de": "das Hotel",
+    "ka": "სასტუმრო",
+    "phonetic": "[das hoˈtɛl]",
+    "cat": "ადგილები",
+    "level": "A1",
+    "article": "das",
+    "example": "Das Hotel liegt am Stadtrand."
+  },
+  {
+    "id": "der-flughafen",
+    "de": "der Flughafen",
+    "ka": "აეროდრომი",
+    "phonetic": "[deːɐ̯ ˈfluːkhaːfən]",
+    "cat": "ადგილები",
+    "level": "A2",
+    "article": "der",
+    "example": "Der Flughafen ist 30 km entfernt."
+  },
+  {
+    "id": "die-post",
+    "de": "die Post",
+    "ka": "ფოსტა",
+    "phonetic": "[diː pɔst]",
+    "cat": "ადგილები",
+    "level": "A2",
+    "article": "die",
+    "example": "Die Post öffnet um neun Uhr."
+  },
+  {
+    "id": "die-bank",
+    "de": "die Bank",
+    "ka": "ბანკი",
+    "phonetic": "[diː baŋk]",
+    "cat": "ადგილები",
+    "level": "A2",
+    "article": "die",
+    "example": "Die Bank schließt um fünf Uhr."
+  },
+  {
+    "id": "die-kirche",
+    "de": "die Kirche",
+    "ka": "ეკლესია",
+    "phonetic": "[diː ˈkɪʁçə]",
+    "cat": "ადგილები",
+    "level": "A2",
+    "article": "die",
+    "example": "Die Kirche ist sehr alt und schön."
+  },
+  {
+    "id": "der-park",
+    "de": "der Park",
+    "ka": "პარკი",
+    "phonetic": "[deːɐ̯ paʁk]",
+    "cat": "ადგილები",
+    "level": "A1",
+    "article": "der",
+    "example": "Am Wochenende gehe ich in den Park."
+  },
+  {
+    "id": "das-museum",
+    "de": "das Museum",
+    "ka": "მუზეუმი",
+    "phonetic": "[das muˈzeːʊm]",
+    "cat": "ადგილები",
+    "level": "A2",
+    "article": "das",
+    "example": "Das Museum ist dienstags geschlossen."
+  },
+  {
+    "id": "die-schule",
+    "de": "die Schule",
+    "ka": "სკოლა",
+    "phonetic": "[diː ˈʃuːlə]",
+    "cat": "განათლება",
+    "level": "A2",
+    "article": "die",
+    "example": "Die Schule beginnt um acht Uhr."
+  },
+  {
+    "id": "die-universitaet",
+    "de": "die Universität",
+    "ka": "უნივერსიტეტი",
+    "phonetic": "[diː univɛʁziˈtɛːt]",
+    "cat": "განათლება",
+    "level": "A2",
+    "article": "die",
+    "example": "Ich studiere an der Universität Berlin."
+  },
+  {
+    "id": "der-lehrer",
+    "de": "der Lehrer",
+    "ka": "მასწავლებელი (მამ.)",
+    "phonetic": "[deːɐ̯ ˈleːʁɐ]",
+    "cat": "განათლება",
+    "level": "A2",
+    "article": "der",
+    "example": "Unser Lehrer erklärt sehr gut."
+  },
+  {
+    "id": "der-schueler",
+    "de": "der Schüler",
+    "ka": "მოსწავლე (მამ.)",
+    "phonetic": "[deːɐ̯ ˈʃyːlɐ]",
+    "cat": "განათლება",
+    "level": "A2",
+    "article": "der",
+    "example": "Die Schüler lernen fleißig."
+  },
+  {
+    "id": "das-buch",
+    "de": "das Buch",
+    "ka": "წიგნი",
+    "phonetic": "[das buːx]",
+    "cat": "განათლება",
+    "level": "A2",
+    "article": "das",
+    "example": "Das Buch ist sehr interessant."
+  },
+  {
+    "id": "das-heft",
+    "de": "das Heft",
+    "ka": "რვეული",
+    "phonetic": "[das hɛft]",
+    "cat": "განათლება",
+    "level": "A2",
+    "article": "das",
+    "example": "Ich schreibe alles ins Heft."
+  },
+  {
+    "id": "der-stift",
+    "de": "der Stift",
+    "ka": "კალამი",
+    "phonetic": "[deːɐ̯ ʃtɪft]",
+    "cat": "განათლება",
+    "level": "A2",
+    "article": "der",
+    "example": "Kannst du mir einen Stift leihen?"
+  },
+  {
+    "id": "die-hausaufgabe",
+    "de": "die Hausaufgabe",
+    "ka": "საშინაო დავალება",
+    "phonetic": "[diː ˈhaʊsʔaʊfɡaːbə]",
+    "cat": "განათლება",
+    "level": "A2",
+    "article": "die",
+    "example": "Hast du deine Hausaufgaben gemacht?"
+  },
+  {
+    "id": "die-pruefung",
+    "de": "die Prüfung",
+    "ka": "გამოცდა",
+    "phonetic": "[diː ˈpʁyːfʊŋ]",
+    "cat": "განათლება",
+    "level": "A2",
+    "article": "die",
+    "example": "Morgen habe ich eine Prüfung."
+  },
+  {
+    "id": "das-studium",
+    "de": "das Studium",
+    "ka": "სტუდენტობა / სწავლება",
+    "phonetic": "[das ˈʃtuːdiʊm]",
+    "cat": "განათლება",
+    "level": "B1",
+    "article": "das",
+    "example": "Das Studium dauert fünf Jahre."
+  },
+  {
+    "id": "krank",
+    "de": "krank",
+    "ka": "ავადმყოფი / ავად",
+    "phonetic": "[kʁaŋk]",
+    "cat": "ჯანმრთელობა",
+    "level": "A1",
+    "article": "",
+    "example": "Ich bin heute krank."
+  },
+  {
+    "id": "der-arzt",
+    "de": "der Arzt",
+    "ka": "ექიმი (მამ.) / ექიმი",
+    "phonetic": "[deːɐ̯ aʁtst]",
+    "cat": "ჯანმრთელობა",
+    "level": "A1",
+    "article": "der",
+    "example": "Der Arzt untersucht den Patienten."
+  },
+  {
+    "id": "die-tablette",
+    "de": "die Tablette",
+    "ka": "აბი / ტაბლეტი",
+    "phonetic": "[diː taˈblɛtə]",
+    "cat": "ჯანმრთელობა",
+    "level": "A2",
+    "article": "die",
+    "example": "Nehmen Sie drei Tabletten am Tag."
+  },
+  {
+    "id": "der-schmerz",
+    "de": "der Schmerz",
+    "ka": "ტკივილი",
+    "phonetic": "[deːɐ̯ ʃmɛʁts]",
+    "cat": "ჯანმრთელობა",
+    "level": "A2",
+    "article": "der",
+    "example": "Ich habe Schmerzen im Rücken."
+  },
+  {
+    "id": "gesund",
+    "de": "gesund",
+    "ka": "ჯანმრთელი",
+    "phonetic": "[ɡəˈzʊnt]",
+    "cat": "ჯანმრთელობა",
+    "level": "A1",
+    "article": "",
+    "example": "Obst ist gesund."
+  },
+  {
+    "id": "das-wetter",
+    "de": "das Wetter",
+    "ka": "ამინდი",
+    "phonetic": "[das ˈvɛtɐ]",
+    "cat": "ამინდი",
+    "level": "A2",
+    "article": "das",
+    "example": "Wie ist das Wetter heute?"
+  },
+  {
+    "id": "die-sonne",
+    "de": "die Sonne",
+    "ka": "მზე",
+    "phonetic": "[diː ˈzɔnə]",
+    "cat": "ამინდი",
+    "level": "A2",
+    "article": "die",
+    "example": "Die Sonne scheint hell."
+  },
+  {
+    "id": "der-regen",
+    "de": "der Regen",
+    "ka": "წვიმა",
+    "phonetic": "[deːɐ̯ ˈʁeːɡən]",
+    "cat": "ამინდი",
+    "level": "A2",
+    "article": "der",
+    "example": "Es gibt viel Regen im November."
+  },
+  {
+    "id": "der-schnee",
+    "de": "der Schnee",
+    "ka": "თოვლი",
+    "phonetic": "[deːɐ̯ ʃneː]",
+    "cat": "ამინდი",
+    "level": "A2",
+    "article": "der",
+    "example": "Im Winter liegt viel Schnee."
+  },
+  {
+    "id": "warm",
+    "de": "warm",
+    "ka": "თბილი",
+    "phonetic": "[vaʁm]",
+    "cat": "ამინდი",
+    "level": "A1",
+    "article": "",
+    "example": "Das Wetter ist warm."
+  },
+  {
+    "id": "kalt",
+    "de": "kalt",
+    "ka": "ცივი",
+    "phonetic": "[kalt]",
+    "cat": "ამინდი",
+    "level": "A2",
+    "article": "",
+    "example": "Im Januar ist es sehr kalt."
+  },
+  {
+    "id": "der-wind",
+    "de": "der Wind",
+    "ka": "ქარი",
+    "phonetic": "[deːɐ̯ vɪnt]",
+    "cat": "ამინდი",
+    "level": "A1",
+    "article": "der",
+    "example": "Der Wind ist stark."
+  },
+  {
+    "id": "die-wolke",
+    "de": "die Wolke",
+    "ka": "ღრუბელი",
+    "phonetic": "[diː ˈvɔlkə]",
+    "cat": "ამინდი",
+    "level": "A2",
+    "article": "die",
+    "example": "Die Wolken ziehen auf."
+  },
+  {
+    "id": "der-nebel",
+    "de": "der Nebel",
+    "ka": "ნისლი",
+    "phonetic": "[deːɐ̯ ˈneːbəl]",
+    "cat": "ამინდი",
+    "level": "B1",
+    "article": "der",
+    "example": "Am Morgen liegt oft Nebel."
+  },
+  {
+    "id": "die-erfahrung",
+    "de": "die Erfahrung",
+    "ka": "გამოცდილება",
+    "phonetic": "[diː ɛɐ̯ˈfaːʁʊŋ]",
+    "cat": "სამსახური",
+    "level": "A2",
+    "article": "die",
+    "example": "Sie hat viel Erfahrung."
+  },
+  {
+    "id": "die-entwicklung",
+    "de": "die Entwicklung",
+    "ka": "განვითარება",
+    "phonetic": "[diː ɛntˈvɪklʊŋ]",
+    "cat": "B1 ლექსიკა",
+    "level": "B1",
+    "article": "die",
+    "example": "Die Entwicklung der Technologie ist schnell."
+  },
+  {
+    "id": "die-loesung",
+    "de": "die Lösung",
+    "ka": "გამოსავალი / გადაწყვეტა",
+    "phonetic": "[diː ˈløːzʊŋ]",
+    "cat": "B1 ლექსიკა",
+    "level": "B1",
+    "article": "die",
+    "example": "Wir brauchen eine schnelle Lösung."
+  },
+  {
+    "id": "der-unterschied",
+    "de": "der Unterschied",
+    "ka": "განსხვავება",
+    "phonetic": "[deːɐ̯ ˈʊntɐʃiːt]",
+    "cat": "ზოგადი",
+    "level": "A2",
+    "article": "der",
+    "example": "Es gibt einen großen Unterschied."
+  },
+  {
+    "id": "die-meinung",
+    "de": "die Meinung",
+    "ka": "აზრი / მოსაზრება",
+    "phonetic": "[diː ˈmaɪnʊŋ]",
+    "cat": "B1 ლექსიკა",
+    "level": "B1",
+    "article": "die",
+    "example": "Meiner Meinung nach ist das richtig."
+  },
+  {
+    "id": "der-vorteil",
+    "de": "der Vorteil",
+    "ka": "უპირატესობა",
+    "phonetic": "[deːɐ̯ ˈfoːɐ̯taɪl]",
+    "cat": "ზოგადი",
+    "level": "A2",
+    "article": "der",
+    "example": "Das Internet hat viele Vorteile."
+  },
+  {
+    "id": "der-nachteil",
+    "de": "der Nachteil",
+    "ka": "ნაკლი / მინუსი",
+    "phonetic": "[deːɐ̯ ˈnaːxtaɪl]",
+    "cat": "ზოგადი",
+    "level": "A2",
+    "article": "der",
+    "example": "Jede Entscheidung hat Nachteile."
+  },
+  {
+    "id": "die-gesellschaft",
+    "de": "die Gesellschaft",
+    "ka": "საზოგადოება",
+    "phonetic": "[diː ɡəˈzɛlʃaft]",
+    "cat": "B1 ლექსიკა",
+    "level": "B1",
+    "article": "die",
+    "example": "Die Gesellschaft verändert sich schnell."
+  },
+  {
+    "id": "die-moeglichkeit",
+    "de": "die Möglichkeit",
+    "ka": "შესაძლებლობა",
+    "phonetic": "[diː ˈmøːklɪçkaɪt]",
+    "cat": "B1 ლექსიკა",
+    "level": "B1",
+    "article": "die",
+    "example": "Es gibt viele Möglichkeiten."
+  },
+  {
+    "id": "das-ergebnis",
+    "de": "das Ergebnis",
+    "ka": "შედეგი",
+    "phonetic": "[das ɛɐ̯ˈɡeːbnɪs]",
+    "cat": "B1 ლექსიკა",
+    "level": "B1",
+    "article": "das",
+    "example": "Das Ergebnis ist sehr gut."
+  },
+  {
+    "id": "die-wirklichkeit",
+    "de": "die Wirklichkeit",
+    "ka": "რეალობა",
+    "phonetic": "[diː ˈvɪʁklɪçkaɪt]",
+    "cat": "B2 ლექსიკა",
+    "level": "B2",
+    "article": "die",
+    "example": "In der Wirklichkeit ist es anders."
+  },
+  {
+    "id": "die-konsequenz",
+    "de": "die Konsequenz",
+    "ka": "შედეგი / კონსეკვენცია",
+    "phonetic": "[diː kɔnzeˈkvɛnts]",
+    "cat": "B2 ლექსიკა",
+    "level": "B2",
+    "article": "die",
+    "example": "Du musst die Konsequenzen tragen."
+  },
+  {
+    "id": "der-zusammenhang",
+    "de": "der Zusammenhang",
+    "ka": "კავშირი / კონტექსტი",
+    "phonetic": "[deːɐ̯ tsuˈzamənhaŋ]",
+    "cat": "B2 ლექსიკა",
+    "level": "B2",
+    "article": "der",
+    "example": "Ich verstehe den Zusammenhang nicht."
+  },
+  {
+    "id": "die-herausforderung",
+    "de": "die Herausforderung",
+    "ka": "გამოწვევა",
+    "phonetic": "[diː ˈhɛʁaʊsfɔʁdəʁʊŋ]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "die",
+    "example": "Deutschlernen ist eine Herausforderung."
+  },
+  {
+    "id": "das-verhaeltnis",
+    "de": "das Verhältnis",
+    "ka": "დამოკიდებულება / თანაფარდობა",
+    "phonetic": "[das fɛɐ̯ˈhɛltnɪs]",
+    "cat": "B2 ლექსიკა",
+    "level": "B2",
+    "article": "das",
+    "example": "Das Verhältnis zwischen ihnen ist gut."
+  },
+  {
+    "id": "die-voraussetzung",
+    "de": "die Voraussetzung",
+    "ka": "წინაპირობა",
+    "phonetic": "[diː ˈfoːɐ̯aʊsˌzɛtsʊŋ]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "die",
+    "example": "Deutschkenntnisse sind eine Voraussetzung."
+  },
+  {
+    "id": "die-auswirkung",
+    "de": "die Auswirkung",
+    "ka": "გავლენა / ეფექტი / შედეგი",
+    "phonetic": "[diː ˈaʊsvɪʁkʊŋ]",
+    "cat": "B2 ლექსიკა",
+    "level": "B2",
+    "article": "die",
+    "example": "Welche Auswirkungen hat das?"
+  },
+  {
+    "id": "der-kompromiss",
+    "de": "der Kompromiss",
+    "ka": "კომპრომისი",
+    "phonetic": "[deːɐ̯ kɔmpʁoˈmɪs]",
+    "cat": "B2 ლექსიკა",
+    "level": "B2",
+    "article": "der",
+    "example": "Wir müssen einen Kompromiss finden."
+  },
+  {
+    "id": "die-ueberzeugung",
+    "de": "die Überzeugung",
+    "ka": "რწმენა / დარწმუნება",
+    "phonetic": "[diː yːbɐˈtsɔɪɡʊŋ]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C1",
+    "article": "die",
+    "example": "Das ist meine feste Überzeugung."
+  },
+  {
+    "id": "das-gleichgewicht",
+    "de": "das Gleichgewicht",
+    "ka": "წონასწორობა / ბალანსი",
+    "phonetic": "[das ˈɡlaɪçɡəvɪçt]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C1",
+    "article": "das",
+    "example": "Ein gesundes Gleichgewicht ist wichtig."
+  },
+  {
+    "id": "der-kopf",
+    "de": "der Kopf",
+    "ka": "თავი",
+    "phonetic": "[deːɐ̯ kɔpf]",
+    "cat": "სხეულის ნაწილები",
+    "level": "A1",
+    "article": "der",
+    "example": "Ich habe Kopfschmerzen."
+  },
+  {
+    "id": "die-hand",
+    "de": "die Hand",
+    "ka": "ხელი",
+    "phonetic": "[diː hant]",
+    "cat": "სხეულის ნაწილები",
+    "level": "A1",
+    "article": "die",
+    "example": "Gib mir bitte die Hand."
+  },
+  {
+    "id": "das-auge",
+    "de": "das Auge",
+    "ka": "თვალი",
+    "phonetic": "[das ˈaʊɡə]",
+    "cat": "სხეულის ნაწილები",
+    "level": "A1",
+    "article": "das",
+    "example": "Ihre Augen sind blau."
+  },
+  {
+    "id": "die-nase",
+    "de": "die Nase",
+    "ka": "ცხვირი",
+    "phonetic": "[diː ˈnaːzə]",
+    "cat": "სხეულის ნაწილები",
+    "level": "A1",
+    "article": "die",
+    "example": "Meine Nase läuft."
+  },
+  {
+    "id": "der-mund",
+    "de": "der Mund",
+    "ka": "პირი",
+    "phonetic": "[deːɐ̯ mʊnt]",
+    "cat": "სხეულის ნაწილები",
+    "level": "A1",
+    "article": "der",
+    "example": "Bitte öffne deinen Mund."
+  },
+  {
+    "id": "das-ohr",
+    "de": "das Ohr",
+    "ka": "ყური",
+    "phonetic": "[das oːɐ̯]",
+    "cat": "სხეულის ნაწილები",
+    "level": "A1",
+    "article": "das",
+    "example": "Er hat große Ohren."
+  },
+  {
+    "id": "der-arm",
+    "de": "der Arm",
+    "ka": "მკლავი",
+    "phonetic": "[deːɐ̯ aʁm]",
+    "cat": "სხეულის ნაწილები",
+    "level": "A1",
+    "article": "der",
+    "example": "Mein Arm tut weh."
+  },
+  {
+    "id": "das-bein",
+    "de": "das Bein",
+    "ka": "ფეხი",
+    "phonetic": "[das baɪn]",
+    "cat": "სხეულის ნაწილები",
+    "level": "A1",
+    "article": "das",
+    "example": "Er hat sich das Bein gebrochen."
+  },
+  {
+    "id": "der-bauch",
+    "de": "der Bauch",
+    "ka": "მუცელი",
+    "phonetic": "[deːɐ̯ baʊx]",
+    "cat": "სხეულის ნაწილები",
+    "level": "A1",
+    "article": "der",
+    "example": "Ich habe Bauchschmerzen."
+  },
+  {
+    "id": "das-herz",
+    "de": "das Herz",
+    "ka": "გული",
+    "phonetic": "[das hɛʁts]",
+    "cat": "სხეულის ნაწილები",
+    "level": "A1",
+    "article": "das",
+    "example": "Das Herz schlägt regelmäßig."
+  },
+  {
+    "id": "das-hemd",
+    "de": "das Hemd",
+    "ka": "პერანგი",
+    "phonetic": "[das hɛmt]",
+    "cat": "ტანსაცმელი",
+    "level": "A2",
+    "article": "das",
+    "example": "Das Hemd ist weiß und sauber."
+  },
+  {
+    "id": "die-hose",
+    "de": "die Hose",
+    "ka": "შარვალი",
+    "phonetic": "[diː ˈhoːzə]",
+    "cat": "ტანსაცმელი",
+    "level": "A2",
+    "article": "die",
+    "example": "Diese Hose ist zu eng."
+  },
+  {
+    "id": "die-jacke",
+    "de": "die Jacke",
+    "ka": "ჟაკეტი / ქურთუკი",
+    "phonetic": "[diː ˈjakə]",
+    "cat": "ტანსაცმელი",
+    "level": "A1",
+    "article": "die",
+    "example": "Meine Jacke ist blau."
+  },
+  {
+    "id": "der-schuh",
+    "de": "der Schuh",
+    "ka": "ფეხსაცმელი",
+    "phonetic": "[deːɐ̯ ʃuː]",
+    "cat": "ტანსაცმელი",
+    "level": "A2",
+    "article": "der",
+    "example": "Die Schuhe sind zu klein."
+  },
+  {
+    "id": "das-kleid",
+    "de": "das Kleid",
+    "ka": "კაბა",
+    "phonetic": "[das klaɪt]",
+    "cat": "ტანსაცმელი",
+    "level": "A2",
+    "article": "das",
+    "example": "Das Kleid ist sehr elegant."
+  },
+  {
+    "id": "der-mantel",
+    "de": "der Mantel",
+    "ka": "ქურთუკი",
+    "phonetic": "[deːɐ̯ ˈmantəl]",
+    "cat": "ტანსაცმელი",
+    "level": "A2",
+    "article": "der",
+    "example": "Der Mantel hält warm."
+  },
+  {
+    "id": "die-muetze",
+    "de": "die Mütze",
+    "ka": "ქუდი (შაპი) / ქუდი",
+    "phonetic": "[diː ˈmʏtsə]",
+    "cat": "ტანსაცმელი",
+    "level": "A2",
+    "article": "die",
+    "example": "Im Winter trage ich eine Mütze."
+  },
+  {
+    "id": "die-socke",
+    "de": "die Socke",
+    "ka": "წინდა",
+    "phonetic": "[diː ˈzɔkə]",
+    "cat": "ტანსაცმელი",
+    "level": "A2",
+    "article": "die",
+    "example": "Ich suche meine Socken."
+  },
+  {
+    "id": "das-auto",
+    "de": "das Auto",
+    "ka": "მანქანა",
+    "phonetic": "[das ˈaʊtoː]",
+    "cat": "ტრანსპორტი",
+    "level": "A1",
+    "article": "das",
+    "example": "Ich fahre jeden Tag mit dem Auto."
+  },
+  {
+    "id": "der-bus",
+    "de": "der Bus",
+    "ka": "ავტობუსი",
+    "phonetic": "[deːɐ̯ bʊs]",
+    "cat": "ტრანსპორტი",
+    "level": "A1",
+    "article": "der",
+    "example": "Der Bus kommt alle zehn Minuten."
+  },
+  {
+    "id": "der-zug",
+    "de": "der Zug",
+    "ka": "მატარებელი",
+    "phonetic": "[deːɐ̯ tsuːk]",
+    "cat": "ტრანსპორტი",
+    "level": "A1",
+    "article": "der",
+    "example": "Der Zug fährt um 9 Uhr ab."
+  },
+  {
+    "id": "das-flugzeug",
+    "de": "das Flugzeug",
+    "ka": "თვითმფრინავი",
+    "phonetic": "[das ˈfluːktsoɪk]",
+    "cat": "ტრანსპორტი",
+    "level": "A1",
+    "article": "das",
+    "example": "Das Flugzeug landet in einer Stunde."
+  },
+  {
+    "id": "das-fahrrad",
+    "de": "das Fahrrad",
+    "ka": "ველოსიპედი",
+    "phonetic": "[das ˈfaːɐ̯ʁaːt]",
+    "cat": "ტრანსპორტი",
+    "level": "A1",
+    "article": "das",
+    "example": "Im Sommer fahre ich Fahrrad."
+  },
+  {
+    "id": "die-u-bahn",
+    "de": "die U-Bahn",
+    "ka": "მეტრო",
+    "phonetic": "[diː ˈuːbaːn]",
+    "cat": "ტრანსპორტი",
+    "level": "A1",
+    "article": "die",
+    "example": "Mit der U-Bahn bin ich schneller."
+  },
+  {
+    "id": "das-taxi",
+    "de": "das Taxi",
+    "ka": "ტაქსი",
+    "phonetic": "[das ˈtaksi]",
+    "cat": "ტრანსპორტი",
+    "level": "A1",
+    "article": "das",
+    "example": "Ich nehme ein Taxi zum Flughafen."
+  },
+  {
+    "id": "das-schiff",
+    "de": "das Schiff",
+    "ka": "გემი",
+    "phonetic": "[das ʃɪf]",
+    "cat": "ტრანსპორტი",
+    "level": "A2",
+    "article": "das",
+    "example": "Das Schiff überquert den Ozean."
+  },
+  {
+    "id": "gluecklich",
+    "de": "glücklich",
+    "ka": "ბედნიერი",
+    "phonetic": "[ˈɡlʏklɪç]",
+    "cat": "ემოციები",
+    "level": "A2",
+    "article": "",
+    "example": "Ich bin heute sehr glücklich."
+  },
+  {
+    "id": "traurig",
+    "de": "traurig",
+    "ka": "სევდიანი",
+    "phonetic": "[ˈtʁaʊʁɪç]",
+    "cat": "ემოციები",
+    "level": "A1",
+    "article": "",
+    "example": "Warum bist du traurig?"
+  },
+  {
+    "id": "muede",
+    "de": "müde",
+    "ka": "დაღლილი",
+    "phonetic": "[ˈmyːdə]",
+    "cat": "ემოციები",
+    "level": "A2",
+    "article": "",
+    "example": "Ich bin sehr müde nach der Arbeit."
+  },
+  {
+    "id": "wuetend",
+    "de": "wütend",
+    "ka": "გაბრაზებული",
+    "phonetic": "[ˈvyːtənt]",
+    "cat": "ემოციები",
+    "level": "A2",
+    "article": "",
+    "example": "Er ist wütend auf seinen Chef."
+  },
+  {
+    "id": "aengstlich",
+    "de": "ängstlich",
+    "ka": "შეშინებული",
+    "phonetic": "[ˈɛŋstlɪç]",
+    "cat": "ემოციები",
+    "level": "A2",
+    "article": "",
+    "example": "Das Kind ist ängstlich im Dunkeln."
+  },
+  {
+    "id": "aufgeregt",
+    "de": "aufgeregt",
+    "ka": "აღგზნებული / ნერვიული",
+    "phonetic": "[ˈaʊfɡəʁeːkt]",
+    "cat": "ემოციები",
+    "level": "A2",
+    "article": "",
+    "example": "Ich bin sehr aufgeregt vor dem Examen."
+  },
+  {
+    "id": "stolz",
+    "de": "stolz",
+    "ka": "ამაყი",
+    "phonetic": "[ʃtɔlts]",
+    "cat": "ემოციები",
+    "level": "A2",
+    "article": "",
+    "example": "Ich bin stolz auf meine Kinder."
+  },
+  {
+    "id": "enttaeuscht",
+    "de": "enttäuscht",
+    "ka": "იმედგაცრუებული",
+    "phonetic": "[ɛntˈtɔɪʃt]",
+    "cat": "ემოციები",
+    "level": "B1",
+    "article": "",
+    "example": "Ich bin sehr enttäuscht von dem Ergebnis."
+  },
+  {
+    "id": "der-berg",
+    "de": "der Berg",
+    "ka": "მთა",
+    "phonetic": "[deːɐ̯ bɛʁk]",
+    "cat": "ბუნება",
+    "level": "A1",
+    "article": "der",
+    "example": "Der Berg ist über 3000 Meter hoch."
+  },
+  {
+    "id": "der-fluss",
+    "de": "der Fluss",
+    "ka": "მდინარე",
+    "phonetic": "[deːɐ̯ flʊs]",
+    "cat": "ბუნება",
+    "level": "A1",
+    "article": "der",
+    "example": "Der Fluss fließt ins Meer."
+  },
+  {
+    "id": "der-wald",
+    "de": "der Wald",
+    "ka": "ტყე",
+    "phonetic": "[deːɐ̯ valt]",
+    "cat": "ბუნება",
+    "level": "A1",
+    "article": "der",
+    "example": "Im Wald gibt es viele Tiere."
+  },
+  {
+    "id": "das-meer",
+    "de": "das Meer",
+    "ka": "ზღვა",
+    "phonetic": "[das meːɐ̯]",
+    "cat": "ბუნება",
+    "level": "A1",
+    "article": "das",
+    "example": "Im Sommer fahren wir ans Meer."
+  },
+  {
+    "id": "der-see",
+    "de": "der See",
+    "ka": "ტბა",
+    "phonetic": "[deːɐ̯ zeː]",
+    "cat": "ბუნება",
+    "level": "A1",
+    "article": "der",
+    "example": "Am See ist es schön und ruhig."
+  },
+  {
+    "id": "das-tal",
+    "de": "das Tal",
+    "ka": "ხეობა / ველი",
+    "phonetic": "[das taːl]",
+    "cat": "ბუნება",
+    "level": "A2",
+    "article": "das",
+    "example": "Das Tal ist sehr grün im Frühling."
+  },
+  {
+    "id": "die-wiese",
+    "de": "die Wiese",
+    "ka": "მდელო",
+    "phonetic": "[diː ˈviːzə]",
+    "cat": "ბუნება",
+    "level": "A2",
+    "article": "die",
+    "example": "Die Kühe grasen auf der Wiese."
+  },
+  {
+    "id": "der-baum",
+    "de": "der Baum",
+    "ka": "ხე",
+    "phonetic": "[deːɐ̯ baʊm]",
+    "cat": "ბუნება",
+    "level": "A1",
+    "article": "der",
+    "example": "Der Baum ist sehr alt."
+  },
+  {
+    "id": "die-blume",
+    "de": "die Blume",
+    "ka": "ყვავილი",
+    "phonetic": "[diː ˈbluːmə]",
+    "cat": "ბუნება",
+    "level": "A1",
+    "article": "die",
+    "example": "Die Blume blüht im Frühling."
+  },
+  {
+    "id": "januar",
+    "de": "Januar",
+    "ka": "იანვარი",
+    "phonetic": "[ˈjanuaːɐ̯]",
+    "cat": "თვეები",
+    "level": "A1",
+    "article": "",
+    "example": "Im Januar ist es kalt und schneereich."
+  },
+  {
+    "id": "februar",
+    "de": "Februar",
+    "ka": "თებერვალი",
+    "phonetic": "[ˈfeːbʁuaːɐ̯]",
+    "cat": "თვეები",
+    "level": "A1",
+    "article": "",
+    "example": "Im Februar beginnt oft der Frühling."
+  },
+  {
+    "id": "maerz",
+    "de": "März",
+    "ka": "მარტი",
+    "phonetic": "[mɛʁts]",
+    "cat": "თვეები",
+    "level": "A1",
+    "article": "",
+    "example": "Im März blühen die ersten Blumen."
+  },
+  {
+    "id": "april",
+    "de": "April",
+    "ka": "აპრილი",
+    "phonetic": "[aˈpʁɪl]",
+    "cat": "თვეები",
+    "level": "A1",
+    "article": "",
+    "example": "Im April regnet es viel."
+  },
+  {
+    "id": "mai",
+    "de": "Mai",
+    "ka": "მაისი",
+    "phonetic": "[maɪ]",
+    "cat": "თვეები",
+    "level": "A1",
+    "article": "",
+    "example": "Im Mai ist das Wetter warm und schön."
+  },
+  {
+    "id": "juni",
+    "de": "Juni",
+    "ka": "ივნისი",
+    "phonetic": "[ˈjuːni]",
+    "cat": "თვეები",
+    "level": "A1",
+    "article": "",
+    "example": "Im Juni beginnen die Sommerferien."
+  },
+  {
+    "id": "juli",
+    "de": "Juli",
+    "ka": "ივლისი",
+    "phonetic": "[ˈjuːli]",
+    "cat": "თვეები",
+    "level": "A1",
+    "article": "",
+    "example": "Im Juli fahren wir in Urlaub."
+  },
+  {
+    "id": "august",
+    "de": "August",
+    "ka": "აგვისტო",
+    "phonetic": "[aʊˈɡʊst]",
+    "cat": "თვეები",
+    "level": "A1",
+    "article": "",
+    "example": "Im August ist es sehr heiß."
+  },
+  {
+    "id": "september",
+    "de": "September",
+    "ka": "სექტემბერი",
+    "phonetic": "[zɛpˈtɛmbɐ]",
+    "cat": "თვეები",
+    "level": "A1",
+    "article": "",
+    "example": "Im September beginnt die Schule wieder."
+  },
+  {
+    "id": "oktober",
+    "de": "Oktober",
+    "ka": "ოქტომბერი",
+    "phonetic": "[ɔkˈtoːbɐ]",
+    "cat": "თვეები",
+    "level": "A1",
+    "article": "",
+    "example": "Im Oktober fallen die Blätter."
+  },
+  {
+    "id": "november",
+    "de": "November",
+    "ka": "ნოემბერი",
+    "phonetic": "[noˈvɛmbɐ]",
+    "cat": "თვეები",
+    "level": "A1",
+    "article": "",
+    "example": "Im November ist es neblig und grau."
+  },
+  {
+    "id": "dezember",
+    "de": "Dezember",
+    "ka": "დეკემბერი",
+    "phonetic": "[deˈtsɛmbɐ]",
+    "cat": "თვეები",
+    "level": "A1",
+    "article": "",
+    "example": "Im Dezember feiern wir Weihnachten."
+  },
+  {
+    "id": "gross",
+    "de": "groß",
+    "ka": "დიდი",
+    "phonetic": "[ɡʁoːs]",
+    "cat": "ზედსართავები",
+    "level": "A1",
+    "article": "",
+    "example": "Das Haus ist sehr groß."
+  },
+  {
+    "id": "klein",
+    "de": "klein",
+    "ka": "პატარა",
+    "phonetic": "[klaɪn]",
+    "cat": "ზედსართავები",
+    "level": "A1",
+    "article": "",
+    "example": "Das Kind ist noch sehr klein."
+  },
+  {
+    "id": "schoen",
+    "de": "schön",
+    "ka": "ლამაზი",
+    "phonetic": "[ʃøːn]",
+    "cat": "ზედსართავები",
+    "level": "A1",
+    "article": "",
+    "example": "Das Wetter ist heute schön."
+  },
+  {
+    "id": "gut",
+    "de": "gut",
+    "ka": "კარგი",
+    "phonetic": "[ɡuːt]",
+    "cat": "ზედსართავები",
+    "level": "A1",
+    "article": "",
+    "example": "Das Essen ist sehr gut."
+  },
+  {
+    "id": "schlecht",
+    "de": "schlecht",
+    "ka": "ცუდი",
+    "phonetic": "[ʃlɛçt]",
+    "cat": "ზედსართავები",
+    "level": "A1",
+    "article": "",
+    "example": "Das Wetter ist heute schlecht."
+  },
+  {
+    "id": "neu",
+    "de": "neu",
+    "ka": "ახალი",
+    "phonetic": "[nɔɪ]",
+    "cat": "ზედსართავები",
+    "level": "A1",
+    "article": "",
+    "example": "Das ist ein neues Auto."
+  },
+  {
+    "id": "alt",
+    "de": "alt",
+    "ka": "ძველი / ასაკოვანი",
+    "phonetic": "[alt]",
+    "cat": "ზედსართავები",
+    "level": "A1",
+    "article": "",
+    "example": "Das Gebäude ist sehr alt."
+  },
+  {
+    "id": "schnell",
+    "de": "schnell",
+    "ka": "სწრაფი",
+    "phonetic": "[ʃnɛl]",
+    "cat": "ზედსართავები",
+    "level": "A1",
+    "article": "",
+    "example": "Der Zug ist sehr schnell."
+  },
+  {
+    "id": "langsam",
+    "de": "langsam",
+    "ka": "ნელი",
+    "phonetic": "[ˈlaŋzaːm]",
+    "cat": "ზედსართავები",
+    "level": "A1",
+    "article": "",
+    "example": "Bitte sprich langsam!"
+  },
+  {
+    "id": "billig",
+    "de": "billig",
+    "ka": "იაფი",
+    "phonetic": "[ˈbɪlɪç]",
+    "cat": "ზედსართავები",
+    "level": "A1",
+    "article": "",
+    "example": "Das Hemd ist billig aber schön."
+  },
+  {
+    "id": "teuer",
+    "de": "teuer",
+    "ka": "ძვირი",
+    "phonetic": "[ˈtɔɪɐ]",
+    "cat": "ზედსართავები",
+    "level": "A1",
+    "article": "",
+    "example": "Das Restaurant ist sehr teuer."
+  },
+  {
+    "id": "lecker",
+    "de": "lecker",
+    "ka": "გემრიელი",
+    "phonetic": "[ˈlɛkɐ]",
+    "cat": "ზედსართავები",
+    "level": "A1",
+    "article": "",
+    "example": "Das Essen war wirklich lecker!"
+  },
+  {
+    "id": "schwer",
+    "de": "schwer",
+    "ka": "მძიმე / რთული",
+    "phonetic": "[ʃveːɐ̯]",
+    "cat": "ზედსართავები",
+    "level": "A1",
+    "article": "",
+    "example": "Der Koffer ist schwer."
+  },
+  {
+    "id": "leicht",
+    "de": "leicht",
+    "ka": "მსუბუქი / ადვილი",
+    "phonetic": "[laɪçt]",
+    "cat": "ზედსართავები",
+    "level": "A1",
+    "article": "",
+    "example": "Die Tasche ist leicht."
+  },
+  {
+    "id": "wichtig",
+    "de": "wichtig",
+    "ka": "მნიშვნელოვანი",
+    "phonetic": "[ˈvɪçtɪç]",
+    "cat": "ზედსართავები",
+    "level": "A2",
+    "article": "",
+    "example": "Das ist sehr wichtig für meine Arbeit."
+  },
+  {
+    "id": "interessant",
+    "de": "interessant",
+    "ka": "საინტერესო",
+    "phonetic": "[ɪntɛʁɛˈsant]",
+    "cat": "ზედსართავები",
+    "level": "A2",
+    "article": "",
+    "example": "Das Buch ist sehr interessant."
+  },
+  {
+    "id": "langweilig",
+    "de": "langweilig",
+    "ka": "მოსაბეზრებელი",
+    "phonetic": "[ˈlaŋvaɪlɪç]",
+    "cat": "ზედსართავები",
+    "level": "A2",
+    "article": "",
+    "example": "Der Film war langweilig."
+  },
+  {
+    "id": "laut",
+    "de": "laut",
+    "ka": "ხმამაღალი",
+    "phonetic": "[laʊt]",
+    "cat": "ზედსართავები",
+    "level": "A2",
+    "article": "",
+    "example": "Die Musik ist zu laut."
+  },
+  {
+    "id": "leise",
+    "de": "leise",
+    "ka": "წყნარი / ჩუმი",
+    "phonetic": "[ˈlaɪzə]",
+    "cat": "ზედსართავები",
+    "level": "A2",
+    "article": "",
+    "example": "Bitte sprich leise, das Baby schläft."
+  },
+  {
+    "id": "sauber",
+    "de": "sauber",
+    "ka": "სუფთა",
+    "phonetic": "[ˈzaʊbɐ]",
+    "cat": "სახლი",
+    "level": "A1",
+    "article": "",
+    "example": "Das Zimmer ist sauber."
+  },
+  {
+    "id": "schmutzig",
+    "de": "schmutzig",
+    "ka": "ჭუჭყიანი / ბინძური",
+    "phonetic": "[ˈʃmʊtsɪç]",
+    "cat": "ზედსართავები",
+    "level": "A1",
+    "article": "",
+    "example": "Die Schuhe sind schmutzig."
+  },
+  {
+    "id": "huebsch",
+    "de": "hübsch",
+    "ka": "ლამაზი / მომხიბლავი",
+    "phonetic": "[hʏpʃ]",
+    "cat": "ზედსართავები",
+    "level": "A2",
+    "article": "",
+    "example": "Du siehst heute sehr hübsch aus."
+  },
+  {
+    "id": "klug",
+    "de": "klug",
+    "ka": "ჭკვიანი",
+    "phonetic": "[kluːk]",
+    "cat": "ზედსართავები",
+    "level": "A2",
+    "article": "",
+    "example": "Sie ist sehr klug und fleißig."
+  },
+  {
+    "id": "fleissig",
+    "de": "fleißig",
+    "ka": "მოშურნე",
+    "phonetic": "[ˈflaɪsɪç]",
+    "cat": "ზედსართავები",
+    "level": "A2",
+    "article": "",
+    "example": "Er ist ein fleißiger Student."
+  },
+  {
+    "id": "faul",
+    "de": "faul",
+    "ka": "ზარმაცი",
+    "phonetic": "[faʊl]",
+    "cat": "ზედსართავები",
+    "level": "A2",
+    "article": "",
+    "example": "Sei nicht so faul!"
+  },
+  {
+    "id": "essen",
+    "de": "essen",
+    "ka": "ჭამა",
+    "phonetic": "[ˈɛsən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Wir essen jeden Tag zusammen."
+  },
+  {
+    "id": "trinken",
+    "de": "trinken",
+    "ka": "სმა",
+    "phonetic": "[ˈtʁɪŋkən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Ich trinke gerne Kaffee."
+  },
+  {
+    "id": "schlafen",
+    "de": "schlafen",
+    "ka": "ძილი",
+    "phonetic": "[ˈʃlaːfən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Ich schlafe acht Stunden pro Nacht."
+  },
+  {
+    "id": "gehen",
+    "de": "gehen",
+    "ka": "სიარული / წასვლა",
+    "phonetic": "[ˈɡeːən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Ich gehe jeden Tag spazieren."
+  },
+  {
+    "id": "kommen",
+    "de": "kommen",
+    "ka": "მოსვლა",
+    "phonetic": "[ˈkɔmən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Kannst du bitte kommen?"
+  },
+  {
+    "id": "sehen",
+    "de": "sehen",
+    "ka": "ხედვა",
+    "phonetic": "[ˈzeːən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Ich sehe ein schönes Bild."
+  },
+  {
+    "id": "hoeren",
+    "de": "hören",
+    "ka": "სმენა",
+    "phonetic": "[ˈhøːʁən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Ich höre gerne Musik."
+  },
+  {
+    "id": "sprechen",
+    "de": "sprechen",
+    "ka": "ლაპარაკი",
+    "phonetic": "[ˈʃpʁɛçən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Sprich bitte langsamer!"
+  },
+  {
+    "id": "lesen",
+    "de": "lesen",
+    "ka": "კითხვა",
+    "phonetic": "[ˈleːzən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Ich lese jeden Abend ein Buch."
+  },
+  {
+    "id": "schreiben",
+    "de": "schreiben",
+    "ka": "წერა",
+    "phonetic": "[ˈʃʁaɪbən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Sie schreibt einen Brief."
+  },
+  {
+    "id": "kaufen",
+    "de": "kaufen",
+    "ka": "ყიდვა",
+    "phonetic": "[ˈkaʊfən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Ich kaufe heute neue Schuhe."
+  },
+  {
+    "id": "haben",
+    "de": "haben",
+    "ka": "ქონა",
+    "phonetic": "[ˈhaːbən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Ich habe ein schönes Haus."
+  },
+  {
+    "id": "sein",
+    "de": "sein",
+    "ka": "ყოფნა",
+    "phonetic": "[zaɪn]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Ich bin Student."
+  },
+  {
+    "id": "werden",
+    "de": "werden",
+    "ka": "გახდომა / გახდება",
+    "phonetic": "[ˈveːɐ̯dən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Ich möchte Arzt werden."
+  },
+  {
+    "id": "machen",
+    "de": "machen",
+    "ka": "კეთება",
+    "phonetic": "[ˈmaxən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Was machst du heute?"
+  },
+  {
+    "id": "arbeiten",
+    "de": "arbeiten",
+    "ka": "მუშაობა",
+    "phonetic": "[ˈaʁbaɪtən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Er arbeitet bei einer Bank."
+  },
+  {
+    "id": "lernen",
+    "de": "lernen",
+    "ka": "სწავლა",
+    "phonetic": "[ˈlɛʁnən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Ich lerne jeden Tag Deutsch."
+  },
+  {
+    "id": "spielen",
+    "de": "spielen",
+    "ka": "თამაში",
+    "phonetic": "[ˈʃpiːlən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Die Kinder spielen im Garten."
+  },
+  {
+    "id": "fahren",
+    "de": "fahren",
+    "ka": "მგზავრობა (სატ.)",
+    "phonetic": "[ˈfaːʁən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Wir fahren mit dem Auto."
+  },
+  {
+    "id": "fliegen",
+    "de": "fliegen",
+    "ka": "ფრენა",
+    "phonetic": "[ˈfliːɡən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Wir fliegen morgen nach Deutschland."
+  },
+  {
+    "id": "wohnen",
+    "de": "wohnen",
+    "ka": "ცხოვრება (სად-მე)",
+    "phonetic": "[ˈvoːnən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Ich wohne in Tiflis."
+  },
+  {
+    "id": "kochen",
+    "de": "kochen",
+    "ka": "მომზადება (საჭმლის) / მომზადება / ხარშვა",
+    "phonetic": "[ˈkɔxən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Meine Mutter kocht sehr gut."
+  },
+  {
+    "id": "singen",
+    "de": "singen",
+    "ka": "სიმღერა",
+    "phonetic": "[ˈzɪŋən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Sie singt sehr schön."
+  },
+  {
+    "id": "tanzen",
+    "de": "tanzen",
+    "ka": "ცეკვა",
+    "phonetic": "[ˈtantsən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Wir tanzen gerne auf Partys."
+  },
+  {
+    "id": "laufen",
+    "de": "laufen",
+    "ka": "სირბილი",
+    "phonetic": "[ˈlaʊfən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Ich laufe jeden Morgen."
+  },
+  {
+    "id": "suchen",
+    "de": "suchen",
+    "ka": "ძებნა",
+    "phonetic": "[ˈzuːxən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Ich suche meine Schlüssel."
+  },
+  {
+    "id": "finden",
+    "de": "finden",
+    "ka": "პოვნა",
+    "phonetic": "[ˈfɪndən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Hast du deine Schlüssel gefunden?"
+  },
+  {
+    "id": "helfen",
+    "de": "helfen",
+    "ka": "დახმარება",
+    "phonetic": "[ˈhɛlfən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Kannst du mir helfen?"
+  },
+  {
+    "id": "wissen",
+    "de": "wissen",
+    "ka": "ცოდნა (ფაქტი)",
+    "phonetic": "[ˈvɪsən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Weißt du, wo der Bahnhof ist?"
+  },
+  {
+    "id": "kennen",
+    "de": "kennen",
+    "ka": "ცნობა (პირი/ადგ.)",
+    "phonetic": "[ˈkɛnən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Kennst du diesen Mann?"
+  },
+  {
+    "id": "denken",
+    "de": "denken",
+    "ka": "ფიქრი",
+    "phonetic": "[ˈdɛŋkən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Was denkst du darüber?"
+  },
+  {
+    "id": "glauben",
+    "de": "glauben",
+    "ka": "რწმენა / ფიქრი / დაჯერება",
+    "phonetic": "[ˈɡlaʊbən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Ich glaube dir."
+  },
+  {
+    "id": "verstehen",
+    "de": "verstehen",
+    "ka": "გაგება",
+    "phonetic": "[fɛɐ̯ˈʃteːən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Ich verstehe die Frage."
+  },
+  {
+    "id": "erklaeren",
+    "de": "erklären",
+    "ka": "ახსნა",
+    "phonetic": "[ɛɐ̯ˈklɛːʁən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Der Lehrer erklärt die Grammatik."
+  },
+  {
+    "id": "entscheiden",
+    "de": "entscheiden",
+    "ka": "გადაწყვეტა",
+    "phonetic": "[ɛntˈʃaɪdən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Ich kann mich nicht entscheiden."
+  },
+  {
+    "id": "erreichen",
+    "de": "erreichen",
+    "ka": "მიღწევა",
+    "phonetic": "[ɛɐ̯ˈʁaɪçən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Er hat sein Ziel erreicht."
+  },
+  {
+    "id": "verbessern",
+    "de": "verbessern",
+    "ka": "გაუმჯობესება",
+    "phonetic": "[fɛɐ̯ˈbɛsɐn]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Ich möchte mein Deutsch verbessern."
+  },
+  {
+    "id": "entwickeln",
+    "de": "entwickeln",
+    "ka": "განვითარება (ზმ.) / განვითარება",
+    "phonetic": "[ɛntˈvɪkəln]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Die Firma entwickelt neue Produkte."
+  },
+  {
+    "id": "empfehlen",
+    "de": "empfehlen",
+    "ka": "რეკომენდაცია",
+    "phonetic": "[ɛmˈpfeːlən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Ich empfehle dieses Restaurant."
+  },
+  {
+    "id": "vergleichen",
+    "de": "vergleichen",
+    "ka": "შედარება",
+    "phonetic": "[fɛɐ̯ˈɡlaɪçən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Vergleiche die zwei Angebote."
+  },
+  {
+    "id": "bezahlen",
+    "de": "bezahlen",
+    "ka": "გადახდა",
+    "phonetic": "[bəˈtsaːlən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Wie möchten Sie bezahlen?"
+  },
+  {
+    "id": "bestellen",
+    "de": "bestellen",
+    "ka": "შეკვეთა",
+    "phonetic": "[bəˈʃtɛlən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Ich möchte einen Kaffee bestellen."
+  },
+  {
+    "id": "vorstellen",
+    "de": "vorstellen",
+    "ka": "წარდგენა / წარდგინება",
+    "phonetic": "[ˈfoːɐ̯ʃtɛlən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Darf ich mich vorstellen?"
+  },
+  {
+    "id": "in",
+    "de": "in",
+    "ka": "შიგნით / -ში / ში",
+    "phonetic": "[ɪn]",
+    "cat": "წინდებულები",
+    "level": "A1",
+    "article": "",
+    "example": "Ich bin in der Schule."
+  },
+  {
+    "id": "auf",
+    "de": "auf",
+    "ka": "ზედ / -ზე / ზე",
+    "phonetic": "[aʊf]",
+    "cat": "წინდებულები",
+    "level": "A1",
+    "article": "",
+    "example": "Das Buch liegt auf dem Tisch."
+  },
+  {
+    "id": "mit",
+    "de": "mit",
+    "ka": "-თან ერთად / თან / -ით",
+    "phonetic": "[mɪt]",
+    "cat": "წინდებულები",
+    "level": "A1",
+    "article": "",
+    "example": "Ich gehe mit meinem Freund."
+  },
+  {
+    "id": "ohne",
+    "de": "ohne",
+    "ka": "გარეშე",
+    "phonetic": "[ˈoːnə]",
+    "cat": "წინდებულები",
+    "level": "A1",
+    "article": "",
+    "example": "Kaffee ohne Zucker, bitte."
+  },
+  {
+    "id": "von",
+    "de": "von",
+    "ka": "-დან / -ის",
+    "phonetic": "[fɔn]",
+    "cat": "წინდებულები",
+    "level": "A1",
+    "article": "",
+    "example": "Das ist ein Brief von meiner Mutter."
+  },
+  {
+    "id": "zu",
+    "de": "zu",
+    "ka": "-სკენ / -ზე",
+    "phonetic": "[tsuː]",
+    "cat": "წინდებულები",
+    "level": "A1",
+    "article": "",
+    "example": "Ich gehe zu meiner Freundin."
+  },
+  {
+    "id": "fuer",
+    "de": "für",
+    "ka": "-ისთვის / თვის",
+    "phonetic": "[fyːɐ̯]",
+    "cat": "წინდებულები",
+    "level": "A1",
+    "article": "",
+    "example": "Das Geschenk ist für dich."
+  },
+  {
+    "id": "durch",
+    "de": "durch",
+    "ka": "გავლით / -ით",
+    "phonetic": "[dʊʁç]",
+    "cat": "წინდებულები",
+    "level": "A2",
+    "article": "",
+    "example": "Ich gehe durch den Park."
+  },
+  {
+    "id": "ueber",
+    "de": "über",
+    "ka": "ზემოთ / -ის შესახებ / შესახებ",
+    "phonetic": "[ˈyːbɐ]",
+    "cat": "წინდებულები",
+    "level": "A2",
+    "article": "",
+    "example": "Wir reden über das Wetter."
+  },
+  {
+    "id": "unter",
+    "de": "unter",
+    "ka": "ქვემოთ / ქვეშ",
+    "phonetic": "[ˈʊntɐ]",
+    "cat": "წინდებულები",
+    "level": "A1",
+    "article": "",
+    "example": "Der Hund ist unter dem Tisch."
+  },
+  {
+    "id": "neben",
+    "de": "neben",
+    "ka": "გვერდით",
+    "phonetic": "[ˈneːbən]",
+    "cat": "წინდებულები",
+    "level": "A1",
+    "article": "",
+    "example": "Die Apotheke ist neben dem Supermarkt."
+  },
+  {
+    "id": "zwischen",
+    "de": "zwischen",
+    "ka": "შორის",
+    "phonetic": "[ˈtsvɪʃən]",
+    "cat": "წინდებულები",
+    "level": "A2",
+    "article": "",
+    "example": "Das Café ist zwischen der Bank und der Post."
+  },
+  {
+    "id": "vor",
+    "de": "vor",
+    "ka": "წინ / -ის წინ",
+    "phonetic": "[foːɐ̯]",
+    "cat": "წინდებულები",
+    "level": "A1",
+    "article": "",
+    "example": "Das Auto steht vor dem Haus."
+  },
+  {
+    "id": "hinter",
+    "de": "hinter",
+    "ka": "უკან / -ის უკან",
+    "phonetic": "[ˈhɪntɐ]",
+    "cat": "წინდებულები",
+    "level": "A1",
+    "article": "",
+    "example": "Der Garten ist hinter dem Haus."
+  },
+  {
+    "id": "deutschland",
+    "de": "Deutschland",
+    "ka": "გერმანია",
+    "phonetic": "[ˈdɔɪtʃlant]",
+    "cat": "ქვეყნები",
+    "level": "A1",
+    "article": "",
+    "example": "Ich möchte in Deutschland studieren."
+  },
+  {
+    "id": "georgien",
+    "de": "Georgien",
+    "ka": "საქართველო",
+    "phonetic": "[ɡeˈɔʁɡiən]",
+    "cat": "ქვეყნები",
+    "level": "A1",
+    "article": "",
+    "example": "Georgien ist bekannt für seinen Wein."
+  },
+  {
+    "id": "oesterreich",
+    "de": "Österreich",
+    "ka": "ავსტრია",
+    "phonetic": "[ˈøːstɐʁaɪç]",
+    "cat": "ქვეყნები",
+    "level": "A1",
+    "article": "",
+    "example": "Wien ist die Hauptstadt von Österreich."
+  },
+  {
+    "id": "die-schweiz",
+    "de": "die Schweiz",
+    "ka": "შვეიცარია",
+    "phonetic": "[diː ʃvaɪts]",
+    "cat": "ქვეყნები",
+    "level": "A1",
+    "article": "die",
+    "example": "In der Schweiz spricht man vier Sprachen."
+  },
+  {
+    "id": "frankreich",
+    "de": "Frankreich",
+    "ka": "საფრანგეთი",
+    "phonetic": "[ˈfʁaŋkʁaɪç]",
+    "cat": "ქვეყნები",
+    "level": "A1",
+    "article": "",
+    "example": "Paris ist die Hauptstadt von Frankreich."
+  },
+  {
+    "id": "england",
+    "de": "England",
+    "ka": "ინგლისი",
+    "phonetic": "[ˈɛŋlant]",
+    "cat": "ქვეყნები",
+    "level": "A1",
+    "article": "",
+    "example": "London ist die Hauptstadt von England."
+  },
+  {
+    "id": "italien",
+    "de": "Italien",
+    "ka": "იტალია",
+    "phonetic": "[iˈtaːliən]",
+    "cat": "ქვეყნები",
+    "level": "A1",
+    "article": "",
+    "example": "In Italien ist die Küche sehr gut."
+  },
+  {
+    "id": "spanien",
+    "de": "Spanien",
+    "ka": "ესპანეთი",
+    "phonetic": "[ˈʃpaːniən]",
+    "cat": "ქვეყნები",
+    "level": "A1",
+    "article": "",
+    "example": "Barcelona liegt in Spanien."
+  },
+  {
+    "id": "der-laden",
+    "de": "der Laden",
+    "ka": "მაღაზია",
+    "phonetic": "[deːɐ̯ ˈlaːdən]",
+    "cat": "შოპინგი",
+    "level": "A1",
+    "article": "der",
+    "example": "Der Laden ist bis 20 Uhr geöffnet."
+  },
+  {
+    "id": "der-markt",
+    "de": "der Markt",
+    "ka": "ბაზარი",
+    "phonetic": "[deːɐ̯ maʁkt]",
+    "cat": "შოპინგი",
+    "level": "A1",
+    "article": "der",
+    "example": "Samstags gehe ich auf den Markt."
+  },
+  {
+    "id": "der-preis",
+    "de": "der Preis",
+    "ka": "ფასი",
+    "phonetic": "[deːɐ̯ pʁaɪs]",
+    "cat": "შოპინგი",
+    "level": "A1",
+    "article": "der",
+    "example": "Was kostet das? Der Preis ist gut."
+  },
+  {
+    "id": "das-geld",
+    "de": "das Geld",
+    "ka": "ფული",
+    "phonetic": "[das ɡɛlt]",
+    "cat": "შოპინგი",
+    "level": "A1",
+    "article": "das",
+    "example": "Ich habe kein Geld dabei."
+  },
+  {
+    "id": "die-kasse",
+    "de": "die Kasse",
+    "ka": "სალარო",
+    "phonetic": "[diː ˈkasə]",
+    "cat": "შოპინგი",
+    "level": "A2",
+    "article": "die",
+    "example": "Bitte zahlen Sie an der Kasse."
+  },
+  {
+    "id": "der-rabatt",
+    "de": "der Rabatt",
+    "ka": "ფასდაკლება",
+    "phonetic": "[deːɐ̯ ʁaˈbat]",
+    "cat": "შოპინგი",
+    "level": "A2",
+    "article": "der",
+    "example": "Gibt es einen Rabatt?"
+  },
+  {
+    "id": "die-rechnung",
+    "de": "die Rechnung",
+    "ka": "ანგარიში / ანგარიშ-ფაქტურა / ქვითარი",
+    "phonetic": "[diː ˈʁɛçnʊŋ]",
+    "cat": "შოპინგი",
+    "level": "A2",
+    "article": "die",
+    "example": "Bitte bringen Sie die Rechnung!"
+  },
+  {
+    "id": "jetzt",
+    "de": "jetzt",
+    "ka": "ახლა",
+    "phonetic": "[jɛtst]",
+    "cat": "დრო",
+    "level": "A1",
+    "article": "",
+    "example": "Was machst du jetzt?"
+  },
+  {
+    "id": "heute",
+    "de": "heute",
+    "ka": "დღეს",
+    "phonetic": "[ˈhɔɪtə]",
+    "cat": "დრო",
+    "level": "A1",
+    "article": "",
+    "example": "Heute ist das Wetter schön."
+  },
+  {
+    "id": "morgen",
+    "de": "morgen",
+    "ka": "ხვალ",
+    "phonetic": "[ˈmɔʁɡən]",
+    "cat": "დრო",
+    "level": "A1",
+    "article": "",
+    "example": "Morgen habe ich einen Arzttermin."
+  },
+  {
+    "id": "gestern",
+    "de": "gestern",
+    "ka": "გუშინ",
+    "phonetic": "[ˈɡɛstɐn]",
+    "cat": "დრო",
+    "level": "A1",
+    "article": "",
+    "example": "Gestern war ich im Kino."
+  },
+  {
+    "id": "immer",
+    "de": "immer",
+    "ka": "ყოველთვის",
+    "phonetic": "[ˈɪmɐ]",
+    "cat": "დრო",
+    "level": "A1",
+    "article": "",
+    "example": "Ich trinke immer Kaffee morgens."
+  },
+  {
+    "id": "nie",
+    "de": "nie",
+    "ka": "არასოდეს / არასდროს",
+    "phonetic": "[niː]",
+    "cat": "დრო",
+    "level": "A1",
+    "article": "",
+    "example": "Ich rauche nie."
+  },
+  {
+    "id": "oft",
+    "de": "oft",
+    "ka": "ხშირად",
+    "phonetic": "[ɔft]",
+    "cat": "დრო",
+    "level": "A1",
+    "article": "",
+    "example": "Ich gehe oft ins Kino."
+  },
+  {
+    "id": "manchmal",
+    "de": "manchmal",
+    "ka": "ზოგჯერ / ხანდახან",
+    "phonetic": "[ˈmançmaːl]",
+    "cat": "დრო",
+    "level": "A1",
+    "article": "",
+    "example": "Manchmal esse ich Pizza."
+  },
+  {
+    "id": "frueh",
+    "de": "früh",
+    "ka": "ადრე",
+    "phonetic": "[fʁyː]",
+    "cat": "დრო",
+    "level": "A1",
+    "article": "",
+    "example": "Ich stehe früh auf."
+  },
+  {
+    "id": "spaet",
+    "de": "spät",
+    "ka": "გვიან",
+    "phonetic": "[ʃpɛːt]",
+    "cat": "დრო",
+    "level": "A1",
+    "article": "",
+    "example": "Es ist schon spät!"
+  },
+  {
+    "id": "die-uhr",
+    "de": "die Uhr",
+    "ka": "საათი (საგ.)",
+    "phonetic": "[diː uːɐ̯]",
+    "cat": "დრო",
+    "level": "A1",
+    "article": "die",
+    "example": "Wie viel Uhr ist es?"
+  },
+  {
+    "id": "die-minute",
+    "de": "die Minute",
+    "ka": "წუთი",
+    "phonetic": "[diː miˈnuːtə]",
+    "cat": "დრო",
+    "level": "A1",
+    "article": "die",
+    "example": "Warte fünf Minuten!"
+  },
+  {
+    "id": "die-stunde",
+    "de": "die Stunde",
+    "ka": "საათი (ხანგ.)",
+    "phonetic": "[diː ˈʃtʊndə]",
+    "cat": "დრო",
+    "level": "A1",
+    "article": "die",
+    "example": "Das dauert eine Stunde."
+  },
+  {
+    "id": "der-tag",
+    "de": "der Tag",
+    "ka": "დღე",
+    "phonetic": "[deːɐ̯ taːk]",
+    "cat": "დრო",
+    "level": "A1",
+    "article": "der",
+    "example": "Guten Tag!"
+  },
+  {
+    "id": "die-woche",
+    "de": "die Woche",
+    "ka": "კვირა (7 დღე)",
+    "phonetic": "[diː ˈvɔxə]",
+    "cat": "დრო",
+    "level": "A1",
+    "article": "die",
+    "example": "Diese Woche bin ich sehr beschäftigt."
+  },
+  {
+    "id": "der-monat",
+    "de": "der Monat",
+    "ka": "თვე",
+    "phonetic": "[deːɐ̯ ˈmoːnat]",
+    "cat": "დრო",
+    "level": "A1",
+    "article": "der",
+    "example": "In einem Monat fahre ich nach Hause."
+  },
+  {
+    "id": "das-jahr",
+    "de": "das Jahr",
+    "ka": "წელი",
+    "phonetic": "[das jaːɐ̯]",
+    "cat": "დრო",
+    "level": "A1",
+    "article": "das",
+    "example": "Das neue Jahr beginnt im Januar."
+  },
+  {
+    "id": "der-hund",
+    "de": "der Hund",
+    "ka": "ძაღლი",
+    "phonetic": "[deːɐ̯ hʊnt]",
+    "cat": "ცხოველები",
+    "level": "A1",
+    "article": "der",
+    "example": "Der Hund bellt laut."
+  },
+  {
+    "id": "die-katze",
+    "de": "die Katze",
+    "ka": "კატა",
+    "phonetic": "[diː ˈkatsə]",
+    "cat": "ცხოველები",
+    "level": "A1",
+    "article": "die",
+    "example": "Die Katze schläft auf dem Sofa."
+  },
+  {
+    "id": "der-vogel",
+    "de": "der Vogel",
+    "ka": "ფრინველი",
+    "phonetic": "[deːɐ̯ ˈfoːɡəl]",
+    "cat": "ცხოველები",
+    "level": "A1",
+    "article": "der",
+    "example": "Der Vogel singt schön."
+  },
+  {
+    "id": "das-pferd",
+    "de": "das Pferd",
+    "ka": "ცხენი",
+    "phonetic": "[das pfeːɐ̯t]",
+    "cat": "ცხოველები",
+    "level": "A1",
+    "article": "das",
+    "example": "Das Pferd läuft sehr schnell."
+  },
+  {
+    "id": "die-kuh",
+    "de": "die Kuh",
+    "ka": "ძროხა",
+    "phonetic": "[diː kuː]",
+    "cat": "ცხოველები",
+    "level": "A1",
+    "article": "die",
+    "example": "Die Kuh gibt Milch."
+  },
+  {
+    "id": "das-schwein",
+    "de": "das Schwein",
+    "ka": "ღორი",
+    "phonetic": "[das ʃvaɪn]",
+    "cat": "ცხოველები",
+    "level": "A1",
+    "article": "das",
+    "example": "Das Schwein ist auf dem Bauernhof."
+  },
+  {
+    "id": "der-loewe",
+    "de": "der Löwe",
+    "ka": "ლომი",
+    "phonetic": "[deːɐ̯ ˈløːvə]",
+    "cat": "ცხოველები",
+    "level": "A1",
+    "article": "der",
+    "example": "Der Löwe ist der König der Tiere."
+  },
+  {
+    "id": "der-elefant",
+    "de": "der Elefant",
+    "ka": "სპილო",
+    "phonetic": "[deːɐ̯ eleˈfant]",
+    "cat": "ცხოველები",
+    "level": "A1",
+    "article": "der",
+    "example": "Der Elefant ist das größte Landtier."
+  },
+  {
+    "id": "die-schlange",
+    "de": "die Schlange",
+    "ka": "გველი",
+    "phonetic": "[diː ˈʃlaŋə]",
+    "cat": "ცხოველები",
+    "level": "A2",
+    "article": "die",
+    "example": "Die Schlange bewegt sich lautlos."
+  },
+  {
+    "id": "die-sprache",
+    "de": "die Sprache",
+    "ka": "ენა",
+    "phonetic": "[diː ˈʃpʁaːxə]",
+    "cat": "კომუნიკაცია",
+    "level": "A1",
+    "article": "die",
+    "example": "Deutsch ist keine leichte Sprache."
+  },
+  {
+    "id": "der-grund",
+    "de": "der Grund",
+    "ka": "მიზეზი / საფუძველი",
+    "phonetic": "[deːɐ̯ ɡʁʊnt]",
+    "cat": "B1 ლექსიკა",
+    "level": "B1",
+    "article": "der",
+    "example": "Was ist der Grund dafür?"
+  },
+  {
+    "id": "die-gelegenheit",
+    "de": "die Gelegenheit",
+    "ka": "შემთხვევა / შანსი / შესაძლებლობა",
+    "phonetic": "[diː ɡəˈleːɡənhaɪt]",
+    "cat": "B1 ლექსიკა",
+    "level": "B1",
+    "article": "die",
+    "example": "Das ist eine gute Gelegenheit."
+  },
+  {
+    "id": "die-verantwortung",
+    "de": "die Verantwortung",
+    "ka": "პასუხისმგებლობა",
+    "phonetic": "[diː fɛɐ̯ˈantvɔʁtʊŋ]",
+    "cat": "B1 ლექსიკა",
+    "level": "B1",
+    "article": "die",
+    "example": "Das ist meine Verantwortung."
+  },
+  {
+    "id": "die-faehigkeit",
+    "de": "die Fähigkeit",
+    "ka": "უნარი / შესაძლებლობა",
+    "phonetic": "[diː ˈfɛːɪçkaɪt]",
+    "cat": "B1 ლექსიკა",
+    "level": "B1",
+    "article": "die",
+    "example": "Er hat viele Fähigkeiten."
+  },
+  {
+    "id": "behaupten",
+    "de": "behaupten",
+    "ka": "მტკიცება / დაჟინება",
+    "phonetic": "[bəˈhaʊptən]",
+    "cat": "B2 ლექსიკა",
+    "level": "B2",
+    "article": "",
+    "example": "Er behauptet, unschuldig zu sein."
+  },
+  {
+    "id": "beruecksichtigen",
+    "de": "berücksichtigen",
+    "ka": "გათვალისწინება",
+    "phonetic": "[bəˈʁʏkzɪçtɪɡən]",
+    "cat": "B2 ლექსიკა",
+    "level": "B2",
+    "article": "",
+    "example": "Das müssen wir berücksichtigen."
+  },
+  {
+    "id": "das-bewusstsein",
+    "de": "das Bewusstsein",
+    "ka": "ცნობიერება",
+    "phonetic": "[das bəˈvʊstzaɪn]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C1",
+    "article": "das",
+    "example": "Das Bewusstsein ist ein komplexes Thema."
+  },
+  {
+    "id": "die-eigenschaft",
+    "de": "die Eigenschaft",
+    "ka": "თვისება / მახასიათებელი",
+    "phonetic": "[diː ˈaɪɡənʃaft]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C1",
+    "article": "die",
+    "example": "Was sind deine besten Eigenschaften?"
+  },
+  {
+    "id": "die-unabhaengigkeit",
+    "de": "die Unabhängigkeit",
+    "ka": "დამოუკიდებლობა",
+    "phonetic": "[diː ˈʊnaphɛŋɪçkaɪt]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C2",
+    "article": "die",
+    "example": "Die Unabhängigkeit ist wichtig für jeden."
+  },
+  {
+    "id": "reisen",
+    "de": "reisen",
+    "ka": "მოგზაურობა",
+    "phonetic": "[ˈʁaɪzən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Wir reisen im Sommer nach Italien."
+  },
+  {
+    "id": "der-urlaub",
+    "de": "der Urlaub",
+    "ka": "შვებულება",
+    "phonetic": "[deːɐ̯ ˈuːɐ̯laʊp]",
+    "cat": "მოგზაურობა",
+    "level": "A1",
+    "article": "der",
+    "example": "Im Urlaub entspanne ich mich."
+  },
+  {
+    "id": "der-koffer",
+    "de": "der Koffer",
+    "ka": "ჩემოდანი",
+    "phonetic": "[deːɐ̯ ˈkɔfɐ]",
+    "cat": "მოგზაურობა",
+    "level": "A2",
+    "article": "der",
+    "example": "Mein Koffer ist sehr schwer."
+  },
+  {
+    "id": "die-reise",
+    "de": "die Reise",
+    "ka": "მგზავრობა / მოგზაურობა",
+    "phonetic": "[diː ˈʁaɪzə]",
+    "cat": "მოგზაურობა",
+    "level": "A1",
+    "article": "die",
+    "example": "Die Reise war wunderbar."
+  },
+  {
+    "id": "das-ticket",
+    "de": "das Ticket",
+    "ka": "ბილეთი",
+    "phonetic": "[das ˈtɪkɛt]",
+    "cat": "მოგზაურობა",
+    "level": "A2",
+    "article": "das",
+    "example": "Hast du ein Ticket für den Zug?"
+  },
+  {
+    "id": "der-fahrplan",
+    "de": "der Fahrplan",
+    "ka": "გრაფიკი / განრიგი",
+    "phonetic": "[deːɐ̯ ˈfaːɐ̯plaːn]",
+    "cat": "მოგზაურობა",
+    "level": "A2",
+    "article": "der",
+    "example": "Der Fahrplan ist online verfügbar."
+  },
+  {
+    "id": "die-richtung",
+    "de": "die Richtung",
+    "ka": "მიმართულება",
+    "phonetic": "[diː ˈʁɪçtʊŋ]",
+    "cat": "მოგზაურობა",
+    "level": "A2",
+    "article": "die",
+    "example": "In welche Richtung geht es?"
+  },
+  {
+    "id": "links",
+    "de": "links",
+    "ka": "მარცხნივ",
+    "phonetic": "[lɪŋks]",
+    "cat": "მიმართულება",
+    "level": "A1",
+    "article": "",
+    "example": "Gehen Sie links und dann geradeaus."
+  },
+  {
+    "id": "rechts",
+    "de": "rechts",
+    "ka": "მარჯვნივ",
+    "phonetic": "[ʁɛçts]",
+    "cat": "მიმართულება",
+    "level": "A1",
+    "article": "",
+    "example": "Biegen Sie rechts ab."
+  },
+  {
+    "id": "geradeaus",
+    "de": "geradeaus",
+    "ka": "პირდაპირ",
+    "phonetic": "[ɡəˈʁaːdə aʊs]",
+    "cat": "მიმართულება",
+    "level": "A1",
+    "article": "",
+    "example": "Bitte geradeaus gehen."
+  },
+  {
+    "id": "anhalten",
+    "de": "anhalten",
+    "ka": "გაჩერება",
+    "phonetic": "[ˈanˌhaltən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Bitte an der Haltestelle anhalten."
+  },
+  {
+    "id": "aufstehen",
+    "de": "aufstehen",
+    "ka": "ადგომა",
+    "phonetic": "[ˈaʊfʃteːən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Ich stehe um sieben Uhr auf."
+  },
+  {
+    "id": "ankommen",
+    "de": "ankommen",
+    "ka": "ჩამოსვლა / მიღწევა",
+    "phonetic": "[ˈankɔmən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Der Zug kommt pünktlich an."
+  },
+  {
+    "id": "abfahren",
+    "de": "abfahren",
+    "ka": "გასვლა / გამგზავრება",
+    "phonetic": "[ˈapfaːʁən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Der Bus fährt um zehn ab."
+  },
+  {
+    "id": "einkaufen",
+    "de": "einkaufen",
+    "ka": "საყიდლებზე წასვლა",
+    "phonetic": "[ˈaɪnkaʊfən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Am Samstag gehen wir einkaufen."
+  },
+  {
+    "id": "verkaufen",
+    "de": "verkaufen",
+    "ka": "გაყიდვა",
+    "phonetic": "[fɛɐ̯ˈkaʊfən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Sie verkauft Gemüse auf dem Markt."
+  },
+  {
+    "id": "brauchen",
+    "de": "brauchen",
+    "ka": "საჭიროება",
+    "phonetic": "[ˈbʁaʊxən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Ich brauche Hilfe."
+  },
+  {
+    "id": "erleben",
+    "de": "erleben",
+    "ka": "გამოცდა / განცდა",
+    "phonetic": "[ɛɐ̯ˈleːbən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Wir haben viel zusammen erlebt."
+  },
+  {
+    "id": "beginnen",
+    "de": "beginnen",
+    "ka": "დაწყება",
+    "phonetic": "[bəˈɡɪnən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Der Kurs beginnt um neun Uhr."
+  },
+  {
+    "id": "enden",
+    "de": "enden",
+    "ka": "დასრულება",
+    "phonetic": "[ˈɛndən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Die Stunde endet um halb vier."
+  },
+  {
+    "id": "die-arbeitserfahrung",
+    "de": "die Arbeitserfahrung",
+    "ka": "სამუშაო გამოცდილება",
+    "phonetic": "[diː ˈaʁbaɪtsʔɛɐ̯ˌfaːʁʊŋ]",
+    "cat": "სამსახური",
+    "level": "B1",
+    "article": "die",
+    "example": "Sie hat viel Arbeitserfahrung."
+  },
+  {
+    "id": "das-meeting",
+    "de": "das Meeting",
+    "ka": "შეხვედრა",
+    "phonetic": "[das ˈmiːtɪŋ]",
+    "cat": "სამსახური",
+    "level": "B1",
+    "article": "das",
+    "example": "Das Meeting ist um drei Uhr."
+  },
+  {
+    "id": "der-termin",
+    "de": "der Termin",
+    "ka": "შეხვედრის დრო / თარიღი",
+    "phonetic": "[deːɐ̯ tɛrˈmiːn]",
+    "cat": "სამსახური",
+    "level": "B1",
+    "article": "der",
+    "example": "Ich habe morgen einen Termin."
+  },
+  {
+    "id": "die-frist",
+    "de": "die Frist",
+    "ka": "ვადა",
+    "phonetic": "[diː fʁɪst]",
+    "cat": "სამსახური",
+    "level": "B1",
+    "article": "die",
+    "example": "Die Frist endet nächste Woche."
+  },
+  {
+    "id": "die-aufgabe",
+    "de": "die Aufgabe",
+    "ka": "დავალება",
+    "phonetic": "[diː ˈaʊfɡaːbə]",
+    "cat": "განათლება",
+    "level": "A1",
+    "article": "die",
+    "example": "Ich mache meine Aufgaben."
+  },
+  {
+    "id": "der-plan",
+    "de": "der Plan",
+    "ka": "გეგმა",
+    "phonetic": "[deːɐ̯ plaːn]",
+    "cat": "B1 ლექსიკა",
+    "level": "B1",
+    "article": "der",
+    "example": "Wir müssen einen neuen Plan machen."
+  },
+  {
+    "id": "die-idee",
+    "de": "die Idee",
+    "ka": "იდეა",
+    "phonetic": "[diː iˈdeː]",
+    "cat": "B1 ლექსიკა",
+    "level": "B1",
+    "article": "die",
+    "example": "Das ist eine gute Idee."
+  },
+  {
+    "id": "die-frage",
+    "de": "die Frage",
+    "ka": "კითხვა",
+    "phonetic": "[diː ˈfʁaːɡə]",
+    "cat": "ზოგადი",
+    "level": "A1",
+    "article": "die",
+    "example": "Hast du eine Frage?"
+  },
+  {
+    "id": "die-antwort",
+    "de": "die Antwort",
+    "ka": "პასუხი",
+    "phonetic": "[diː ˈantvɔʁt]",
+    "cat": "ზოგადი",
+    "level": "A1",
+    "article": "die",
+    "example": "Die Antwort ist richtig."
+  },
+  {
+    "id": "richtig",
+    "de": "richtig",
+    "ka": "სწორი",
+    "phonetic": "[ˈʁɪçtɪç]",
+    "cat": "ზედსართავები",
+    "level": "A1",
+    "article": "",
+    "example": "Das ist die richtige Lösung."
+  },
+  {
+    "id": "falsch",
+    "de": "falsch",
+    "ka": "არასწორი",
+    "phonetic": "[fals]",
+    "cat": "ზედსართავები",
+    "level": "A1",
+    "article": "",
+    "example": "Das ist falsch."
+  },
+  {
+    "id": "moeglich",
+    "de": "möglich",
+    "ka": "შესაძლებელი",
+    "phonetic": "[ˈmøːklɪç]",
+    "cat": "ზედსართავები",
+    "level": "A2",
+    "article": "",
+    "example": "Ist das möglich?"
+  },
+  {
+    "id": "unmoeglich",
+    "de": "unmöglich",
+    "ka": "შეუძლებელი",
+    "phonetic": "[ˈʊnmøːklɪç]",
+    "cat": "ზედსართავები",
+    "level": "A2",
+    "article": "",
+    "example": "Das ist unmöglich."
+  },
+  {
+    "id": "bereit",
+    "de": "bereit",
+    "ka": "მზად",
+    "phonetic": "[bəˈʁaɪt]",
+    "cat": "ზედსართავები",
+    "level": "A2",
+    "article": "",
+    "example": "Ich bin jetzt bereit."
+  },
+  {
+    "id": "frei",
+    "de": "frei",
+    "ka": "თავისუფალი",
+    "phonetic": "[fʁaɪ]",
+    "cat": "ზედსართავები",
+    "level": "A1",
+    "article": "",
+    "example": "Ist dieser Platz frei?"
+  },
+  {
+    "id": "voll",
+    "de": "voll",
+    "ka": "სავსე",
+    "phonetic": "[fɔl]",
+    "cat": "ზედსართავები",
+    "level": "A2",
+    "article": "",
+    "example": "Die Flasche ist voll."
+  },
+  {
+    "id": "leer",
+    "de": "leer",
+    "ka": "ცარიელი",
+    "phonetic": "[leːɐ̯]",
+    "cat": "ზედსართავები",
+    "level": "A2",
+    "article": "",
+    "example": "Der Kühlschrank ist leer."
+  },
+  {
+    "id": "zusammen",
+    "de": "zusammen",
+    "ka": "ერთად",
+    "phonetic": "[tsuˈzamən]",
+    "cat": "ზმნიზედა",
+    "level": "A1",
+    "article": "",
+    "example": "Wir essen zusammen."
+  },
+  {
+    "id": "allein",
+    "de": "allein",
+    "ka": "მარტო",
+    "phonetic": "[aˈlaɪn]",
+    "cat": "ზმნიზედა",
+    "level": "A2",
+    "article": "",
+    "example": "Ich wohne allein."
+  },
+  {
+    "id": "einfach",
+    "de": "einfach",
+    "ka": "უბრალოდ / მარტივი",
+    "phonetic": "[ˈaɪnfax]",
+    "cat": "ზედსართავები",
+    "level": "A2",
+    "article": "",
+    "example": "Das ist ganz einfach."
+  },
+  {
+    "id": "trotzdem",
+    "de": "trotzdem",
+    "ka": "მაინც / მიუხედავად ამისა",
+    "phonetic": "[ˈtʁɔtsdeːm]",
+    "cat": "კავშირები",
+    "level": "B1",
+    "article": "",
+    "example": "Es regnet, trotzdem gehen wir raus."
+  },
+  {
+    "id": "deshalb",
+    "de": "deshalb",
+    "ka": "ამიტომ",
+    "phonetic": "[ˈdɛshalp]",
+    "cat": "კავშირები",
+    "level": "A2",
+    "article": "",
+    "example": "Ich bin müde, deshalb gehe ich schlafen."
+  },
+  {
+    "id": "weil",
+    "de": "weil",
+    "ka": "რადგან",
+    "phonetic": "[vaɪl]",
+    "cat": "კავშირები",
+    "level": "A2",
+    "article": "",
+    "example": "Ich bleibe zu Hause, weil ich krank bin."
+  },
+  {
+    "id": "aber",
+    "de": "aber",
+    "ka": "მაგრამ",
+    "phonetic": "[ˈaːbɐ]",
+    "cat": "კავშირები",
+    "level": "A1",
+    "article": "",
+    "example": "Ich lerne, aber ich bin müde."
+  },
+  {
+    "id": "oder",
+    "de": "oder",
+    "ka": "ან",
+    "phonetic": "[ˈoːdɐ]",
+    "cat": "კავშირები",
+    "level": "A1",
+    "article": "",
+    "example": "Tee oder Kaffee?"
+  },
+  {
+    "id": "und",
+    "de": "und",
+    "ka": "და",
+    "phonetic": "[ʊnt]",
+    "cat": "კავშირები",
+    "level": "A1",
+    "article": "",
+    "example": "Ich trinke Wasser und Tee."
+  },
+  {
+    "id": "gegen",
+    "de": "gegen",
+    "ka": "წინააღმდეგ / დაახლოებით",
+    "phonetic": "[ˈɡeːɡn̩]",
+    "cat": "წინდებულები",
+    "level": "B1",
+    "article": "",
+    "example": "Ich bin gegen diese Idee."
+  },
+  {
+    "id": "das-problem",
+    "de": "das Problem",
+    "ka": "პრობლემა",
+    "phonetic": "[das pʁoˈbleːm]",
+    "cat": "ზოგადი",
+    "level": "A1",
+    "article": "das",
+    "example": "Wir haben ein Problem."
+  },
+  {
+    "id": "das-ziel",
+    "de": "das Ziel",
+    "ka": "მიზანი",
+    "phonetic": "[das tsiːl]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "das",
+    "example": "Mein Ziel ist Deutsch zu lernen."
+  },
+  {
+    "id": "der-erfolg",
+    "de": "der Erfolg",
+    "ka": "წარმატება",
+    "phonetic": "[deːɐ̯ ɛɐ̯ˈfɔlk]",
+    "cat": "B1 ლექსიკა",
+    "level": "B1",
+    "article": "der",
+    "example": "Viel Erfolg bei der Prüfung!"
+  },
+  {
+    "id": "scheinen",
+    "de": "scheinen",
+    "ka": "ბრწყინვა / ჩანდა",
+    "phonetic": "[ˈʃaɪnən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Die Sonne scheint heute."
+  },
+  {
+    "id": "regnen",
+    "de": "regnen",
+    "ka": "წვიმა",
+    "phonetic": "[ˈʁeːɡnən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Es regnet den ganzen Tag."
+  },
+  {
+    "id": "schneien",
+    "de": "schneien",
+    "ka": "თოვლა",
+    "phonetic": "[ˈʃnaɪən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Heute schneit es."
+  },
+  {
+    "id": "das-geschaeft",
+    "de": "das Geschäft",
+    "ka": "მაღაზია / ბიზნესი",
+    "phonetic": "[das ɡəˈʃɛft]",
+    "cat": "შოპინგი",
+    "level": "A2",
+    "article": "das",
+    "example": "Das Geschäft ist bis 20 Uhr geöffnet."
+  },
+  {
+    "id": "der-verkaeufer",
+    "de": "der Verkäufer",
+    "ka": "გამყიდველი (მამ.)",
+    "phonetic": "[deːɐ̯ fɛɐ̯ˈkɔʏfɐ]",
+    "cat": "შოპინგი",
+    "level": "A2",
+    "article": "der",
+    "example": "Der Verkäufer hilft den Kunden."
+  },
+  {
+    "id": "die-verkaeuferin",
+    "de": "die Verkäuferin",
+    "ka": "გამყიდველი (მდ.)",
+    "phonetic": "[diː fɛɐ̯ˈkɔʏfərɪn]",
+    "cat": "შოპინგი",
+    "level": "A2",
+    "article": "die",
+    "example": "Die Verkäuferin ist freundlich."
+  },
+  {
+    "id": "der-kunde",
+    "de": "der Kunde",
+    "ka": "კლიენტი",
+    "phonetic": "[deːɐ̯ ˈkʊndə]",
+    "cat": "შოპინგი",
+    "level": "A2",
+    "article": "der",
+    "example": "Der Kunde bezahlt an der Kasse."
+  },
+  {
+    "id": "guenstig",
+    "de": "günstig",
+    "ka": "ხელსაყრელი / იაფიანი",
+    "phonetic": "[ˈɡʏnstɪç]",
+    "cat": "შოპინგი",
+    "level": "A2",
+    "article": "",
+    "example": "Dieses Handy ist günstig."
+  },
+  {
+    "id": "teils",
+    "de": "teils",
+    "ka": "ნაწილობრივ",
+    "phonetic": "[taɪls]",
+    "cat": "ზმნიზედა",
+    "level": "B1",
+    "article": "",
+    "example": "Die Straßen sind teils gesperrt."
+  },
+  {
+    "id": "bar",
+    "de": "bar",
+    "ka": "ნაღდი ფულით",
+    "phonetic": "[baːɐ̯]",
+    "cat": "შოპინგი",
+    "level": "A2",
+    "article": "",
+    "example": "Möchten Sie bar oder mit Karte zahlen?"
+  },
+  {
+    "id": "die-muenze",
+    "de": "die Münze",
+    "ka": "მონეტა",
+    "phonetic": "[diː ˈmʏntsə]",
+    "cat": "ფული",
+    "level": "A2",
+    "article": "die",
+    "example": "Ich habe keine Münzen."
+  },
+  {
+    "id": "der-geldschein",
+    "de": "der Geldschein",
+    "ka": "ქაღალდის ფული",
+    "phonetic": "[deːɐ̯ ˈɡɛltʃaɪn]",
+    "cat": "ფული",
+    "level": "B1",
+    "article": "der",
+    "example": "Der Geldschein ist zwanzig Euro wert."
+  },
+  {
+    "id": "sparen",
+    "de": "sparen",
+    "ka": "დაზოგვა",
+    "phonetic": "[ˈʃpaːʁən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Ich spare Geld für ein Auto."
+  },
+  {
+    "id": "ausgeben",
+    "de": "ausgeben",
+    "ka": "დახარჯვა",
+    "phonetic": "[ˈaʊsɡeːbən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Er gibt viel Geld aus."
+  },
+  {
+    "id": "das-gespraech",
+    "de": "das Gespräch",
+    "ka": "საუბარი",
+    "phonetic": "[das ɡəˈʃpʁɛːç]",
+    "cat": "კომუნიკაცია",
+    "level": "B1",
+    "article": "das",
+    "example": "Das Gespräch war sehr interessant."
+  },
+  {
+    "id": "erzaehlen",
+    "de": "erzählen",
+    "ka": "მოყოლა",
+    "phonetic": "[ɛɐ̯ˈtsɛːlən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Er erzählt eine lustige Geschichte."
+  },
+  {
+    "id": "die-geschichte",
+    "de": "die Geschichte",
+    "ka": "ისტორია / ამბავი",
+    "phonetic": "[diː ɡəˈʃɪçtə]",
+    "cat": "კომუნიკაცია",
+    "level": "A2",
+    "article": "die",
+    "example": "Die Geschichte ist spannend."
+  },
+  {
+    "id": "antworten",
+    "de": "antworten",
+    "ka": "პასუხის გაცემა",
+    "phonetic": "[ˈantvɔʁtən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Bitte antworte schnell."
+  },
+  {
+    "id": "diskutieren",
+    "de": "diskutieren",
+    "ka": "დისკუსია",
+    "phonetic": "[dɪskuˈtiːʁən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Wir diskutieren über Politik."
+  },
+  {
+    "id": "die-nachricht",
+    "de": "die Nachricht",
+    "ka": "შეტყობინება / ახალი ამბავი",
+    "phonetic": "[diː ˈnaːxʁɪçt]",
+    "cat": "კომუნიკაცია",
+    "level": "A2",
+    "article": "die",
+    "example": "Ich habe deine Nachricht gelesen."
+  },
+  {
+    "id": "anrufen",
+    "de": "anrufen",
+    "ka": "დარეკვა",
+    "phonetic": "[ˈanʁuːfən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Ich rufe dich später an."
+  },
+  {
+    "id": "besuchen",
+    "de": "besuchen",
+    "ka": "სტუმრობა",
+    "phonetic": "[bəˈzuːxən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Wir besuchen unsere Freunde."
+  },
+  {
+    "id": "einladen",
+    "de": "einladen",
+    "ka": "დაპატიჟება",
+    "phonetic": "[ˈaɪnlaːdən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Sie lädt uns zur Party ein."
+  },
+  {
+    "id": "die-stimmung",
+    "de": "die Stimmung",
+    "ka": "განწყობა",
+    "phonetic": "[diː ˈʃtɪmʊŋ]",
+    "cat": "ემოციები",
+    "level": "B1",
+    "article": "die",
+    "example": "Die Stimmung ist heute gut."
+  },
+  {
+    "id": "zufrieden",
+    "de": "zufrieden",
+    "ka": "კმაყოფილი",
+    "phonetic": "[tsuˈfʁiːdən]",
+    "cat": "ემოციები",
+    "level": "A2",
+    "article": "",
+    "example": "Ich bin mit dem Ergebnis zufrieden."
+  },
+  {
+    "id": "nervoes",
+    "de": "nervös",
+    "ka": "ნერვიული",
+    "phonetic": "[nɛʁˈvøːs]",
+    "cat": "ემოციები",
+    "level": "A2",
+    "article": "",
+    "example": "Vor der Prüfung bin ich nervös."
+  },
+  {
+    "id": "ruhig",
+    "de": "ruhig",
+    "ka": "მშვიდი",
+    "phonetic": "[ˈʁuːɪç]",
+    "cat": "ემოციები",
+    "level": "A1",
+    "article": "",
+    "example": "Bitte bleib ruhig."
+  },
+  {
+    "id": "ueberrascht",
+    "de": "überrascht",
+    "ka": "გაკვირვებული",
+    "phonetic": "[yːbɐˈʁaʃt]",
+    "cat": "ემოციები",
+    "level": "A2",
+    "article": "",
+    "example": "Ich bin sehr überrascht."
+  },
+  {
+    "id": "hoffen",
+    "de": "hoffen",
+    "ka": "იმედი ქონა",
+    "phonetic": "[ˈhɔfən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Ich hoffe auf gutes Wetter."
+  },
+  {
+    "id": "fuerchten",
+    "de": "fürchten",
+    "ka": "შიში",
+    "phonetic": "[ˈfʏʁçtən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Viele Menschen fürchten den Krieg."
+  },
+  {
+    "id": "lachen",
+    "de": "lachen",
+    "ka": "სიცილი",
+    "phonetic": "[ˈlaxən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Die Kinder lachen laut."
+  },
+  {
+    "id": "weinen",
+    "de": "weinen",
+    "ka": "ტირილი",
+    "phonetic": "[ˈvaɪnən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Warum weinst du?"
+  },
+  {
+    "id": "lieben",
+    "de": "lieben",
+    "ka": "სიყვარული",
+    "phonetic": "[ˈliːbən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Ich liebe meine Familie."
+  },
+  {
+    "id": "die-polizei",
+    "de": "die Polizei",
+    "ka": "პოლიცია",
+    "phonetic": "[diː poliˈtsaɪ]",
+    "cat": "ადგილები",
+    "level": "A2",
+    "article": "die",
+    "example": "Die Polizei ist schon da."
+  },
+  {
+    "id": "die-feuerwehr",
+    "de": "die Feuerwehr",
+    "ka": "სახანძრო",
+    "phonetic": "[diː ˈfɔʏɐveːɐ̯]",
+    "cat": "ადგილები",
+    "level": "A2",
+    "article": "die",
+    "example": "Die Feuerwehr löscht das Feuer."
+  },
+  {
+    "id": "die-strasse",
+    "de": "die Straße",
+    "ka": "ქუჩა",
+    "phonetic": "[diː ˈʃtʁaːsə]",
+    "cat": "ადგილები",
+    "level": "A1",
+    "article": "die",
+    "example": "Die Straße ist sehr lang."
+  },
+  {
+    "id": "die-kreuzung",
+    "de": "die Kreuzung",
+    "ka": "გზაჯვარედინი",
+    "phonetic": "[diː ˈkʁɔʏtsʊŋ]",
+    "cat": "ადგილები",
+    "level": "B1",
+    "article": "die",
+    "example": "An der Kreuzung musst du links abbiegen."
+  },
+  {
+    "id": "die-ampel",
+    "de": "die Ampel",
+    "ka": "შუქნიშანი",
+    "phonetic": "[diː ˈampəl]",
+    "cat": "ადგილები",
+    "level": "A2",
+    "article": "die",
+    "example": "Die Ampel ist rot."
+  },
+  {
+    "id": "der-buergersteig",
+    "de": "der Bürgersteig",
+    "ka": "ტროტუარი",
+    "phonetic": "[deːɐ̯ ˈbʏʁɡɐʃtaɪk]",
+    "cat": "ადგილები",
+    "level": "B1",
+    "article": "der",
+    "example": "Fahrräder dürfen hier nicht auf dem Bürgersteig fahren."
+  },
+  {
+    "id": "die-haltestelle",
+    "de": "die Haltestelle",
+    "ka": "გაჩერება",
+    "phonetic": "[diː ˈhaltəʃtɛlə]",
+    "cat": "ტრანსპორტი",
+    "level": "A2",
+    "article": "die",
+    "example": "Die Haltestelle ist in der Nähe."
+  },
+  {
+    "id": "umsteigen",
+    "de": "umsteigen",
+    "ka": "გადაჯდომა",
+    "phonetic": "[ˈʊmʃtaɪɡən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "In Berlin muss ich zweimal umsteigen."
+  },
+  {
+    "id": "verspaeten",
+    "de": "verspäten",
+    "ka": "დაგვიანება",
+    "phonetic": "[fɛɐ̯ˈʃpɛːtən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Der Zug verspätet sich."
+  },
+  {
+    "id": "parken",
+    "de": "parken",
+    "ka": "პარკირება",
+    "phonetic": "[ˈpaʁkən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Hier darf man nicht parken."
+  },
+  {
+    "id": "der-bildschirm",
+    "de": "der Bildschirm",
+    "ka": "ეკრანი",
+    "phonetic": "[deːɐ̯ ˈbɪltʃɪʁm]",
+    "cat": "ტექნოლოგია",
+    "level": "A2",
+    "article": "der",
+    "example": "Der Bildschirm ist kaputt."
+  },
+  {
+    "id": "die-tastatur",
+    "de": "die Tastatur",
+    "ka": "კლავიატურა",
+    "phonetic": "[diː tastaˈtuːɐ̯]",
+    "cat": "ტექნოლოგია",
+    "level": "A2",
+    "article": "die",
+    "example": "Die Tastatur funktioniert nicht."
+  },
+  {
+    "id": "die-maus",
+    "de": "die Maus",
+    "ka": "მაუსი",
+    "phonetic": "[diː maʊs]",
+    "cat": "ტექნოლოგია",
+    "level": "A2",
+    "article": "die",
+    "example": "Die Maus liegt auf dem Tisch."
+  },
+  {
+    "id": "herunterladen",
+    "de": "herunterladen",
+    "ka": "ჩამოტვირთვა",
+    "phonetic": "[hɛˈʁʊntɐˌlaːdən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Ich lade die Datei herunter."
+  },
+  {
+    "id": "hochladen",
+    "de": "hochladen",
+    "ka": "ატვირთვა",
+    "phonetic": "[ˈhoːxlaːdən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Kannst du das Foto hochladen?"
+  },
+  {
+    "id": "druecken",
+    "de": "drücken",
+    "ka": "დაჭერა",
+    "phonetic": "[ˈdʁʏkən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Drück bitte diesen Knopf."
+  },
+  {
+    "id": "funktionieren",
+    "de": "funktionieren",
+    "ka": "მუშაობა / ფუნქციონირება",
+    "phonetic": "[fʊŋktsioˈniːʁən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Mein Computer funktioniert wieder."
+  },
+  {
+    "id": "kaputt",
+    "de": "kaputt",
+    "ka": "გაფუჭებული",
+    "phonetic": "[kaˈpʊt]",
+    "cat": "ზედსართავები",
+    "level": "A2",
+    "article": "",
+    "example": "Mein Handy ist kaputt."
+  },
+  {
+    "id": "der-vertrag",
+    "de": "der Vertrag",
+    "ka": "კონტრაქტი",
+    "phonetic": "[deːɐ̯ fɛɐ̯ˈtʁaːk]",
+    "cat": "სამსახური",
+    "level": "B1",
+    "article": "der",
+    "example": "Ich habe den Vertrag unterschrieben."
+  },
+  {
+    "id": "unterschreiben",
+    "de": "unterschreiben",
+    "ka": "ხელის მოწერა",
+    "phonetic": "[ˈʊntɐʃʁaɪbən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Bitte hier unterschreiben."
+  },
+  {
+    "id": "kuendigen",
+    "de": "kündigen",
+    "ka": "გათავისუფლება / სამსახურის დატოვება",
+    "phonetic": "[ˈkʏndɪɡən]",
+    "cat": "სამსახური",
+    "level": "B1",
+    "article": "",
+    "example": "Er möchte seine Arbeit kündigen."
+  },
+  {
+    "id": "die-kollegin",
+    "de": "die Kollegin",
+    "ka": "კოლეგა (მდ.)",
+    "phonetic": "[diː kɔˈleːɡɪn]",
+    "cat": "სამსახური",
+    "level": "A2",
+    "article": "die",
+    "example": "Die Kollegin arbeitet im Büro."
+  },
+  {
+    "id": "die-pause",
+    "de": "die Pause",
+    "ka": "შესვენება",
+    "phonetic": "[diː ˈpaʊzə]",
+    "cat": "სამსახური",
+    "level": "A1",
+    "article": "die",
+    "example": "Wir machen jetzt Pause."
+  },
+  {
+    "id": "beschaeftigt",
+    "de": "beschäftigt",
+    "ka": "დაკავებული",
+    "phonetic": "[bəˈʃɛftɪçt]",
+    "cat": "სამსახური",
+    "level": "A2",
+    "article": "",
+    "example": "Ich bin gerade beschäftigt."
+  },
+  {
+    "id": "die-aerztin",
+    "de": "die Ärztin",
+    "ka": "ქალი ექიმი",
+    "phonetic": "[diː ˈɛːɐ̯tstɪn]",
+    "cat": "ჯანმრთელობა",
+    "level": "A2",
+    "article": "die",
+    "example": "Die Ärztin ist sehr freundlich."
+  },
+  {
+    "id": "der-patient",
+    "de": "der Patient",
+    "ka": "პაციენტი",
+    "phonetic": "[deːɐ̯ patiˈɛnt]",
+    "cat": "ჯანმრთელობა",
+    "level": "A2",
+    "article": "der",
+    "example": "Der Patient wartet draußen."
+  },
+  {
+    "id": "die-medizin",
+    "de": "die Medizin",
+    "ka": "მედიცინა / წამალი",
+    "phonetic": "[diː meditsiˈn]",
+    "cat": "ჯანმრთელობა",
+    "level": "A2",
+    "article": "die",
+    "example": "Diese Medizin hilft gut."
+  },
+  {
+    "id": "das-fieber",
+    "de": "das Fieber",
+    "ka": "ტემპერატურა / ცხელება",
+    "phonetic": "[das ˈfiːbɐ]",
+    "cat": "ჯანმრთელობა",
+    "level": "A2",
+    "article": "das",
+    "example": "Das Kind hat Fieber."
+  },
+  {
+    "id": "husten",
+    "de": "husten",
+    "ka": "ხველება",
+    "phonetic": "[ˈhuːstən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Er hustet die ganze Nacht."
+  },
+  {
+    "id": "verletzen",
+    "de": "verletzen",
+    "ka": "დაშავება",
+    "phonetic": "[fɛɐ̯ˈlɛtsən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Er hat sich beim Sport verletzt."
+  },
+  {
+    "id": "die-pflanze",
+    "de": "die Pflanze",
+    "ka": "მცენარე",
+    "phonetic": "[diː ˈpflantsə]",
+    "cat": "ბუნება",
+    "level": "A2",
+    "article": "die",
+    "example": "Die Pflanze braucht Wasser."
+  },
+  {
+    "id": "wachsen",
+    "de": "wachsen",
+    "ka": "ზრდა",
+    "phonetic": "[ˈvaksən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Die Blumen wachsen schnell."
+  },
+  {
+    "id": "trocken",
+    "de": "trocken",
+    "ka": "მშრალი",
+    "phonetic": "[ˈtʁɔkn̩]",
+    "cat": "ბუნება",
+    "level": "A2",
+    "article": "",
+    "example": "Die Erde ist trocken."
+  },
+  {
+    "id": "nass",
+    "de": "nass",
+    "ka": "სველი",
+    "phonetic": "[nas]",
+    "cat": "ზედსართავები",
+    "level": "A1",
+    "article": "",
+    "example": "Meine Haare sind nass."
+  },
+  {
+    "id": "der-fehler",
+    "de": "der Fehler",
+    "ka": "შეცდომა",
+    "phonetic": "[deːɐ̯ ˈfeːlɐ]",
+    "cat": "განათლება",
+    "level": "A1",
+    "article": "der",
+    "example": "Ich habe einen Fehler gemacht."
+  },
+  {
+    "id": "merken",
+    "de": "merken",
+    "ka": "დამახსოვრება",
+    "phonetic": "[ˈmɛʁkən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Ich kann mir das nicht merken."
+  },
+  {
+    "id": "vergessen",
+    "de": "vergessen",
+    "ka": "დავიწყება",
+    "phonetic": "[fɛɐ̯ˈɡɛsən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Ich habe seinen Namen vergessen."
+  },
+  {
+    "id": "bestehen",
+    "de": "bestehen",
+    "ka": "ჩაბარება / შედგენა",
+    "phonetic": "[bəˈʃteːən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Er hat die Prüfung bestanden."
+  },
+  {
+    "id": "durchfallen",
+    "de": "durchfallen",
+    "ka": "ჩაჭრა",
+    "phonetic": "[ˈdʊʁçfalən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Er ist leider durchgefallen."
+  },
+  {
+    "id": "die-note",
+    "de": "die Note",
+    "ka": "შეფასება / ქულა",
+    "phonetic": "[diː ˈnoːtə]",
+    "cat": "განათლება",
+    "level": "A2",
+    "article": "die",
+    "example": "Meine Note ist gut."
+  },
+  {
+    "id": "die-ausbildung",
+    "de": "die Ausbildung",
+    "ka": "პროფესიული განათლება",
+    "phonetic": "[diː ˈaʊsˌbɪldʊŋ]",
+    "cat": "განათლება",
+    "level": "B1",
+    "article": "die",
+    "example": "Sie macht eine Ausbildung."
+  },
+  {
+    "id": "die-nachbarin",
+    "de": "die Nachbarin",
+    "ka": "მეზობელი (მდ.)",
+    "phonetic": "[diː ˈnaxbərɪn]",
+    "cat": "ადამიანი",
+    "level": "A2",
+    "article": "die",
+    "example": "Die Nachbarin wohnt oben."
+  },
+  {
+    "id": "hoeflich",
+    "de": "höflich",
+    "ka": "ზრდილობიანი",
+    "phonetic": "[ˈhøːflɪç]",
+    "cat": "ადამიანი",
+    "level": "A2",
+    "article": "",
+    "example": "Er ist sehr höflich."
+  },
+  {
+    "id": "gemeinsam",
+    "de": "gemeinsam",
+    "ka": "ერთობლივად",
+    "phonetic": "[ɡəˈmaɪnzaːm]",
+    "cat": "ზმნიზედა",
+    "level": "A2",
+    "article": "",
+    "example": "Wir arbeiten gemeinsam."
+  },
+  {
+    "id": "einverstanden",
+    "de": "einverstanden",
+    "ka": "თანახმა",
+    "phonetic": "[aɪnfɛɐ̯ˈʃtandən]",
+    "cat": "ადამიანი",
+    "level": "B1",
+    "article": "",
+    "example": "Ich bin damit einverstanden."
+  },
+  {
+    "id": "streiten",
+    "de": "streiten",
+    "ka": "ჩხუბი / კამათი",
+    "phonetic": "[ˈʃtʁaɪtən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Die Kinder streiten oft."
+  },
+  {
+    "id": "sich-entschuldigen",
+    "de": "sich entschuldigen",
+    "ka": "ბოდიშის მოხდა",
+    "phonetic": "[zɪç ɛntˈʃʊldɪɡən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Er entschuldigt sich für den Fehler."
+  },
+  {
+    "id": "vertrauen",
+    "de": "vertrauen",
+    "ka": "ნდობა",
+    "phonetic": "[fɛɐ̯ˈtʁaʊən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Ich vertraue dir."
+  },
+  {
+    "id": "ehrlich",
+    "de": "ehrlich",
+    "ka": "პატიოსანი",
+    "phonetic": "[ˈeːɐ̯lɪç]",
+    "cat": "ადამიანი",
+    "level": "A2",
+    "article": "",
+    "example": "Sie ist immer ehrlich."
+  },
+  {
+    "id": "der-eingang",
+    "de": "der Eingang",
+    "ka": "შესასვლელი",
+    "phonetic": "[deːɐ̯ ˈaɪnɡaŋ]",
+    "cat": "სახლი",
+    "level": "A2",
+    "article": "der",
+    "example": "Der Eingang ist hinten."
+  },
+  {
+    "id": "der-ausgang",
+    "de": "der Ausgang",
+    "ka": "გასასვლელი",
+    "phonetic": "[deːɐ̯ ˈaʊsɡaŋ]",
+    "cat": "სახლი",
+    "level": "A2",
+    "article": "der",
+    "example": "Wo ist der Ausgang?"
+  },
+  {
+    "id": "der-schluessel",
+    "de": "der Schlüssel",
+    "ka": "გასაღები",
+    "phonetic": "[deːɐ̯ ˈʃlʏsl̩]",
+    "cat": "სახლი",
+    "level": "A1",
+    "article": "der",
+    "example": "Ich finde meinen Schlüssel nicht."
+  },
+  {
+    "id": "das-schloss",
+    "de": "das Schloss",
+    "ka": "საკეტი",
+    "phonetic": "[das ʃlɔs]",
+    "cat": "სახლი",
+    "level": "B1",
+    "article": "das",
+    "example": "Das Schloss ist kaputt."
+  },
+  {
+    "id": "oeffnen",
+    "de": "öffnen",
+    "ka": "გაღება",
+    "phonetic": "[ˈœfnən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Kannst du das Fenster öffnen?"
+  },
+  {
+    "id": "schliessen",
+    "de": "schließen",
+    "ka": "დახურვა",
+    "phonetic": "[ˈʃliːsən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Bitte die Tür schließen."
+  },
+  {
+    "id": "putzen",
+    "de": "putzen",
+    "ka": "დასუფთავება",
+    "phonetic": "[ˈpʊtsən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Ich putze die Küche."
+  },
+  {
+    "id": "der-spiegel",
+    "de": "der Spiegel",
+    "ka": "სარკე",
+    "phonetic": "[deːɐ̯ ˈʃpiːɡl̩]",
+    "cat": "სახლი",
+    "level": "A2",
+    "article": "der",
+    "example": "Der Spiegel hängt an der Wand."
+  },
+  {
+    "id": "die-lampe",
+    "de": "die Lampe",
+    "ka": "ლამპა",
+    "phonetic": "[diː ˈlampə]",
+    "cat": "სახლი",
+    "level": "A1",
+    "article": "die",
+    "example": "Die Lampe ist sehr hell."
+  },
+  {
+    "id": "die-decke",
+    "de": "die Decke",
+    "ka": "ჭერი",
+    "phonetic": "[diː ˈdɛkə]",
+    "cat": "სახლი",
+    "level": "A2",
+    "article": "die",
+    "example": "Die Decke ist weiß."
+  },
+  {
+    "id": "der-boden",
+    "de": "der Boden",
+    "ka": "იატაკი",
+    "phonetic": "[deːɐ̯ ˈboːdn̩]",
+    "cat": "სახლი",
+    "level": "A2",
+    "article": "der",
+    "example": "Der Boden ist nass."
+  },
+  {
+    "id": "die-ecke",
+    "de": "die Ecke",
+    "ka": "კუთხე",
+    "phonetic": "[diː ˈɛkə]",
+    "cat": "სახლი",
+    "level": "A2",
+    "article": "die",
+    "example": "Der Stuhl steht in der Ecke."
+  },
+  {
+    "id": "haengen",
+    "de": "hängen",
+    "ka": "კიდება",
+    "phonetic": "[ˈhɛŋən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Das Bild hängt an der Wand."
+  },
+  {
+    "id": "liegen",
+    "de": "liegen",
+    "ka": "წოლა / მდებარეობა",
+    "phonetic": "[ˈliːɡən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Das Handy liegt auf dem Tisch."
+  },
+  {
+    "id": "stellen",
+    "de": "stellen",
+    "ka": "დადგმა",
+    "phonetic": "[ˈʃtɛlən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Stell die Tasche hierhin."
+  },
+  {
+    "id": "bewegen",
+    "de": "bewegen",
+    "ka": "მოძრაობა",
+    "phonetic": "[bəˈveːɡən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Bitte nicht bewegen."
+  },
+  {
+    "id": "tragen",
+    "de": "tragen",
+    "ka": "ტარება",
+    "phonetic": "[ˈtʁaːɡən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Er trägt eine schwere Tasche."
+  },
+  {
+    "id": "die-tasche",
+    "de": "die Tasche",
+    "ka": "ჩანთა",
+    "phonetic": "[diː ˈtaʃə]",
+    "cat": "ტანსაცმელი",
+    "level": "A1",
+    "article": "die",
+    "example": "Die Tasche ist schwer."
+  },
+  {
+    "id": "anziehen",
+    "de": "anziehen",
+    "ka": "ჩაცმა",
+    "phonetic": "[ˈantsiːən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Zieh bitte eine Jacke an."
+  },
+  {
+    "id": "ausziehen",
+    "de": "ausziehen",
+    "ka": "გახდა",
+    "phonetic": "[ˈaʊstsiːən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Er zieht die Schuhe aus."
+  },
+  {
+    "id": "passen",
+    "de": "passen",
+    "ka": "მორგება / შესაფერისობა",
+    "phonetic": "[ˈpasən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Die Schuhe passen gut."
+  },
+  {
+    "id": "eng",
+    "de": "eng",
+    "ka": "ვიწრო",
+    "phonetic": "[ɛŋ]",
+    "cat": "ტანსაცმელი",
+    "level": "A2",
+    "article": "",
+    "example": "Das T-Shirt ist zu eng."
+  },
+  {
+    "id": "locker",
+    "de": "locker",
+    "ka": "თავისუფალი / ფართო",
+    "phonetic": "[ˈlɔkɐ]",
+    "cat": "ტანსაცმელი",
+    "level": "B1",
+    "article": "",
+    "example": "Die Hose sitzt locker."
+  },
+  {
+    "id": "der-geschmack",
+    "de": "der Geschmack",
+    "ka": "გემო",
+    "phonetic": "[deːɐ̯ ɡəˈʃmak]",
+    "cat": "საჭმელ-სასმელი",
+    "level": "A2",
+    "article": "der",
+    "example": "Der Geschmack ist interessant."
+  },
+  {
+    "id": "suess",
+    "de": "süß",
+    "ka": "ტკბილი",
+    "phonetic": "[zyːs]",
+    "cat": "საჭმელ-სასმელი",
+    "level": "A1",
+    "article": "",
+    "example": "Der Kuchen ist süß."
+  },
+  {
+    "id": "sauer",
+    "de": "sauer",
+    "ka": "მჟავე",
+    "phonetic": "[ˈzaʊɐ]",
+    "cat": "საჭმელ-სასმელი",
+    "level": "A2",
+    "article": "",
+    "example": "Die Zitrone ist sauer."
+  },
+  {
+    "id": "bitter",
+    "de": "bitter",
+    "ka": "მწარე",
+    "phonetic": "[ˈbɪtɐ]",
+    "cat": "საჭმელ-სასმელი",
+    "level": "A2",
+    "article": "",
+    "example": "Der Kaffee ist bitter."
+  },
+  {
+    "id": "salzig",
+    "de": "salzig",
+    "ka": "მარილიანი",
+    "phonetic": "[ˈzaltsɪç]",
+    "cat": "საჭმელ-სასმელი",
+    "level": "A2",
+    "article": "",
+    "example": "Die Suppe ist zu salzig."
+  },
+  {
+    "id": "braten",
+    "de": "braten",
+    "ka": "შეწვა",
+    "phonetic": "[ˈbʁaːtən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Er brät das Fleisch in der Pfanne."
+  },
+  {
+    "id": "backen",
+    "de": "backen",
+    "ka": "ცხობა",
+    "phonetic": "[ˈbakən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Meine Mutter backt Brot."
+  },
+  {
+    "id": "probieren",
+    "de": "probieren",
+    "ka": "გასინჯვა",
+    "phonetic": "[pʁoˈbiːʁən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Probier mal diese Pizza."
+  },
+  {
+    "id": "der-himmel",
+    "de": "der Himmel",
+    "ka": "ცა",
+    "phonetic": "[deːɐ̯ ˈhɪməl]",
+    "cat": "ამინდი",
+    "level": "A1",
+    "article": "der",
+    "example": "Der Himmel ist blau."
+  },
+  {
+    "id": "stark",
+    "de": "stark",
+    "ka": "ძლიერი",
+    "phonetic": "[ʃtaʁk]",
+    "cat": "ზედსართავები",
+    "level": "A1",
+    "article": "",
+    "example": "Heute ist der Wind stark."
+  },
+  {
+    "id": "schwach",
+    "de": "schwach",
+    "ka": "სუსტი",
+    "phonetic": "[ʃvax]",
+    "cat": "ზედსართავები",
+    "level": "A2",
+    "article": "",
+    "example": "Er fühlt sich schwach."
+  },
+  {
+    "id": "kuehl",
+    "de": "kühl",
+    "ka": "გრილი",
+    "phonetic": "[kyːl]",
+    "cat": "ამინდი",
+    "level": "A2",
+    "article": "",
+    "example": "Heute Abend wird es kühl."
+  },
+  {
+    "id": "frieren",
+    "de": "frieren",
+    "ka": "გაყინვა / სცივა",
+    "phonetic": "[ˈfʁiːʁən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Ich friere ohne Jacke."
+  },
+  {
+    "id": "scheusslich",
+    "de": "scheußlich",
+    "ka": "საშინელი",
+    "phonetic": "[ˈʃɔʏslɪç]",
+    "cat": "ზედსართავები",
+    "level": "B1",
+    "article": "",
+    "example": "Das Wetter ist heute scheußlich."
+  },
+  {
+    "id": "ploetzlich",
+    "de": "plötzlich",
+    "ka": "მოულოდნელად",
+    "phonetic": "[ˈplœtslɪç]",
+    "cat": "ზმნიზედა",
+    "level": "B1",
+    "article": "",
+    "example": "Plötzlich begann es zu regnen."
+  },
+  {
+    "id": "die-reisegruppe",
+    "de": "die Reisegruppe",
+    "ka": "ტურისტული ჯგუფი",
+    "phonetic": "[diː ˈʁaɪzəˌɡʁʊpə]",
+    "cat": "მოგზაურობა",
+    "level": "B1",
+    "article": "die",
+    "example": "Die Reisegruppe kommt aus Spanien."
+  },
+  {
+    "id": "der-reisefuehrer",
+    "de": "der Reiseführer",
+    "ka": "გიდი",
+    "phonetic": "[deːɐ̯ ˈʁaɪzəˌfyːʁɐ]",
+    "cat": "მოგზაურობა",
+    "level": "B1",
+    "article": "der",
+    "example": "Der Reiseführer erklärt die Geschichte der Stadt."
+  },
+  {
+    "id": "die-unterkunft",
+    "de": "die Unterkunft",
+    "ka": "საცხოვრებელი ადგილი",
+    "phonetic": "[diː ˈʊntɐkʊnft]",
+    "cat": "მოგზაურობა",
+    "level": "B1",
+    "article": "die",
+    "example": "Die Unterkunft ist sehr gemütlich."
+  },
+  {
+    "id": "reservieren",
+    "de": "reservieren",
+    "ka": "დაჯავშნა",
+    "phonetic": "[ʁezɛʁˈviːʁən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Wir reservieren ein Hotelzimmer."
+  },
+  {
+    "id": "der-pass",
+    "de": "der Pass",
+    "ka": "პასპორტი",
+    "phonetic": "[deːɐ̯ pas]",
+    "cat": "მოგზაურობა",
+    "level": "A2",
+    "article": "der",
+    "example": "Vergiss deinen Pass nicht."
+  },
+  {
+    "id": "die-grenze",
+    "de": "die Grenze",
+    "ka": "საზღვარი",
+    "phonetic": "[diː ˈɡʁɛntsə]",
+    "cat": "ზოგადი",
+    "level": "A2",
+    "article": "die",
+    "example": "Wir überqueren die Grenze."
+  },
+  {
+    "id": "kontrollieren",
+    "de": "kontrollieren",
+    "ka": "შემოწმება",
+    "phonetic": "[kɔntʁoˈliːʁən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Die Polizei kontrolliert die Autos."
+  },
+  {
+    "id": "einsteigen",
+    "de": "einsteigen",
+    "ka": "ასვლა ტრანსპორტში",
+    "phonetic": "[ˈaɪnʃtaɪɡən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Bitte schnell einsteigen."
+  },
+  {
+    "id": "aussteigen",
+    "de": "aussteigen",
+    "ka": "ჩამოსვლა ტრანსპორტიდან",
+    "phonetic": "[ˈaʊsʃtaɪɡən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Wir steigen an der nächsten Station aus."
+  },
+  {
+    "id": "die-verspaetung",
+    "de": "die Verspätung",
+    "ka": "დაგვიანება",
+    "phonetic": "[diː fɛɐ̯ˈʃpɛːtʊŋ]",
+    "cat": "ტრანსპორტი",
+    "level": "B1",
+    "article": "die",
+    "example": "Der Zug hat zwanzig Minuten Verspätung."
+  },
+  {
+    "id": "der-einwohner",
+    "de": "der Einwohner",
+    "ka": "მოსახლე",
+    "phonetic": "[deːɐ̯ ˈaɪnˌvoːnɐ]",
+    "cat": "ადგილები",
+    "level": "B1",
+    "article": "der",
+    "example": "Berlin hat viele Einwohner."
+  },
+  {
+    "id": "die-hauptstadt",
+    "de": "die Hauptstadt",
+    "ka": "დედაქალაქი",
+    "phonetic": "[diː ˈhaʊptʃtat]",
+    "cat": "ადგილები",
+    "level": "A2",
+    "article": "die",
+    "example": "Berlin ist die Hauptstadt Deutschlands."
+  },
+  {
+    "id": "der-verkehr",
+    "de": "der Verkehr",
+    "ka": "ტრანსპორტი / მოძრაობა",
+    "phonetic": "[deːɐ̯ fɛɐ̯ˈkeːɐ̯]",
+    "cat": "ადგილები",
+    "level": "A2",
+    "article": "der",
+    "example": "Der Verkehr ist morgens schlimm."
+  },
+  {
+    "id": "der-stau",
+    "de": "der Stau",
+    "ka": "საცობი",
+    "phonetic": "[deːɐ̯ ʃtaʊ]",
+    "cat": "ადგილები",
+    "level": "A2",
+    "article": "der",
+    "example": "Wir stehen im Stau."
+  },
+  {
+    "id": "die-tankstelle",
+    "de": "die Tankstelle",
+    "ka": "ბენზინგასამართი",
+    "phonetic": "[diː ˈtaŋkˌʃtɛlə]",
+    "cat": "ადგილები",
+    "level": "A2",
+    "article": "die",
+    "example": "Die nächste Tankstelle ist dort."
+  },
+  {
+    "id": "die-werkstatt",
+    "de": "die Werkstatt",
+    "ka": "სახელოსნო",
+    "phonetic": "[diː ˈvɛʁkʃtat]",
+    "cat": "ადგილები",
+    "level": "B1",
+    "article": "die",
+    "example": "Das Auto ist in der Werkstatt."
+  },
+  {
+    "id": "reparieren",
+    "de": "reparieren",
+    "ka": "შეკეთება",
+    "phonetic": "[ʁepaˈʁiːʁən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Er repariert sein Fahrrad."
+  },
+  {
+    "id": "beschreiben",
+    "de": "beschreiben",
+    "ka": "აღწერა",
+    "phonetic": "[bəˈʃʁaɪbən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Kannst du den Mann beschreiben?"
+  },
+  {
+    "id": "verlassen",
+    "de": "verlassen",
+    "ka": "დატოვება",
+    "phonetic": "[fɛɐ̯ˈlasən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Er verlässt das Gebäude."
+  },
+  {
+    "id": "der-alltag",
+    "de": "der Alltag",
+    "ka": "ყოველდღიურობა",
+    "phonetic": "[deːɐ̯ ˈaltak]",
+    "cat": "ყოველდღიური",
+    "level": "B1",
+    "article": "der",
+    "example": "Mein Alltag ist stressig."
+  },
+  {
+    "id": "sich-beeilen",
+    "de": "sich beeilen",
+    "ka": "აჩქარება",
+    "phonetic": "[zɪç bəˈaɪlən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Wir müssen uns beeilen."
+  },
+  {
+    "id": "warten",
+    "de": "warten",
+    "ka": "ლოდინი",
+    "phonetic": "[ˈvaʁtən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Ich warte auf den Bus."
+  },
+  {
+    "id": "die-entscheidung",
+    "de": "die Entscheidung",
+    "ka": "გადაწყვეტილება",
+    "phonetic": "[diː ɛntˈʃaɪdʊŋ]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "die",
+    "example": "Das war eine gute Entscheidung."
+  },
+  {
+    "id": "die-schwierigkeit",
+    "de": "die Schwierigkeit",
+    "ka": "სირთულე",
+    "phonetic": "[diː ˈʃviːʁɪçkaɪt]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "die",
+    "example": "Die Aufgabe hat viele Schwierigkeiten."
+  },
+  {
+    "id": "einfacher",
+    "de": "einfacher",
+    "ka": "უფრო მარტივი",
+    "phonetic": "[ˈaɪnfaxɐ]",
+    "cat": "ზედსართავები",
+    "level": "A2",
+    "article": "",
+    "example": "Diese Übung ist einfacher."
+  },
+  {
+    "id": "schwieriger",
+    "de": "schwieriger",
+    "ka": "უფრო რთული",
+    "phonetic": "[ˈʃviːʁɪɡɐ]",
+    "cat": "ზედსართავები",
+    "level": "A2",
+    "article": "",
+    "example": "Deutsch ist schwieriger als Englisch."
+  },
+  {
+    "id": "zustimmen",
+    "de": "zustimmen",
+    "ka": "დათანხმება",
+    "phonetic": "[ˈtsuːʃtɪmən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Ich stimme dir zu."
+  },
+  {
+    "id": "ablehnen",
+    "de": "ablehnen",
+    "ka": "უარის თქმა",
+    "phonetic": "[ˈapleːnən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Er lehnt das Angebot ab."
+  },
+  {
+    "id": "das-angebot",
+    "de": "das Angebot",
+    "ka": "შეთავაზება",
+    "phonetic": "[das ˈanɡəˌboːt]",
+    "cat": "კომუნიკაცია",
+    "level": "A2",
+    "article": "das",
+    "example": "Das Angebot ist interessant."
+  },
+  {
+    "id": "der-rat",
+    "de": "der Rat",
+    "ka": "რჩევა",
+    "phonetic": "[deːɐ̯ ʁaːt]",
+    "cat": "კომუნიკაცია",
+    "level": "B1",
+    "article": "der",
+    "example": "Danke für deinen Rat."
+  },
+  {
+    "id": "erlauben",
+    "de": "erlauben",
+    "ka": "ნებართვის მიცემა / ნებართვა",
+    "phonetic": "[ɛɐ̯ˈlaʊbən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Meine Eltern erlauben das nicht."
+  },
+  {
+    "id": "verbieten",
+    "de": "verbieten",
+    "ka": "აკრძალვა",
+    "phonetic": "[fɛɐ̯ˈbiːtən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Rauchen ist hier verboten."
+  },
+  {
+    "id": "die-regel",
+    "de": "die Regel",
+    "ka": "წესი",
+    "phonetic": "[diː ˈʁeːɡl̩]",
+    "cat": "კომუნიკაცია",
+    "level": "A2",
+    "article": "die",
+    "example": "Das ist eine wichtige Regel."
+  },
+  {
+    "id": "die-gewohnheit",
+    "de": "die Gewohnheit",
+    "ka": "ჩვევა",
+    "phonetic": "[diː ɡəˈvoːnhaɪt]",
+    "cat": "ყოველდღიური",
+    "level": "B1",
+    "article": "die",
+    "example": "Sport ist eine gute Gewohnheit."
+  },
+  {
+    "id": "der-bildschirmfoto",
+    "de": "der Bildschirmfoto",
+    "ka": "სქრინშოტი",
+    "phonetic": "[deːɐ̯ ˈbɪltʃɪʁmˌfoːto]",
+    "cat": "ტექნოლოგია",
+    "level": "B1",
+    "article": "das",
+    "example": "Mach bitte ein Bildschirmfoto."
+  },
+  {
+    "id": "die-verbindung",
+    "de": "die Verbindung",
+    "ka": "კავშირი",
+    "phonetic": "[diː fɛɐ̯ˈbɪndʊŋ]",
+    "cat": "ტექნოლოგია",
+    "level": "B1",
+    "article": "die",
+    "example": "Die Internetverbindung ist langsam."
+  },
+  {
+    "id": "speichern",
+    "de": "speichern",
+    "ka": "შენახვა",
+    "phonetic": "[ˈʃpaɪçɐn]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Vergiss nicht die Datei zu speichern."
+  },
+  {
+    "id": "loeschen",
+    "de": "löschen",
+    "ka": "წაშლა",
+    "phonetic": "[ˈlœʃən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Ich lösche alte Fotos."
+  },
+  {
+    "id": "verbinden",
+    "de": "verbinden",
+    "ka": "დაკავშირება",
+    "phonetic": "[fɛɐ̯ˈbɪndən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Verbinde das Handy mit dem WLAN."
+  },
+  {
+    "id": "trennen",
+    "de": "trennen",
+    "ka": "გათიშვა / განცალკევება",
+    "phonetic": "[ˈtʁɛnən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Die Verbindung wurde getrennt."
+  },
+  {
+    "id": "der-benutzer",
+    "de": "der Benutzer",
+    "ka": "მომხმარებელი",
+    "phonetic": "[deːɐ̯ bəˈnʊttsɐ]",
+    "cat": "ტექნოლოგია",
+    "level": "B1",
+    "article": "der",
+    "example": "Der Benutzer hat ein neues Passwort."
+  },
+  {
+    "id": "sicher",
+    "de": "sicher",
+    "ka": "უსაფრთხო",
+    "phonetic": "[ˈzɪçɐ]",
+    "cat": "ზედსართავები",
+    "level": "A2",
+    "article": "",
+    "example": "Diese Website ist sicher."
+  },
+  {
+    "id": "unsicher",
+    "de": "unsicher",
+    "ka": "არაუსაფრთხო / დაურწმუნებელი",
+    "phonetic": "[ˈʊnˌzɪçɐ]",
+    "cat": "ზედსართავები",
+    "level": "B1",
+    "article": "",
+    "example": "Er fühlt sich unsicher."
+  },
+  {
+    "id": "die-umgebung",
+    "de": "die Umgebung",
+    "ka": "გარემო",
+    "phonetic": "[diː ʊmˈɡeːbʊŋ]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "die",
+    "example": "Die Umgebung hier ist sehr ruhig."
+  },
+  {
+    "id": "die-bevoelkerung",
+    "de": "die Bevölkerung",
+    "ka": "მოსახლეობა",
+    "phonetic": "[diː bəˈfœlkəʁʊŋ]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "die",
+    "example": "Die Bevölkerung wächst schnell."
+  },
+  {
+    "id": "die-erfahrungsaustausch",
+    "de": "die Erfahrungsaustausch",
+    "ka": "გამოცდილების გაზიარება",
+    "phonetic": "[diː ɛɐ̯ˈfaːʁʊŋsˌaʊstaʊʃ]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "der",
+    "example": "Der Erfahrungsaustausch hilft allen."
+  },
+  {
+    "id": "die-gemeinsamkeit",
+    "de": "die Gemeinsamkeit",
+    "ka": "მსგავსება",
+    "phonetic": "[diː ɡəˈmaɪnzaːmkaɪt]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "die",
+    "example": "Die beiden Kulturen haben viele Gemeinsamkeiten."
+  },
+  {
+    "id": "die-ursache",
+    "de": "die Ursache",
+    "ka": "მიზეზი",
+    "phonetic": "[diː ˈuːɐ̯zaxə]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "die",
+    "example": "Die Ursache ist noch unbekannt."
+  },
+  {
+    "id": "die-wirkung",
+    "de": "die Wirkung",
+    "ka": "ეფექტი / გავლენა",
+    "phonetic": "[diː ˈvɪʁkʊŋ]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "die",
+    "example": "Die Medizin zeigt gute Wirkung."
+  },
+  {
+    "id": "beobachten",
+    "de": "beobachten",
+    "ka": "დაკვირვება",
+    "phonetic": "[bəˈʔɔbaxtən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Die Kinder beobachten die Tiere."
+  },
+  {
+    "id": "entdecken",
+    "de": "entdecken",
+    "ka": "აღმოჩენა",
+    "phonetic": "[ɛntˈdɛkən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Wir entdecken neue Orte."
+  },
+  {
+    "id": "veraendern",
+    "de": "verändern",
+    "ka": "შეცვლა",
+    "phonetic": "[fɛɐ̯ˈʔɛndɐn]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Die Stadt verändert sich stark."
+  },
+  {
+    "id": "verbrauchen",
+    "de": "verbrauchen",
+    "ka": "მოხმარება",
+    "phonetic": "[fɛɐ̯ˈbʁaʊxən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Das Auto verbraucht viel Benzin."
+  },
+  {
+    "id": "vermeiden",
+    "de": "vermeiden",
+    "ka": "თავიდან აცილება",
+    "phonetic": "[fɛɐ̯ˈmaɪdən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Bitte vermeide Stress."
+  },
+  {
+    "id": "unterstuetzen",
+    "de": "unterstützen",
+    "ka": "მხარდაჭერა",
+    "phonetic": "[ˌʊntɐˈʃtʏtsən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Freunde unterstützen sich gegenseitig."
+  },
+  {
+    "id": "verbessert",
+    "de": "verbessert",
+    "ka": "გაუმჯობესებული",
+    "phonetic": "[fɛɐ̯ˈbɛsɐt]",
+    "cat": "ზედსართავები",
+    "level": "B1",
+    "article": "",
+    "example": "Die Situation ist verbessert."
+  },
+  {
+    "id": "erweitern",
+    "de": "erweitern",
+    "ka": "გაფართოება",
+    "phonetic": "[ɛɐ̯ˈvaɪtɐn]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Wir erweitern unser Wissen."
+  },
+  {
+    "id": "reduzieren",
+    "de": "reduzieren",
+    "ka": "შემცირება",
+    "phonetic": "[ʁeduˈtsiːʁən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Wir müssen die Kosten reduzieren."
+  },
+  {
+    "id": "der-fortschritt",
+    "de": "der Fortschritt",
+    "ka": "პროგრესი",
+    "phonetic": "[deːɐ̯ ˈfɔʁtʃʁɪt]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "der",
+    "example": "Die Technik macht große Fortschritte."
+  },
+  {
+    "id": "die-auswahl",
+    "de": "die Auswahl",
+    "ka": "არჩევანი",
+    "phonetic": "[diː ˈaʊsvaːl]",
+    "cat": "ზოგადი",
+    "level": "A2",
+    "article": "die",
+    "example": "Die Auswahl ist groß."
+  },
+  {
+    "id": "die-verbindungsmoeglichkeit",
+    "de": "die Verbindungsmöglichkeit",
+    "ka": "დაკავშირების შესაძლებლობა",
+    "phonetic": "[diː fɛɐ̯ˈbɪndʊŋsˌmøːklɪçkaɪt]",
+    "cat": "ტექნოლოგია",
+    "level": "B1",
+    "article": "die",
+    "example": "Es gibt viele Verbindungsmöglichkeiten."
+  },
+  {
+    "id": "der-zugriff",
+    "de": "der Zugriff",
+    "ka": "წვდომა",
+    "phonetic": "[deːɐ̯ ˈtsuːɡʁɪf]",
+    "cat": "ტექნოლოგია",
+    "level": "B1",
+    "article": "der",
+    "example": "Nur Mitarbeiter haben Zugriff."
+  },
+  {
+    "id": "die-datei",
+    "de": "die Datei",
+    "ka": "ფაილი",
+    "phonetic": "[diː daˈtaɪ]",
+    "cat": "ტექნოლოგია",
+    "level": "A2",
+    "article": "die",
+    "example": "Die Datei ist gespeichert."
+  },
+  {
+    "id": "der-ordner",
+    "de": "der Ordner",
+    "ka": "საქაღალდე",
+    "phonetic": "[deːɐ̯ ˈɔʁdnɐ]",
+    "cat": "ტექნოლოგია",
+    "level": "A2",
+    "article": "der",
+    "example": "Der Ordner ist leer."
+  },
+  {
+    "id": "aktualisieren",
+    "de": "aktualisieren",
+    "ka": "განახლება",
+    "phonetic": "[aktualiˈziːʁən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Bitte aktualisiere die App."
+  },
+  {
+    "id": "installieren",
+    "de": "installieren",
+    "ka": "დაყენება / ინსტალაცია",
+    "phonetic": "[ɪnstaliˈʁən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Ich installiere ein neues Programm."
+  },
+  {
+    "id": "der-bereich",
+    "de": "der Bereich",
+    "ka": "სფერო / განყოფილება",
+    "phonetic": "[deːɐ̯ bəˈʁaɪç]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "der",
+    "example": "Dieser Bereich ist geschlossen."
+  },
+  {
+    "id": "die-taetigkeit",
+    "de": "die Tätigkeit",
+    "ka": "საქმიანობა",
+    "phonetic": "[diː ˈteːtɪçkaɪt]",
+    "cat": "სამსახური",
+    "level": "B1",
+    "article": "die",
+    "example": "Seine Tätigkeit ist interessant."
+  },
+  {
+    "id": "die-zusammenarbeit",
+    "de": "die Zusammenarbeit",
+    "ka": "თანამშრომლობა",
+    "phonetic": "[diː tsuˈzamənˌaʁbaɪt]",
+    "cat": "სამსახური",
+    "level": "B1",
+    "article": "die",
+    "example": "Die Zusammenarbeit läuft gut."
+  },
+  {
+    "id": "die-leistung",
+    "de": "die Leistung",
+    "ka": "შედეგი / შესრულება",
+    "phonetic": "[diː ˈlaɪstʊŋ]",
+    "cat": "სამსახური",
+    "level": "B1",
+    "article": "die",
+    "example": "Seine Leistung ist hervorragend."
+  },
+  {
+    "id": "selbststaendig",
+    "de": "selbstständig",
+    "ka": "დამოუკიდებელი",
+    "phonetic": "[ˈzɛlpstˌʃtɛndɪç]",
+    "cat": "ზედსართავები",
+    "level": "B1",
+    "article": "",
+    "example": "Sie arbeitet selbstständig."
+  },
+  {
+    "id": "zuverlaessig",
+    "de": "zuverlässig",
+    "ka": "საიმედო",
+    "phonetic": "[tsuˈfɛʁlɛsɪç]",
+    "cat": "ზედსართავები",
+    "level": "B1",
+    "article": "",
+    "example": "Er ist sehr zuverlässig."
+  },
+  {
+    "id": "puenktlich",
+    "de": "pünktlich",
+    "ka": "პუნქტუალური",
+    "phonetic": "[ˈpʏŋktlɪç]",
+    "cat": "ზედსართავები",
+    "level": "A2",
+    "article": "",
+    "example": "Der Zug ist pünktlich."
+  },
+  {
+    "id": "geduldig",
+    "de": "geduldig",
+    "ka": "მომთმენი",
+    "phonetic": "[ɡəˈdʊldɪç]",
+    "cat": "ზედსართავები",
+    "level": "B1",
+    "article": "",
+    "example": "Die Lehrerin ist geduldig."
+  },
+  {
+    "id": "die-erinnerung",
+    "de": "die Erinnerung",
+    "ka": "მოგონება",
+    "phonetic": "[diː ɛʁˈɪnəʁʊŋ]",
+    "cat": "ემოციები",
+    "level": "B1",
+    "article": "die",
+    "example": "Das ist eine schöne Erinnerung."
+  },
+  {
+    "id": "der-traum",
+    "de": "der Traum",
+    "ka": "ოცნება",
+    "phonetic": "[deːɐ̯ tʁaʊm]",
+    "cat": "ემოციები",
+    "level": "A2",
+    "article": "der",
+    "example": "Mein Traum ist ein eigenes Haus."
+  },
+  {
+    "id": "die-hoffnung",
+    "de": "die Hoffnung",
+    "ka": "იმედი",
+    "phonetic": "[diː ˈhɔfnʊŋ]",
+    "cat": "ემოციები",
+    "level": "A2",
+    "article": "die",
+    "example": "Die Hoffnung bleibt."
+  },
+  {
+    "id": "die-sorge",
+    "de": "die Sorge",
+    "ka": "ნერვიულობა / წუხილი",
+    "phonetic": "[diː ˈzɔʁɡə]",
+    "cat": "ემოციები",
+    "level": "B1",
+    "article": "die",
+    "example": "Sie macht sich große Sorgen."
+  },
+  {
+    "id": "der-mut",
+    "de": "der Mut",
+    "ka": "სიმამაცე",
+    "phonetic": "[deːɐ̯ muːt]",
+    "cat": "ემოციები",
+    "level": "B1",
+    "article": "der",
+    "example": "Du brauchst Mut."
+  },
+  {
+    "id": "mutig",
+    "de": "mutig",
+    "ka": "მამაცი",
+    "phonetic": "[ˈmuːtɪç]",
+    "cat": "ზედსართავები",
+    "level": "B1",
+    "article": "",
+    "example": "Das war eine mutige Entscheidung."
+  },
+  {
+    "id": "froehlich",
+    "de": "fröhlich",
+    "ka": "მხიარული",
+    "phonetic": "[ˈfʁøːlɪç]",
+    "cat": "ემოციები",
+    "level": "A2",
+    "article": "",
+    "example": "Die Kinder sind fröhlich."
+  },
+  {
+    "id": "entspannt",
+    "de": "entspannt",
+    "ka": "მოდუნებული",
+    "phonetic": "[ɛntˈʃpant]",
+    "cat": "ემოციები",
+    "level": "A2",
+    "article": "",
+    "example": "Nach dem Urlaub bin ich entspannt."
+  },
+  {
+    "id": "der-unfall",
+    "de": "der Unfall",
+    "ka": "ავარია",
+    "phonetic": "[deːɐ̯ ˈʊnfal]",
+    "cat": "ადგილები",
+    "level": "A2",
+    "article": "der",
+    "example": "Es gab einen Unfall auf der Straße."
+  },
+  {
+    "id": "die-gefahr",
+    "de": "die Gefahr",
+    "ka": "საფრთხე",
+    "phonetic": "[diː ɡəˈfaːɐ̯]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "die",
+    "example": "Rauchen ist eine Gefahr für die Gesundheit."
+  },
+  {
+    "id": "vorsichtig",
+    "de": "vorsichtig",
+    "ka": "ფრთხილი",
+    "phonetic": "[foːɐ̯ˈzɪçtɪç]",
+    "cat": "ზედსართავები",
+    "level": "A2",
+    "article": "",
+    "example": "Bitte sei vorsichtig."
+  },
+  {
+    "id": "retten",
+    "de": "retten",
+    "ka": "გადარჩენა",
+    "phonetic": "[ˈʁɛtən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Die Feuerwehr rettet Menschen."
+  },
+  {
+    "id": "warnen",
+    "de": "warnen",
+    "ka": "გაფრთხილება",
+    "phonetic": "[ˈvaʁnən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Die Polizei warnt vor dem Sturm."
+  },
+  {
+    "id": "schuetzen",
+    "de": "schützen",
+    "ka": "დაცვა",
+    "phonetic": "[ˈʃʏtsən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Masken schützen vor Krankheiten."
+  },
+  {
+    "id": "erkennen",
+    "de": "erkennen",
+    "ka": "ამოცნობა",
+    "phonetic": "[ɛɐ̯ˈkɛnən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Ich erkenne ihn nicht."
+  },
+  {
+    "id": "untersuchen",
+    "de": "untersuchen",
+    "ka": "გამოკვლევა",
+    "phonetic": "[ˌʊntɐˈzuːxən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Die Ärzte untersuchen den Patienten."
+  },
+  {
+    "id": "behandeln",
+    "de": "behandeln",
+    "ka": "მკურნალობა",
+    "phonetic": "[bəˈhandəln]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Der Arzt behandelt die Patientin."
+  },
+  {
+    "id": "heilen",
+    "de": "heilen",
+    "ka": "განკურნება",
+    "phonetic": "[ˈhaɪlən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Die Wunde heilt langsam."
+  },
+  {
+    "id": "die-kultur",
+    "de": "die Kultur",
+    "ka": "კულტურა",
+    "phonetic": "[diː kʊlˈtuːɐ̯]",
+    "cat": "ზოგადი",
+    "level": "A2",
+    "article": "die",
+    "example": "Die deutsche Kultur ist interessant."
+  },
+  {
+    "id": "die-tradition",
+    "de": "die Tradition",
+    "ka": "ტრადიცია",
+    "phonetic": "[diː tʁadiˈtsi̯oːn]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "die",
+    "example": "Diese Tradition ist sehr alt."
+  },
+  {
+    "id": "die-generation",
+    "de": "die Generation",
+    "ka": "თაობა",
+    "phonetic": "[diː ɡeneʁaˈtsi̯oːn]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "die",
+    "example": "Die junge Generation nutzt viel Technik."
+  },
+  {
+    "id": "die-zukunft",
+    "de": "die Zukunft",
+    "ka": "მომავალი",
+    "phonetic": "[diː ˈtsuːkʊnft]",
+    "cat": "ზოგადი",
+    "level": "A2",
+    "article": "die",
+    "example": "Niemand kennt die Zukunft."
+  },
+  {
+    "id": "die-vergangenheit",
+    "de": "die Vergangenheit",
+    "ka": "წარსული",
+    "phonetic": "[diː fɛɐ̯ˈɡaŋənhaɪt]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "die",
+    "example": "Wir sprechen über die Vergangenheit."
+  },
+  {
+    "id": "die-gegenwart",
+    "de": "die Gegenwart",
+    "ka": "აწმყო",
+    "phonetic": "[diː ˈɡeːɡn̩ˌvaʁt]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "die",
+    "example": "Man muss in der Gegenwart leben."
+  },
+  {
+    "id": "die-information",
+    "de": "die Information",
+    "ka": "ინფორმაცია",
+    "phonetic": "[diː ɪnfɔʁmaˈtsi̯oːn]",
+    "cat": "ზოგადი",
+    "level": "A2",
+    "article": "die",
+    "example": "Danke für die Information."
+  },
+  {
+    "id": "die-mitteilung",
+    "de": "die Mitteilung",
+    "ka": "შეტყობინება",
+    "phonetic": "[diː ˈmɪttaɪlʊŋ]",
+    "cat": "კომუნიკაცია",
+    "level": "B1",
+    "article": "die",
+    "example": "Ich habe eine wichtige Mitteilung bekommen."
+  },
+  {
+    "id": "die-erklaerung",
+    "de": "die Erklärung",
+    "ka": "განმარტება / ახსნა",
+    "phonetic": "[diː ɛɐ̯ˈklɛːʁʊŋ]",
+    "cat": "განათლება",
+    "level": "A2",
+    "article": "die",
+    "example": "Danke für die Erklärung."
+  },
+  {
+    "id": "der-eindruck",
+    "de": "der Eindruck",
+    "ka": "შთაბეჭდილება",
+    "phonetic": "[deːɐ̯ ˈaɪndʁʊk]",
+    "cat": "ემოციები",
+    "level": "B1",
+    "article": "der",
+    "example": "Berlin macht einen guten Eindruck."
+  },
+  {
+    "id": "die-aufmerksamkeit",
+    "de": "die Aufmerksamkeit",
+    "ka": "ყურადღება",
+    "phonetic": "[diː ˈaʊfˌmɛʁkzaːmkaɪt]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "die",
+    "example": "Danke für deine Aufmerksamkeit."
+  },
+  {
+    "id": "die-konzentration",
+    "de": "die Konzentration",
+    "ka": "კონცენტრაცია",
+    "phonetic": "[diː kɔntsɛntʁaˈtsi̯oːn]",
+    "cat": "განათლება",
+    "level": "B1",
+    "article": "die",
+    "example": "Meine Konzentration ist heute schlecht."
+  },
+  {
+    "id": "die-motivation",
+    "de": "die Motivation",
+    "ka": "მოტივაცია",
+    "phonetic": "[diː motivaˈtsi̯oːn]",
+    "cat": "განათლება",
+    "level": "B1",
+    "article": "die",
+    "example": "Ich habe viel Motivation."
+  },
+  {
+    "id": "der-versuch",
+    "de": "der Versuch",
+    "ka": "ცდა",
+    "phonetic": "[deːɐ̯ fɛɐ̯ˈzuːx]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "der",
+    "example": "Der erste Versuch war erfolgreich."
+  },
+  {
+    "id": "das-verhalten",
+    "de": "das Verhalten",
+    "ka": "ქცევა",
+    "phonetic": "[das fɛɐ̯ˈhaltən]",
+    "cat": "ადამიანი",
+    "level": "B1",
+    "article": "das",
+    "example": "Sein Verhalten war komisch."
+  },
+  {
+    "id": "die-beziehung",
+    "de": "die Beziehung",
+    "ka": "ურთიერთობა",
+    "phonetic": "[diː bəˈtsiːʊŋ]",
+    "cat": "ადამიანი",
+    "level": "B1",
+    "article": "die",
+    "example": "Sie haben eine gute Beziehung."
+  },
+  {
+    "id": "die-freundschaft",
+    "de": "die Freundschaft",
+    "ka": "მეგობრობა",
+    "phonetic": "[diː ˈfʁɔʏntʃaft]",
+    "cat": "ადამიანი",
+    "level": "A2",
+    "article": "die",
+    "example": "Unsere Freundschaft ist stark."
+  },
+  {
+    "id": "der-charakter",
+    "de": "der Charakter",
+    "ka": "ხასიათი",
+    "phonetic": "[deːɐ̯ kaʁakˈteːɐ̯]",
+    "cat": "ადამიანი",
+    "level": "B1",
+    "article": "der",
+    "example": "Er hat einen starken Charakter."
+  },
+  {
+    "id": "missverstehen",
+    "de": "missverstehen",
+    "ka": "არასწორად გაგება",
+    "phonetic": "[mɪsˌfɛɐ̯ˈʃteːən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Bitte missversteh mich nicht."
+  },
+  {
+    "id": "nachdenken",
+    "de": "nachdenken",
+    "ka": "დაფიქრება",
+    "phonetic": "[ˈnaːxˌdɛŋkən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Ich muss darüber nachdenken."
+  },
+  {
+    "id": "ueberlegen",
+    "de": "überlegen",
+    "ka": "ფიქრი / განსჯა",
+    "phonetic": "[yːbɐˈleːɡən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Ich überlege noch."
+  },
+  {
+    "id": "zweifeln",
+    "de": "zweifeln",
+    "ka": "ეჭვი",
+    "phonetic": "[ˈtsvaɪfl̩n]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Er zweifelt an sich selbst."
+  },
+  {
+    "id": "beweisen",
+    "de": "beweisen",
+    "ka": "დამტკიცება",
+    "phonetic": "[bəˈvaɪzən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Kannst du das beweisen?"
+  },
+  {
+    "id": "akzeptieren",
+    "de": "akzeptieren",
+    "ka": "მიღება",
+    "phonetic": "[aktsɛpˈtiːʁən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Ich akzeptiere deine Meinung."
+  },
+  {
+    "id": "ignorieren",
+    "de": "ignorieren",
+    "ka": "იგნორირება",
+    "phonetic": "[ɪɡnoˈʁiːʁən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Warum ignorierst du mich?"
+  },
+  {
+    "id": "bemerken",
+    "de": "bemerken",
+    "ka": "შემჩნევა",
+    "phonetic": "[bəˈmɛʁkən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Niemand hat den Fehler bemerkt."
+  },
+  {
+    "id": "der-wettbewerb",
+    "de": "der Wettbewerb",
+    "ka": "კონკურსი",
+    "phonetic": "[deːɐ̯ bəˈvɛʁpsbəvɛʁp]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "der",
+    "example": "Viele Menschen nehmen am Wettbewerb teil."
+  },
+  {
+    "id": "die-teilnahme",
+    "de": "die Teilnahme",
+    "ka": "მონაწილეობა",
+    "phonetic": "[diː ˈtaɪlnaːmə]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "die",
+    "example": "Die Teilnahme ist kostenlos."
+  },
+  {
+    "id": "teilnehmen",
+    "de": "teilnehmen",
+    "ka": "მონაწილეობის მიღება",
+    "phonetic": "[ˈtaɪlˌneːmən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Ich nehme am Kurs teil."
+  },
+  {
+    "id": "gewinnen",
+    "de": "gewinnen",
+    "ka": "მოგება",
+    "phonetic": "[ɡəˈvɪnən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Unsere Mannschaft hat gewonnen."
+  },
+  {
+    "id": "verlieren",
+    "de": "verlieren",
+    "ka": "წაგება / დაკარგვა",
+    "phonetic": "[fɛɐ̯ˈliːʁən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Ich will nicht verlieren."
+  },
+  {
+    "id": "scheitern",
+    "de": "scheitern",
+    "ka": "წარუმატებლობა",
+    "phonetic": "[ˈʃaɪtɐn]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Der Plan ist gescheitert."
+  },
+  {
+    "id": "versuchen",
+    "de": "versuchen",
+    "ka": "ცდა",
+    "phonetic": "[fɛɐ̯ˈzuːxən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Ich versuche Deutsch zu lernen."
+  },
+  {
+    "id": "schaffen",
+    "de": "schaffen",
+    "ka": "მიღწევა / გაკეთება",
+    "phonetic": "[ˈʃafən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Du schaffst das!"
+  },
+  {
+    "id": "erledigen",
+    "de": "erledigen",
+    "ka": "დასრულება / შესრულება",
+    "phonetic": "[ɛɐ̯ˈleːdɪɡən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Ich erledige meine Aufgaben."
+  },
+  {
+    "id": "der-laerm",
+    "de": "der Lärm",
+    "ka": "ხმაური",
+    "phonetic": "[deːɐ̯ lɛʁm]",
+    "cat": "ადგილები",
+    "level": "A2",
+    "article": "der",
+    "example": "Der Lärm ist unerträglich."
+  },
+  {
+    "id": "die-ruhe",
+    "de": "die Ruhe",
+    "ka": "სიმშვიდე",
+    "phonetic": "[diː ˈʁuːə]",
+    "cat": "ემოციები",
+    "level": "A2",
+    "article": "die",
+    "example": "Ich brauche Ruhe."
+  },
+  {
+    "id": "die-geschwindigkeit",
+    "de": "die Geschwindigkeit",
+    "ka": "სიჩქარე",
+    "phonetic": "[diː ɡəˈʃvɪndɪçkaɪt]",
+    "cat": "ტრანსპორტი",
+    "level": "B1",
+    "article": "die",
+    "example": "Die Geschwindigkeit ist zu hoch."
+  },
+  {
+    "id": "plannen",
+    "de": "plannen",
+    "ka": "დაგეგმვა",
+    "phonetic": "[ˈplaːnən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Wir planen eine Reise."
+  },
+  {
+    "id": "organisieren",
+    "de": "organisieren",
+    "ka": "ორგანიზება",
+    "phonetic": "[ɔʁɡaniˈziːʁən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Sie organisiert die Veranstaltung."
+  },
+  {
+    "id": "einpacken",
+    "de": "einpacken",
+    "ka": "ჩალაგება",
+    "phonetic": "[ˈaɪnˌpakən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Ich packe meinen Koffer ein."
+  },
+  {
+    "id": "mitbringen",
+    "de": "mitbringen",
+    "ka": "მოტანა",
+    "phonetic": "[ˈmɪtˌbʁɪŋən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Bring bitte Getränke mit."
+  },
+  {
+    "id": "abholen",
+    "de": "abholen",
+    "ka": "წაყვანა / წამოყვანა",
+    "phonetic": "[ˈapˌhoːlən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Ich hole dich morgen ab."
+  },
+  {
+    "id": "die-einrichtung",
+    "de": "die Einrichtung",
+    "ka": "მოწყობა / ავეჯი",
+    "phonetic": "[diː ˈaɪnʁɪçtʊŋ]",
+    "cat": "სახლი",
+    "level": "B1",
+    "article": "die",
+    "example": "Die Einrichtung gefällt mir."
+  },
+  {
+    "id": "gemuetlich",
+    "de": "gemütlich",
+    "ka": "მყუდრო",
+    "phonetic": "[ɡəˈmyːtlɪç]",
+    "cat": "სახლი",
+    "level": "A2",
+    "article": "",
+    "example": "Das Café ist gemütlich."
+  },
+  {
+    "id": "hell",
+    "de": "hell",
+    "ka": "ნათელი",
+    "phonetic": "[hɛl]",
+    "cat": "ზედსართავები",
+    "level": "A1",
+    "article": "",
+    "example": "Das Zimmer ist hell."
+  },
+  {
+    "id": "dunkel",
+    "de": "dunkel",
+    "ka": "ბნელი",
+    "phonetic": "[ˈdʊŋkl̩]",
+    "cat": "ზედსართავები",
+    "level": "A1",
+    "article": "",
+    "example": "Es ist schon dunkel."
+  },
+  {
+    "id": "bequem",
+    "de": "bequem",
+    "ka": "კომფორტული",
+    "phonetic": "[bəˈkveːm]",
+    "cat": "ზედსართავები",
+    "level": "A2",
+    "article": "",
+    "example": "Diese Schuhe sind bequem."
+  },
+  {
+    "id": "unangenehm",
+    "de": "unangenehm",
+    "ka": "უსიამოვნო",
+    "phonetic": "[ˈʊnʔanɡəneːm]",
+    "cat": "ზედსართავები",
+    "level": "B1",
+    "article": "",
+    "example": "Der Geruch ist unangenehm."
+  },
+  {
+    "id": "der-duft",
+    "de": "der Duft",
+    "ka": "სურნელი",
+    "phonetic": "[deːɐ̯ dʊft]",
+    "cat": "სახლი",
+    "level": "B1",
+    "article": "der",
+    "example": "Der Duft von Kaffee ist wunderbar."
+  },
+  {
+    "id": "die-temperatur",
+    "de": "die Temperatur",
+    "ka": "ტემპერატურა",
+    "phonetic": "[diː tɛmpəʁaˈtuːɐ̯]",
+    "cat": "ამინდი",
+    "level": "A2",
+    "article": "die",
+    "example": "Die Temperatur sinkt heute Nacht."
+  },
+  {
+    "id": "steigen",
+    "de": "steigen",
+    "ka": "აწევა / ზრდა",
+    "phonetic": "[ˈʃtaɪɡən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Die Preise steigen."
+  },
+  {
+    "id": "sinken",
+    "de": "sinken",
+    "ka": "დაწევა / შემცირება",
+    "phonetic": "[ˈzɪŋkən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Die Temperatur sinkt schnell."
+  },
+  {
+    "id": "die-forschung",
+    "de": "die Forschung",
+    "ka": "კვლევა",
+    "phonetic": "[diː ˈfɔʁʃʊŋ]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "die",
+    "example": "Die Forschung entwickelt sich schnell."
+  },
+  {
+    "id": "der-forscher",
+    "de": "der Forscher",
+    "ka": "მკვლევარი",
+    "phonetic": "[deːɐ̯ ˈfɔʁʃɐ]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "der",
+    "example": "Der Forscher arbeitet im Labor."
+  },
+  {
+    "id": "die-wissenschaft",
+    "de": "die Wissenschaft",
+    "ka": "მეცნიერება",
+    "phonetic": "[diː ˈvɪsn̩ʃaft]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "die",
+    "example": "Wissenschaft ist wichtig für die Zukunft."
+  },
+  {
+    "id": "die-kenntnis",
+    "de": "die Kenntnis",
+    "ka": "ცოდნა",
+    "phonetic": "[diː ˈkɛntnɪs]",
+    "cat": "განათლება",
+    "level": "B1",
+    "article": "die",
+    "example": "Er hat gute Deutschkenntnisse."
+  },
+  {
+    "id": "die-technik",
+    "de": "die Technik",
+    "ka": "ტექნიკა",
+    "phonetic": "[diː ˈtɛçnɪk]",
+    "cat": "ტექნოლოგია",
+    "level": "A2",
+    "article": "die",
+    "example": "Die Technik verändert unser Leben."
+  },
+  {
+    "id": "die-maschine",
+    "de": "die Maschine",
+    "ka": "მანქანა",
+    "phonetic": "[diː maˈʃiːnə]",
+    "cat": "ტექნოლოგია",
+    "level": "A2",
+    "article": "die",
+    "example": "Die Maschine funktioniert gut."
+  },
+  {
+    "id": "das-geraet",
+    "de": "das Gerät",
+    "ka": "მოწყობილობა",
+    "phonetic": "[das ɡəˈʁɛːt]",
+    "cat": "ტექნოლოგია",
+    "level": "A2",
+    "article": "das",
+    "example": "Das Gerät ist neu."
+  },
+  {
+    "id": "der-strom",
+    "de": "der Strom",
+    "ka": "ელექტროენერგია",
+    "phonetic": "[deːɐ̯ ʃtʁoːm]",
+    "cat": "ტექნოლოგია",
+    "level": "A2",
+    "article": "der",
+    "example": "Der Strom ist ausgefallen."
+  },
+  {
+    "id": "die-batterie",
+    "de": "die Batterie",
+    "ka": "ბატარეა",
+    "phonetic": "[diː batəˈʁiː]",
+    "cat": "ტექნოლოგია",
+    "level": "A2",
+    "article": "die",
+    "example": "Die Batterie ist leer."
+  },
+  {
+    "id": "aufladen",
+    "de": "aufladen",
+    "ka": "დამუხტვა",
+    "phonetic": "[ˈaʊflaːdən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Ich lade mein Handy auf."
+  },
+  {
+    "id": "ausschalten",
+    "de": "ausschalten",
+    "ka": "გამორთვა",
+    "phonetic": "[ˈaʊsʃaltən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Bitte das Licht ausschalten."
+  },
+  {
+    "id": "einschalten",
+    "de": "einschalten",
+    "ka": "ჩართვა",
+    "phonetic": "[ˈaɪnʃaltən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Kannst du den Fernseher einschalten?"
+  },
+  {
+    "id": "benutzen",
+    "de": "benutzen",
+    "ka": "გამოყენება",
+    "phonetic": "[bəˈnʊtsən]",
+    "cat": "ზმნები",
+    "level": "A1",
+    "article": "",
+    "example": "Ich benutze den Computer jeden Tag."
+  },
+  {
+    "id": "dringend",
+    "de": "dringend",
+    "ka": "სასწრაფო",
+    "phonetic": "[ˈdʁɪŋənt]",
+    "cat": "ზედსართავები",
+    "level": "B1",
+    "article": "",
+    "example": "Ich brauche dringend Hilfe."
+  },
+  {
+    "id": "notwendig",
+    "de": "notwendig",
+    "ka": "აუცილებელი",
+    "phonetic": "[ˈnoːtvɛndɪç]",
+    "cat": "ზედსართავები",
+    "level": "B1",
+    "article": "",
+    "example": "Das ist notwendig."
+  },
+  {
+    "id": "praktisch",
+    "de": "praktisch",
+    "ka": "პრაქტიკული",
+    "phonetic": "[ˈpʁaktɪʃ]",
+    "cat": "ზედსართავები",
+    "level": "A2",
+    "article": "",
+    "example": "Diese Tasche ist praktisch."
+  },
+  {
+    "id": "unpraktisch",
+    "de": "unpraktisch",
+    "ka": "არაპრაქტიკული",
+    "phonetic": "[ˈʊnpʁaktɪʃ]",
+    "cat": "ზედსართავები",
+    "level": "B1",
+    "article": "",
+    "example": "Das ist unpraktisch."
+  },
+  {
+    "id": "erfolgreich",
+    "de": "erfolgreich",
+    "ka": "წარმატებული",
+    "phonetic": "[ɛɐ̯ˈfɔlkʁaɪç]",
+    "cat": "ზედსართავები",
+    "level": "B1",
+    "article": "",
+    "example": "Das Projekt war erfolgreich."
+  },
+  {
+    "id": "erfolglos",
+    "de": "erfolglos",
+    "ka": "წარუმატებელი",
+    "phonetic": "[ɛɐ̯ˈfɔlkloːs]",
+    "cat": "ზედსართავები",
+    "level": "B1",
+    "article": "",
+    "example": "Der Versuch war erfolglos."
+  },
+  {
+    "id": "die-wirtschaft",
+    "de": "die Wirtschaft",
+    "ka": "ეკონომიკა",
+    "phonetic": "[diː ˈvɪʁtʃaft]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "die",
+    "example": "Die Wirtschaft wächst."
+  },
+  {
+    "id": "die-industrie",
+    "de": "die Industrie",
+    "ka": "ინდუსტრია",
+    "phonetic": "[diː ɪndʊsˈtʁiː]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "die",
+    "example": "Die Industrie produziert Autos."
+  },
+  {
+    "id": "die-produktion",
+    "de": "die Produktion",
+    "ka": "წარმოება",
+    "phonetic": "[diː pʁodʊkˈtsi̯oːn]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "die",
+    "example": "Die Produktion steigt."
+  },
+  {
+    "id": "die-fabrik",
+    "de": "die Fabrik",
+    "ka": "ფაბრიკა",
+    "phonetic": "[diː fabˈʁiːk]",
+    "cat": "ზოგადი",
+    "level": "A2",
+    "article": "die",
+    "example": "Die Fabrik ist groß."
+  },
+  {
+    "id": "der-arbeitnehmer",
+    "de": "der Arbeitnehmer",
+    "ka": "დასაქმებული",
+    "phonetic": "[deːɐ̯ ˈaʁbaɪtˌneːmɐ]",
+    "cat": "სამსახური",
+    "level": "B1",
+    "article": "der",
+    "example": "Die Arbeitnehmer streiken."
+  },
+  {
+    "id": "der-arbeitgeber",
+    "de": "der Arbeitgeber",
+    "ka": "დამსაქმებელი",
+    "phonetic": "[deːɐ̯ ˈaʁbaɪtˌɡeːbɐ]",
+    "cat": "სამსახური",
+    "level": "B1",
+    "article": "der",
+    "example": "Der Arbeitgeber ist zufrieden."
+  },
+  {
+    "id": "die-karriere",
+    "de": "die Karriere",
+    "ka": "კარიერა",
+    "phonetic": "[diː kaˈʁi̯eːʁə]",
+    "cat": "სამსახური",
+    "level": "B1",
+    "article": "die",
+    "example": "Sie macht Karriere."
+  },
+  {
+    "id": "die-chefin",
+    "de": "die Chefin",
+    "ka": "ქალი უფროსი",
+    "phonetic": "[diː ˈʃɛfɪn]",
+    "cat": "სამსახური",
+    "level": "A2",
+    "article": "die",
+    "example": "Die Chefin arbeitet viel."
+  },
+  {
+    "id": "die-umwelt",
+    "de": "die Umwelt",
+    "ka": "გარემო",
+    "phonetic": "[diː ˈʊmvɛlt]",
+    "cat": "ბუნება",
+    "level": "A2",
+    "article": "die",
+    "example": "Wir müssen die Umwelt schützen."
+  },
+  {
+    "id": "die-natur",
+    "de": "die Natur",
+    "ka": "ბუნება",
+    "phonetic": "[diː naˈtuːɐ̯]",
+    "cat": "ბუნება",
+    "level": "A1",
+    "article": "die",
+    "example": "Ich liebe die Natur."
+  },
+  {
+    "id": "die-erde",
+    "de": "die Erde",
+    "ka": "დედამიწა",
+    "phonetic": "[diː ˈeːɐ̯də]",
+    "cat": "ბუნება",
+    "level": "A2",
+    "article": "die",
+    "example": "Die Erde ist unser Planet."
+  },
+  {
+    "id": "das-klima",
+    "de": "das Klima",
+    "ka": "კლიმატი",
+    "phonetic": "[das ˈkliːma]",
+    "cat": "ბუნება",
+    "level": "B1",
+    "article": "das",
+    "example": "Das Klima verändert sich."
+  },
+  {
+    "id": "die-energie",
+    "de": "die Energie",
+    "ka": "ენერგია",
+    "phonetic": "[diː eneʁˈɡiː]",
+    "cat": "ბუნება",
+    "level": "B1",
+    "article": "die",
+    "example": "Solarenergie ist sauber."
+  },
+  {
+    "id": "verschmutzen",
+    "de": "verschmutzen",
+    "ka": "დაბინძურება",
+    "phonetic": "[fɛɐ̯ˈʃmʊtsən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Plastik verschmutzt das Meer."
+  },
+  {
+    "id": "zerstoeren",
+    "de": "zerstören",
+    "ka": "განადგურება",
+    "phonetic": "[tsɛɐ̯ˈʃtøːʁən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Der Sturm zerstörte Häuser."
+  },
+  {
+    "id": "pflanzen",
+    "de": "pflanzen",
+    "ka": "დარგვა",
+    "phonetic": "[ˈpflantsən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Wir pflanzen neue Bäume."
+  },
+  {
+    "id": "sammeln",
+    "de": "sammeln",
+    "ka": "შეგროვება",
+    "phonetic": "[ˈzaml̩n]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Die Kinder sammeln Blumen."
+  },
+  {
+    "id": "die-feier",
+    "de": "die Feier",
+    "ka": "დღესასწაული",
+    "phonetic": "[diː ˈfaɪɐ]",
+    "cat": "სოციალური",
+    "level": "A2",
+    "article": "die",
+    "example": "Die Feier beginnt um acht Uhr."
+  },
+  {
+    "id": "das-geschenk",
+    "de": "das Geschenk",
+    "ka": "საჩუქარი",
+    "phonetic": "[das ɡəˈʃɛŋk]",
+    "cat": "სოციალური",
+    "level": "A1",
+    "article": "das",
+    "example": "Danke für das Geschenk."
+  },
+  {
+    "id": "gratulieren",
+    "de": "gratulieren",
+    "ka": "მილოცვა",
+    "phonetic": "[ɡʁatuliˈʁən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Ich gratuliere dir zum Geburtstag."
+  },
+  {
+    "id": "beleidigt",
+    "de": "beleidigt",
+    "ka": "წყენილი",
+    "phonetic": "[bəˈlaɪdɪçt]",
+    "cat": "ემოციები",
+    "level": "B1",
+    "article": "",
+    "example": "Warum bist du beleidigt?"
+  },
+  {
+    "id": "neugierig",
+    "de": "neugierig",
+    "ka": "ცნობისმოყვარე",
+    "phonetic": "[ˈnɔʏɡiːʁɪç]",
+    "cat": "ადამიანი",
+    "level": "B1",
+    "article": "",
+    "example": "Kinder sind neugierig."
+  },
+  {
+    "id": "freundlich",
+    "de": "freundlich",
+    "ka": "მეგობრული",
+    "phonetic": "[ˈfʁɔʏntlɪç]",
+    "cat": "ადამიანი",
+    "level": "A1",
+    "article": "",
+    "example": "Die Menschen hier sind freundlich."
+  },
+  {
+    "id": "unfreundlich",
+    "de": "unfreundlich",
+    "ka": "არამეგობრული",
+    "phonetic": "[ˈʊnfʁɔʏntlɪç]",
+    "cat": "ადამიანი",
+    "level": "A2",
+    "article": "",
+    "example": "Der Verkäufer war unfreundlich."
+  },
+  {
+    "id": "respektieren",
+    "de": "respektieren",
+    "ka": "პატივისცემა",
+    "phonetic": "[ʁɛspɛkˈtiːʁən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Wir müssen andere Kulturen respektieren."
+  },
+  {
+    "id": "der-muskel",
+    "de": "der Muskel",
+    "ka": "კუნთი",
+    "phonetic": "[deːɐ̯ ˈmʊskl̩]",
+    "cat": "ჯანმრთელობა",
+    "level": "B1",
+    "article": "der",
+    "example": "Sport stärkt die Muskeln."
+  },
+  {
+    "id": "das-gewicht",
+    "de": "das Gewicht",
+    "ka": "წონა",
+    "phonetic": "[das ɡəˈvɪçt]",
+    "cat": "ჯანმრთელობა",
+    "level": "A2",
+    "article": "das",
+    "example": "Ich möchte Gewicht verlieren."
+  },
+  {
+    "id": "trainieren",
+    "de": "trainieren",
+    "ka": "ვარჯიში",
+    "phonetic": "[tʁɛniˈʁən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Er trainiert jeden Tag."
+  },
+  {
+    "id": "rennen",
+    "de": "rennen",
+    "ka": "სირბილი",
+    "phonetic": "[ˈʁɛnən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Die Kinder rennen schnell."
+  },
+  {
+    "id": "springen",
+    "de": "springen",
+    "ka": "ხტომა",
+    "phonetic": "[ˈʃpʁɪŋən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Das Kind springt hoch."
+  },
+  {
+    "id": "atmen",
+    "de": "atmen",
+    "ka": "სუნთქვა",
+    "phonetic": "[ˈaːtmən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Atme tief ein."
+  },
+  {
+    "id": "schwitzen",
+    "de": "schwitzen",
+    "ka": "ოფლიანობა",
+    "phonetic": "[ˈʃvɪtsən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Im Sommer schwitze ich viel."
+  },
+  {
+    "id": "staerken",
+    "de": "stärken",
+    "ka": "გაძლიერება",
+    "phonetic": "[ˈʃtɛʁkən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Sport stärkt den Körper."
+  },
+  {
+    "id": "schaden",
+    "de": "schaden",
+    "ka": "ზიანის მიყენება",
+    "phonetic": "[ˈʃaːdn̩]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Rauchen schadet der Gesundheit."
+  },
+  {
+    "id": "vermehren",
+    "de": "vermehren",
+    "ka": "გაზრდა",
+    "phonetic": "[fɛɐ̯ˈmeːʁən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Die Firma vermehrt ihre Produktion."
+  },
+  {
+    "id": "der-anfang",
+    "de": "der Anfang",
+    "ka": "დასაწყისი",
+    "phonetic": "[deːɐ̯ ˈanfɑŋ]",
+    "cat": "დრო",
+    "level": "A1",
+    "article": "der",
+    "example": "Der Anfang war schwer."
+  },
+  {
+    "id": "das-ende",
+    "de": "das Ende",
+    "ka": "დასასრული",
+    "phonetic": "[das ˈɛndə]",
+    "cat": "დრო",
+    "level": "A1",
+    "article": "das",
+    "example": "Das Ende des Films war traurig."
+  },
+  {
+    "id": "mittlerweile",
+    "de": "mittlerweile",
+    "ka": "ამ დროისთვის",
+    "phonetic": "[ˈmɪtlɐˌvaɪlə]",
+    "cat": "დრო",
+    "level": "B1",
+    "article": "",
+    "example": "Mittlerweile spreche ich besser Deutsch."
+  },
+  {
+    "id": "kuerzlich",
+    "de": "kürzlich",
+    "ka": "ახლახან",
+    "phonetic": "[ˈkʏʁtslɪç]",
+    "cat": "დრო",
+    "level": "B1",
+    "article": "",
+    "example": "Ich habe ihn kürzlich gesehen."
+  },
+  {
+    "id": "sofort",
+    "de": "sofort",
+    "ka": "მაშინვე",
+    "phonetic": "[zoˈfɔʁt]",
+    "cat": "დრო",
+    "level": "A2",
+    "article": "",
+    "example": "Komm sofort hierher!"
+  },
+  {
+    "id": "waehrend",
+    "de": "während",
+    "ka": "დროს",
+    "phonetic": "[ˈvɛːʁənt]",
+    "cat": "კავშირები",
+    "level": "B1",
+    "article": "",
+    "example": "Während des Essens telefoniert er."
+  },
+  {
+    "id": "obwohl",
+    "de": "obwohl",
+    "ka": "მიუხედავად იმისა რომ",
+    "phonetic": "[ɔpˈvoːl]",
+    "cat": "კავშირები",
+    "level": "B1",
+    "article": "",
+    "example": "Obwohl es regnet, gehen wir raus."
+  },
+  {
+    "id": "sobald",
+    "de": "sobald",
+    "ka": "როგორც კი",
+    "phonetic": "[zoˈbalt]",
+    "cat": "კავშირები",
+    "level": "B1",
+    "article": "",
+    "example": "Sobald ich Zeit habe, komme ich."
+  },
+  {
+    "id": "falls",
+    "de": "falls",
+    "ka": "თუ",
+    "phonetic": "[fals]",
+    "cat": "კავშირები",
+    "level": "B1",
+    "article": "",
+    "example": "Falls du Hilfe brauchst, ruf mich an."
+  },
+  {
+    "id": "die-oberflaeche",
+    "de": "die Oberfläche",
+    "ka": "ზედაპირი",
+    "phonetic": "[diː ˈoːbɐˌflɛçə]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "die",
+    "example": "Die Oberfläche ist glatt."
+  },
+  {
+    "id": "glatt",
+    "de": "glatt",
+    "ka": "გლუვი",
+    "phonetic": "[ɡlat]",
+    "cat": "ზედსართავები",
+    "level": "B1",
+    "article": "",
+    "example": "Der Tisch ist glatt."
+  },
+  {
+    "id": "rau",
+    "de": "rau",
+    "ka": "ხორკლიანი",
+    "phonetic": "[ʁaʊ]",
+    "cat": "ზედსართავები",
+    "level": "B1",
+    "article": "",
+    "example": "Die Wand ist rau."
+  },
+  {
+    "id": "weich",
+    "de": "weich",
+    "ka": "რბილი",
+    "phonetic": "[vaɪç]",
+    "cat": "ზედსართავები",
+    "level": "A2",
+    "article": "",
+    "example": "Das Kissen ist weich."
+  },
+  {
+    "id": "hart",
+    "de": "hart",
+    "ka": "მაგარი",
+    "phonetic": "[haʁt]",
+    "cat": "ზედსართავები",
+    "level": "A2",
+    "article": "",
+    "example": "Das Brot ist hart."
+  },
+  {
+    "id": "breit",
+    "de": "breit",
+    "ka": "ფართო",
+    "phonetic": "[bʁaɪt]",
+    "cat": "ზედსართავები",
+    "level": "A2",
+    "article": "",
+    "example": "Die Straße ist breit."
+  },
+  {
+    "id": "schmal",
+    "de": "schmal",
+    "ka": "ვიწრო",
+    "phonetic": "[ʃmaːl]",
+    "cat": "ზედსართავები",
+    "level": "A2",
+    "article": "",
+    "example": "Der Weg ist schmal."
+  },
+  {
+    "id": "tief",
+    "de": "tief",
+    "ka": "ღრმა",
+    "phonetic": "[tiːf]",
+    "cat": "ზედსართავები",
+    "level": "A2",
+    "article": "",
+    "example": "Der See ist tief."
+  },
+  {
+    "id": "die-entscheidungskraft",
+    "de": "die Entscheidungskraft",
+    "ka": "გადაწყვეტილების უნარი",
+    "phonetic": "[diː ɛntˈʃaɪdʊŋsˌkʁaft]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "die",
+    "example": "Gute Manager haben Entscheidungskraft."
+  },
+  {
+    "id": "die-veraenderung",
+    "de": "die Veränderung",
+    "ka": "ცვლილება",
+    "phonetic": "[diː fɛɐ̯ˈʔɛndəʁʊŋ]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "die",
+    "example": "Die Veränderung war notwendig."
+  },
+  {
+    "id": "die-verbesserung",
+    "de": "die Verbesserung",
+    "ka": "გაუმჯობესება",
+    "phonetic": "[diː fɛɐ̯ˈbɛsəʁʊŋ]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "die",
+    "example": "Wir sehen eine Verbesserung."
+  },
+  {
+    "id": "die-bewegung",
+    "de": "die Bewegung",
+    "ka": "მოძრაობა",
+    "phonetic": "[diː bəˈveːɡʊŋ]",
+    "cat": "ზოგადი",
+    "level": "A2",
+    "article": "die",
+    "example": "Sport bedeutet Bewegung."
+  },
+  {
+    "id": "der-mittelpunkt",
+    "de": "der Mittelpunkt",
+    "ka": "ცენტრი",
+    "phonetic": "[deːɐ̯ ˈmɪtl̩ˌpʊŋkt]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "der",
+    "example": "Das Denkmal steht im Mittelpunkt der Stadt."
+  },
+  {
+    "id": "die-entfernung",
+    "de": "die Entfernung",
+    "ka": "მანძილი",
+    "phonetic": "[diː ɛntˈfɛʁnʊŋ]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "die",
+    "example": "Die Entfernung ist nicht groß."
+  },
+  {
+    "id": "die-flaeche",
+    "de": "die Fläche",
+    "ka": "ფართობი",
+    "phonetic": "[diː ˈflɛçə]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "die",
+    "example": "Die Fläche ist sehr groß."
+  },
+  {
+    "id": "die-schicht",
+    "de": "die Schicht",
+    "ka": "ფენა / ცვლა",
+    "phonetic": "[diː ʃɪçt]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "die",
+    "example": "Er arbeitet in der Nachtschicht."
+  },
+  {
+    "id": "erfinden",
+    "de": "erfinden",
+    "ka": "გამოგონება",
+    "phonetic": "[ɛɐ̯ˈfɪndən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Wer hat das Telefon erfunden?"
+  },
+  {
+    "id": "entstehen",
+    "de": "entstehen",
+    "ka": "წარმოშობა",
+    "phonetic": "[ɛntˈʃteːən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Hier entsteht ein neues Gebäude."
+  },
+  {
+    "id": "vergroessern",
+    "de": "vergrößern",
+    "ka": "გადიდება",
+    "phonetic": "[fɛɐ̯ˈɡʁøːsɐn]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Wir vergrößern das Bild."
+  },
+  {
+    "id": "verkleinern",
+    "de": "verkleinern",
+    "ka": "დაპატარავება",
+    "phonetic": "[fɛɐ̯ˈklaɪnɐn]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Kannst du das Fenster verkleinern?"
+  },
+  {
+    "id": "ueberpruefen",
+    "de": "überprüfen",
+    "ka": "შემოწმება",
+    "phonetic": "[yːbɐˈpʁyːfən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Bitte überprüfe die Daten."
+  },
+  {
+    "id": "verschwinden",
+    "de": "verschwinden",
+    "ka": "გაქრობა",
+    "phonetic": "[fɛɐ̯ˈʃvɪndən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Der Nebel verschwindet langsam."
+  },
+  {
+    "id": "erscheinen",
+    "de": "erscheinen",
+    "ka": "გამოჩენა",
+    "phonetic": "[ɛɐ̯ˈʃaɪnən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Plötzlich erschien ein Hund."
+  },
+  {
+    "id": "die-bedingung",
+    "de": "die Bedingung",
+    "ka": "პირობა",
+    "phonetic": "[diː bəˈdɪŋʊŋ]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "die",
+    "example": "Unter dieser Bedingung akzeptiere ich das."
+  },
+  {
+    "id": "die-vereinbarung",
+    "de": "die Vereinbarung",
+    "ka": "შეთანხმება",
+    "phonetic": "[diː fɛɐ̯ˈʔaɪnbaːʁʊŋ]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "die",
+    "example": "Wir haben eine Vereinbarung getroffen."
+  },
+  {
+    "id": "die-unterstuetzung",
+    "de": "die Unterstützung",
+    "ka": "მხარდაჭერა",
+    "phonetic": "[diː ˌʊntɐˈʃtʏtsʊŋ]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "die",
+    "example": "Danke für deine Unterstützung."
+  },
+  {
+    "id": "die-zustimmung",
+    "de": "die Zustimmung",
+    "ka": "თანხმობა",
+    "phonetic": "[diː ˈtsuːʃtɪmʊŋ]",
+    "cat": "კომუნიკაცია",
+    "level": "B1",
+    "article": "die",
+    "example": "Wir warten auf die Zustimmung."
+  },
+  {
+    "id": "die-ablehnung",
+    "de": "die Ablehnung",
+    "ka": "უარი",
+    "phonetic": "[diː ˈapleːnʊŋ]",
+    "cat": "კომუნიკაცია",
+    "level": "B1",
+    "article": "die",
+    "example": "Die Ablehnung war überraschend."
+  },
+  {
+    "id": "der-hinweis",
+    "de": "der Hinweis",
+    "ka": "მითითება",
+    "phonetic": "[deːɐ̯ ˈhɪnvaɪs]",
+    "cat": "კომუნიკაცია",
+    "level": "B1",
+    "article": "der",
+    "example": "Danke für den Hinweis."
+  },
+  {
+    "id": "die-empfehlung",
+    "de": "die Empfehlung",
+    "ka": "რეკომენდაცია",
+    "phonetic": "[diː ɛmpˈfeːlʊŋ]",
+    "cat": "კომუნიკაცია",
+    "level": "B1",
+    "article": "die",
+    "example": "Ich suche eine gute Empfehlung."
+  },
+  {
+    "id": "die-beschreibung",
+    "de": "die Beschreibung",
+    "ka": "აღწერა",
+    "phonetic": "[diː bəˈʃʁaɪbʊŋ]",
+    "cat": "ზოგადი",
+    "level": "B1",
+    "article": "die",
+    "example": "Die Beschreibung ist sehr genau."
+  },
+  {
+    "id": "der-gedanke",
+    "de": "der Gedanke",
+    "ka": "ფიქრი",
+    "phonetic": "[deːɐ̯ ɡəˈdaŋkə]",
+    "cat": "ემოციები",
+    "level": "A2",
+    "article": "der",
+    "example": "Dieser Gedanke macht mich glücklich."
+  },
+  {
+    "id": "die-fantasie",
+    "de": "die Fantasie",
+    "ka": "ფანტაზია",
+    "phonetic": "[diː fantaziˈziː]",
+    "cat": "ემოციები",
+    "level": "B1",
+    "article": "die",
+    "example": "Kinder haben viel Fantasie."
+  },
+  {
+    "id": "begeistert",
+    "de": "begeistert",
+    "ka": "აღფრთოვანებული",
+    "phonetic": "[bəˈɡaɪstɐt]",
+    "cat": "ემოციები",
+    "level": "B1",
+    "article": "",
+    "example": "Die Fans sind begeistert."
+  },
+  {
+    "id": "ungeduldig",
+    "de": "ungeduldig",
+    "ka": "მოუთმენელი",
+    "phonetic": "[ˈʊnɡəˌdʊldɪç]",
+    "cat": "ემოციები",
+    "level": "B1",
+    "article": "",
+    "example": "Die Kinder sind ungeduldig."
+  },
+  {
+    "id": "korrigieren",
+    "de": "korrigieren",
+    "ka": "შესწორება",
+    "phonetic": "[kɔʁiˈɡiːʁən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Der Lehrer korrigiert die Texte."
+  },
+  {
+    "id": "uebersetzen",
+    "de": "übersetzen",
+    "ka": "თარგმნა",
+    "phonetic": "[yːbɐˈzɛtsən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Kannst du das übersetzen?"
+  },
+  {
+    "id": "wiederholen",
+    "de": "wiederholen",
+    "ka": "გამეორება",
+    "phonetic": "[viːdɐˈhoːlən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Bitte wiederhole den Satz."
+  },
+  {
+    "id": "auswendig",
+    "de": "auswendig",
+    "ka": "ზეპირად",
+    "phonetic": "[ˈaʊsvɛndɪç]",
+    "cat": "განათლება",
+    "level": "B1",
+    "article": "",
+    "example": "Ich lerne die Wörter auswendig."
+  },
+  {
+    "id": "die-kueste",
+    "de": "die Küste",
+    "ka": "სანაპირო",
+    "phonetic": "[diː ˈkʏstə]",
+    "cat": "მოგზაურობა",
+    "level": "B1",
+    "article": "die",
+    "example": "Die Küste ist wunderschön."
+  },
+  {
+    "id": "die-insel",
+    "de": "die Insel",
+    "ka": "კუნძული",
+    "phonetic": "[diː ˈɪnzl̩]",
+    "cat": "მოგზაურობა",
+    "level": "A2",
+    "article": "die",
+    "example": "Wir besuchen eine kleine Insel."
+  },
+  {
+    "id": "das-gebirge",
+    "de": "das Gebirge",
+    "ka": "მთიანი რეგიონი",
+    "phonetic": "[das ɡəˈbɪʁɡə]",
+    "cat": "ბუნება",
+    "level": "B1",
+    "article": "das",
+    "example": "Das Gebirge ist hoch."
+  },
+  {
+    "id": "wandern",
+    "de": "wandern",
+    "ka": "ლაშქრობა",
+    "phonetic": "[ˈvandɐn]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Wir wandern in den Bergen."
+  },
+  {
+    "id": "besichtigen",
+    "de": "besichtigen",
+    "ka": "დათვალიერება",
+    "phonetic": "[bəˈzɪçtɪɡən]",
+    "cat": "ზმნები",
+    "level": "B1",
+    "article": "",
+    "example": "Wir besichtigen das Museum."
+  },
+  {
+    "id": "fotografieren",
+    "de": "fotografieren",
+    "ka": "ფოტოების გადაღება",
+    "phonetic": "[fotoɡʁaˈfiːʁən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Er fotografiert die Landschaft."
+  },
+  {
+    "id": "buchen",
+    "de": "buchen",
+    "ka": "დაჯავშნა",
+    "phonetic": "[ˈbuːxən]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Wir buchen ein Hotel."
+  },
+  {
+    "id": "die-kleidung",
+    "de": "die Kleidung",
+    "ka": "ტანსაცმელი",
+    "phonetic": "[diː ˈklaɪdʊŋ]",
+    "cat": "ყოველდღიური",
+    "level": "A1",
+    "article": "die",
+    "example": "Die Kleidung ist modern."
+  },
+  {
+    "id": "der-stoff",
+    "de": "der Stoff",
+    "ka": "ქსოვილი",
+    "phonetic": "[deːɐ̯ ʃtɔf]",
+    "cat": "ყოველდღიური",
+    "level": "B1",
+    "article": "der",
+    "example": "Der Stoff fühlt sich weich an."
+  },
+  {
+    "id": "wechseln",
+    "de": "wechseln",
+    "ka": "შეცვლა",
+    "phonetic": "[ˈvɛksəln]",
+    "cat": "ზმნები",
+    "level": "A2",
+    "article": "",
+    "example": "Ich wechsle meine Kleidung."
+  },
+  {
+    "id": "die-auseinandersetzung",
+    "de": "die Auseinandersetzung",
+    "ka": "განხილვა / დაპირისპირება",
+    "phonetic": "[diː ˈaʊ̯sʔaɪ̯nandɐˌzɛtsʊŋ]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C1",
+    "article": "die",
+    "example": "Die Auseinandersetzung mit dem Thema ist wichtig."
+  },
+  {
+    "id": "die-wahrnehmung",
+    "de": "die Wahrnehmung",
+    "ka": "აღქმა",
+    "phonetic": "[diː ˈvaːɐ̯neːmʊŋ]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C1",
+    "article": "die",
+    "example": "Unsere Wahrnehmung wird von Erfahrung geprägt."
+  },
+  {
+    "id": "die-einschaetzung",
+    "de": "die Einschätzung",
+    "ka": "შეფასება",
+    "phonetic": "[diː ˈaɪ̯nʃɛtsʊŋ]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C1",
+    "article": "die",
+    "example": "Seine Einschätzung der Lage war realistisch."
+  },
+  {
+    "id": "die-belastbarkeit",
+    "de": "die Belastbarkeit",
+    "ka": "გამძლეობა / სტრესის ატანის უნარი",
+    "phonetic": "[diː bəˈlastbaːɐ̯kaɪ̯t]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C1",
+    "article": "die",
+    "example": "Belastbarkeit ist in diesem Beruf sehr wichtig."
+  },
+  {
+    "id": "die-umsetzung",
+    "de": "die Umsetzung",
+    "ka": "განხორციელება",
+    "phonetic": "[diː ˈʊmzɛtsʊŋ]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C1",
+    "article": "die",
+    "example": "Die Umsetzung des Plans dauert mehrere Monate."
+  },
+  {
+    "id": "die-herangehensweise",
+    "de": "die Herangehensweise",
+    "ka": "მიდგომა",
+    "phonetic": "[diː hɛˈʁanɡeːənsˌvaɪ̯zə]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C1",
+    "article": "die",
+    "example": "Diese Herangehensweise ist sehr pragmatisch."
+  },
+  {
+    "id": "die-zielsetzung",
+    "de": "die Zielsetzung",
+    "ka": "მიზნის დასახვა",
+    "phonetic": "[diː ˈtsiːlˌzɛtsʊŋ]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C1",
+    "article": "die",
+    "example": "Die Zielsetzung muss klar formuliert sein."
+  },
+  {
+    "id": "die-nachhaltigkeit",
+    "de": "die Nachhaltigkeit",
+    "ka": "მდგრადობა",
+    "phonetic": "[diː ˈnaːxhaltɪçkaɪ̯t]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C1",
+    "article": "die",
+    "example": "Nachhaltigkeit spielt eine zentrale Rolle."
+  },
+  {
+    "id": "die-verlaesslichkeit",
+    "de": "die Verlässlichkeit",
+    "ka": "სანდოობა",
+    "phonetic": "[diː fɛɐ̯ˈlɛslɪçkaɪ̯t]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C1",
+    "article": "die",
+    "example": "Verlässlichkeit ist die Grundlage jeder Zusammenarbeit."
+  },
+  {
+    "id": "die-zustaendigkeit",
+    "de": "die Zuständigkeit",
+    "ka": "პასუხისმგებლობის სფერო",
+    "phonetic": "[diː ˈtsuːʃtɛndɪçkaɪ̯t]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C1",
+    "article": "die",
+    "example": "Die Zuständigkeit liegt beim Ministerium."
+  },
+  {
+    "id": "die-begruendung",
+    "de": "die Begründung",
+    "ka": "დასაბუთება",
+    "phonetic": "[diː bəˈɡʁʏndʊŋ]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C1",
+    "article": "die",
+    "example": "Die Begründung klingt überzeugend."
+  },
+  {
+    "id": "die-einordnung",
+    "de": "die Einordnung",
+    "ka": "კლასიფიკაცია / კონტექსტში მოთავსება",
+    "phonetic": "[diː ˈaɪ̯nʔɔʁdnʊŋ]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C1",
+    "article": "die",
+    "example": "Eine historische Einordnung hilft beim Verständnis."
+  },
+  {
+    "id": "die-abwaegung",
+    "de": "die Abwägung",
+    "ka": "გაწონასწორებული განხილვა",
+    "phonetic": "[diː ˈapvɛːɡʊŋ]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C1",
+    "article": "die",
+    "example": "Nach sorgfältiger Abwägung traf sie eine Entscheidung."
+  },
+  {
+    "id": "die-sorgfalt",
+    "de": "die Sorgfalt",
+    "ka": "სიფრთხილე / გულმოდგინება",
+    "phonetic": "[diː ˈzɔʁkfalt]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C1",
+    "article": "die",
+    "example": "Die Arbeit erfordert große Sorgfalt."
+  },
+  {
+    "id": "die-tragweite",
+    "de": "die Tragweite",
+    "ka": "მნიშვნელობის მასშტაბი",
+    "phonetic": "[diː ˈtʁaːkvaɪ̯tə]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C1",
+    "article": "die",
+    "example": "Die Tragweite dieser Reform ist noch unklar."
+  },
+  {
+    "id": "die-erkenntnis",
+    "de": "die Erkenntnis",
+    "ka": "გაცნობიერება / Erkenntnis",
+    "phonetic": "[diː ɛɐ̯ˈkɛntnɪs]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C1",
+    "article": "die",
+    "example": "Diese Erkenntnis veränderte seine Sichtweise."
+  },
+  {
+    "id": "die-wechselwirkung",
+    "de": "die Wechselwirkung",
+    "ka": "ურთიერთქმედება",
+    "phonetic": "[diː ˈvɛksəlˌvɪʁkʊŋ]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C1",
+    "article": "die",
+    "example": "Es gibt eine Wechselwirkung zwischen Sprache und Kultur."
+  },
+  {
+    "id": "die-eigeninitiative",
+    "de": "die Eigeninitiative",
+    "ka": "პირადი ინიციატივა",
+    "phonetic": "[diː ˈaɪ̯ɡənʔinitsi̯aˌtiːvə]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C1",
+    "article": "die",
+    "example": "Eigeninitiative wird in vielen Teams geschätzt."
+  },
+  {
+    "id": "nachvollziehbar",
+    "de": "nachvollziehbar",
+    "ka": "გასაგები / ლოგიკურად მისაღები",
+    "phonetic": "[ˈnaːxˌfɔltsiːbaːɐ̯]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C1",
+    "article": "",
+    "example": "Die Argumentation ist nachvollziehbar."
+  },
+  {
+    "id": "aufschlussreich",
+    "de": "aufschlussreich",
+    "ka": "ინფორმაციული / თვალისამხელი",
+    "phonetic": "[ˈaʊ̯fʃlʊsˌʁaɪ̯ç]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C1",
+    "article": "",
+    "example": "Das Gespräch war sehr aufschlussreich."
+  },
+  {
+    "id": "umstritten",
+    "de": "umstritten",
+    "ka": "სადავო",
+    "phonetic": "[ʊmˈʃtʁɪtn̩]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C1",
+    "article": "",
+    "example": "Diese Maßnahme ist politisch umstritten."
+  },
+  {
+    "id": "ausschlaggebend",
+    "de": "ausschlaggebend",
+    "ka": "გადამწყვეტი",
+    "phonetic": "[ˈaʊ̯sʃlaːkˌɡeːbn̩t]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C1",
+    "article": "",
+    "example": "Die Erfahrung war ausschlaggebend."
+  },
+  {
+    "id": "sich-auseinandersetzen",
+    "de": "sich auseinandersetzen",
+    "ka": "განხილვა / საკითხთან გამკლავება",
+    "phonetic": "[zɪç ˈaʊ̯sʔaɪ̯nandɐˌzɛtsn̩]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C1",
+    "article": "",
+    "example": "Wir müssen uns mit Kritik auseinandersetzen."
+  },
+  {
+    "id": "die-ambivalenz",
+    "de": "die Ambivalenz",
+    "ka": "ორმხრივობა / წინააღმდეგობრივი განცდა",
+    "phonetic": "[diː ambivaˈlɛnts]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C2",
+    "article": "die",
+    "example": "Die Ambivalenz seiner Haltung wurde deutlich."
+  },
+  {
+    "id": "die-diskrepanz",
+    "de": "die Diskrepanz",
+    "ka": "შეუსაბამობა",
+    "phonetic": "[diː dɪskʁeˈpants]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C2",
+    "article": "die",
+    "example": "Zwischen Anspruch und Realität besteht eine Diskrepanz."
+  },
+  {
+    "id": "die-kontingenz",
+    "de": "die Kontingenz",
+    "ka": "შემთხვევითობა / პირობითობა",
+    "phonetic": "[diː kɔntɪˈɡɛnts]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C2",
+    "article": "die",
+    "example": "Der Begriff der Kontingenz ist philosophisch wichtig."
+  },
+  {
+    "id": "die-deutungshoheit",
+    "de": "die Deutungshoheit",
+    "ka": "ინტერპრეტაციის მონოპოლია",
+    "phonetic": "[diː ˈdɔɪ̯tʊŋsˌhoːhaɪ̯t]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C2",
+    "article": "die",
+    "example": "Medien kämpfen oft um Deutungshoheit."
+  },
+  {
+    "id": "die-folgerichtigkeit",
+    "de": "die Folgerichtigkeit",
+    "ka": "ლოგიკური თანმიმდევრულობა",
+    "phonetic": "[diː ˈfɔlɡəʁɪçtɪçkaɪ̯t]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C2",
+    "article": "die",
+    "example": "Die Folgerichtigkeit der Theorie ist beeindruckend."
+  },
+  {
+    "id": "die-unzulaenglichkeit",
+    "de": "die Unzulänglichkeit",
+    "ka": "არასრულყოფილება / ნაკლოვანება",
+    "phonetic": "[diː ˈʊntsuˌlɛŋlɪçkaɪ̯t]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C2",
+    "article": "die",
+    "example": "Die Unzulänglichkeit des Systems wurde sichtbar."
+  },
+  {
+    "id": "die-vergegenwaertigung",
+    "de": "die Vergegenwärtigung",
+    "ka": "გონებაში ნათლად წარმოდგენა",
+    "phonetic": "[diː fɛɐ̯ˈɡeːɡənvɛʁtɪɡʊŋ]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C2",
+    "article": "die",
+    "example": "Die Vergegenwärtigung der Vergangenheit fällt schwer."
+  },
+  {
+    "id": "die-vielschichtigkeit",
+    "de": "die Vielschichtigkeit",
+    "ka": "მრავალშრიანობა",
+    "phonetic": "[diː ˈfiːlʃɪçtɪçkaɪ̯t]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C2",
+    "article": "die",
+    "example": "Die Vielschichtigkeit des Problems wird oft unterschätzt."
+  },
+  {
+    "id": "die-weichenstellung",
+    "de": "die Weichenstellung",
+    "ka": "გადამწყვეტი მიმართულების მიცემა",
+    "phonetic": "[diː ˈvaɪ̯çn̩ˌʃtɛlʊŋ]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C2",
+    "article": "die",
+    "example": "Diese Reform war eine wichtige Weichenstellung."
+  },
+  {
+    "id": "die-zerrissenheit",
+    "de": "die Zerrissenheit",
+    "ka": "შინაგანი გაორება",
+    "phonetic": "[diː tsɛɐ̯ˈʁɪsn̩haɪ̯t]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C2",
+    "article": "die",
+    "example": "Seine Zerrissenheit war deutlich spürbar."
+  },
+  {
+    "id": "der-erkenntnisgewinn",
+    "de": "der Erkenntnisgewinn",
+    "ka": "ახალი ცოდნის მიღება",
+    "phonetic": "[deːɐ̯ ɛɐ̯ˈkɛntnɪsɡəˌvɪn]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C2",
+    "article": "der",
+    "example": "Der Erkenntnisgewinn ist wissenschaftlich relevant."
+  },
+  {
+    "id": "der-paradigmenwechsel",
+    "de": "der Paradigmenwechsel",
+    "ka": "პარადიგმის ცვლილება",
+    "phonetic": "[deːɐ̯ paʁaˈdɪɡmənˌvɛksəl]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C2",
+    "article": "der",
+    "example": "Die Digitalisierung führte zu einem Paradigmenwechsel."
+  },
+  {
+    "id": "der-ermessensspielraum",
+    "de": "der Ermessensspielraum",
+    "ka": "დისკრეციის სივრცე",
+    "phonetic": "[deːɐ̯ ɛɐ̯ˈmɛsn̩sˌʃpiːlʁaʊ̯m]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C2",
+    "article": "der",
+    "example": "Der Ermessensspielraum der Behörde ist begrenzt."
+  },
+  {
+    "id": "das-spannungsverhaeltnis",
+    "de": "das Spannungsverhältnis",
+    "ka": "დაძაბული ურთიერთმიმართება",
+    "phonetic": "[das ˈʃpanʊŋsˌfɛɐ̯hɛltnɪs]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C2",
+    "article": "das",
+    "example": "Es gibt ein Spannungsverhältnis zwischen Freiheit und Sicherheit."
+  },
+  {
+    "id": "das-selbstverstaendnis",
+    "de": "das Selbstverständnis",
+    "ka": "თვითაღქმა",
+    "phonetic": "[das ˈzɛlpstfɛɐ̯ˌʃtɛntnɪs]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C2",
+    "article": "das",
+    "example": "Das Selbstverständnis der Institution verändert sich."
+  },
+  {
+    "id": "das-alleinstellungsmerkmal",
+    "de": "das Alleinstellungsmerkmal",
+    "ka": "უნიკალური განმასხვავებელი ნიშანი",
+    "phonetic": "[das aˈlaɪ̯nʃtɛlʊŋsˌmɛʁkmaːl]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C2",
+    "article": "das",
+    "example": "Dieses Design ist ihr Alleinstellungsmerkmal."
+  },
+  {
+    "id": "nuanciert",
+    "de": "nuanciert",
+    "ka": "ნიუანსირებული",
+    "phonetic": "[nyˈʔansiːɐ̯t]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C2",
+    "article": "",
+    "example": "Die Analyse ist nuanciert und ausgewogen."
+  },
+  {
+    "id": "konstitutiv",
+    "de": "konstitutiv",
+    "ka": "არსებითი / შემადგენელი",
+    "phonetic": "[kɔnstituˈtiːf]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C2",
+    "article": "",
+    "example": "Vertrauen ist konstitutiv für Demokratie."
+  },
+  {
+    "id": "substanziell",
+    "de": "substanziell",
+    "ka": "არსებითი / მნიშვნელოვანი",
+    "phonetic": "[zʊpstanˈtsi̯ɛl]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C2",
+    "article": "",
+    "example": "Die Verbesserung ist substanziell."
+  },
+  {
+    "id": "unverhaeltnismaessig",
+    "de": "unverhältnismäßig",
+    "ka": "არაპროპორციული",
+    "phonetic": "[ˈʊnfɛɐ̯hɛltnɪsˌmɛːsɪç]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C2",
+    "article": "",
+    "example": "Die Strafe erscheint unverhältnismäßig."
+  },
+  {
+    "id": "aufs-engste-verknuepft",
+    "de": "aufs Engste verknüpft",
+    "ka": "მჭიდროდ დაკავშირებული",
+    "phonetic": "[aʊ̯fs ˈɛŋstə fɛɐ̯ˈknʏpft]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C2",
+    "article": "",
+    "example": "Sprache und Identität sind aufs Engste verknüpft."
+  },
+  {
+    "id": "sich-manifestieren",
+    "de": "sich manifestieren",
+    "ka": "გამოვლენა / ხილულად გახდომა",
+    "phonetic": "[zɪç manifɛsˈtiːʁən]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C2",
+    "article": "",
+    "example": "Die Folgen manifestieren sich erst später."
+  },
+  {
+    "id": "etwas-relativieren",
+    "de": "etwas relativieren",
+    "ka": "რაიმეს მნიშვნელობის შერბილება",
+    "phonetic": "[ˈɛtvas ʁelativiːʁən]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C2",
+    "article": "",
+    "example": "Neue Daten relativieren die alte These."
+  },
+  {
+    "id": "etwas-konterkarieren",
+    "de": "etwas konterkarieren",
+    "ka": "რაიმეს საწინააღმდეგოდ მოქმედება",
+    "phonetic": "[ˈɛtvas kɔntɐkaˈʁiːʁən]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C2",
+    "article": "",
+    "example": "Diese Maßnahme konterkariert das ursprüngliche Ziel."
+  },
+  {
+    "id": "sich-herauskristallisieren",
+    "de": "sich herauskristallisieren",
+    "ka": "ნელ-ნელა გამოკვეთა",
+    "phonetic": "[zɪç hɛˈʁaʊ̯skʁɪstaliˌziːʁən]",
+    "cat": "C1/C2 ლექსიკა",
+    "level": "C2",
+    "article": "",
+    "example": "Eine Lösung kristallisierte sich allmählich heraus."
+  }
+]
