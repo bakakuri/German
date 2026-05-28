@@ -1,4 +1,4 @@
-/* ═══════════════════════════════════════════
+7/* ═══════════════════════════════════════════
    DEUTSCHGEO — FULL APPLICATION JS
    SRS · Audio · Achievements · Chart
    PWA · Keyboard · Import/Export
@@ -33,8 +33,23 @@ let state = {
   dailyGoal:10,
   dailyPractice:{},     // {"YYYY-MM-DD": [wordId]}
   dailyGoalHistory:{},  // {"YYYY-MM-DD": goal}
+  dailyGoalMonthOffset:0,
   strictStreakAnchor:"",
   speakingHistory:[],
+  placementLevel:"",
+  placementAnswers:[],
+  placementDone:false,
+  writingIdx:0,
+  writingHistory:[],
+  dictationIdx:0,
+  dictationHistory:[],
+  grammarReview:{},
+  wordNotes:{},
+  selectedNoteWord:"",
+  dialogueScenario:0,
+  dialogueStep:0,
+  dialogueHistory:[],
+  readingAnswers:{},
   perfectQuiz:0,
   unlockedAchievements:[],
   weeklyXP:{},          // {"YYYY-MM-DD": xp}
@@ -96,11 +111,20 @@ function normalizeState(){
   state.dailyGoal = Math.max(1, Math.min(100, isNaN(goal)?10:goal));
   state.dailyPractice = state.dailyPractice || {};
   state.dailyGoalHistory = state.dailyGoalHistory || {};
+  state.dailyGoalMonthOffset = parseInt(state.dailyGoalMonthOffset||0, 10) || 0;
   for(const day of Object.keys(state.dailyPractice)){
     state.dailyPractice[day] = normalizeWordList(state.dailyPractice[day], valid);
     if(!state.dailyGoalHistory[day]) state.dailyGoalHistory[day]=state.dailyGoal;
   }
   state.speakingHistory = Array.isArray(state.speakingHistory) ? state.speakingHistory.slice(-50) : [];
+  state.placementAnswers = Array.isArray(state.placementAnswers) ? state.placementAnswers : [];
+  state.writingHistory = Array.isArray(state.writingHistory) ? state.writingHistory.slice(-80) : [];
+  state.dictationHistory = Array.isArray(state.dictationHistory) ? state.dictationHistory.slice(-80) : [];
+  state.grammarReview = state.grammarReview || {};
+  state.wordNotes = state.wordNotes || {};
+  state.dialogueHistory = Array.isArray(state.dialogueHistory) ? state.dialogueHistory.slice(-50) : [];
+  state.readingAnswers = state.readingAnswers || {};
+  state.selectedNoteWord = valid.has(state.selectedNoteWord) ? state.selectedNoteWord : "";
   const migratedReview={};
   for(const key of Object.keys(state.reviewWords||{})){
     const id=normalizeWordKey(key);
@@ -508,6 +532,12 @@ function navigate(page){
   if(page==="vocab") renderVocab();
   if(page==="grammar") renderGrammarExercise();
   if(page==="home"){ renderWeeklyChart(); renderDailyPhrase(); renderDailyGoal(); }
+  if(page==="placement") renderPlacementTest();
+  if(page==="dashboard") renderWeakDashboard();
+  if(page==="writing") renderWritingPractice();
+  if(page==="dialogues") renderDialogues();
+  if(page==="reading") renderReadingTexts();
+  if(page==="notes") renderNotes();
   if(page==="achievements") renderAchievements();
   if(page==="tests") renderTests();
 }
@@ -689,6 +719,7 @@ function renderVocab(){
       <div class="vocab-ka">${w.ka}</div>
       ${w.example?`<div style="font-size:0.72rem;color:var(--text3);margin-top:4px;font-style:italic;">${w.example}</div>`:""}
       <span class="vocab-fav ${state.favoriteWords.includes(id)?"active":""}" onclick="toggleFav(event,'${id}')">❤️</span>
+      <button class="vocab-note-btn ${state.wordNotes?.[id]?"active":""}" onclick="openWordNote(event,'${id}')" title="შენიშვნა">🗒️</button>
       <button class="vocab-audio-btn" onclick="event.stopPropagation();speak('${deText.replace(/'/g,"\\'")}')">🔊</button>
     </div>`;
   }).join("")||`<div style="grid-column:1/-1;text-align:center;padding:40px;color:var(--text3);">სიტყვა ვერ მოიძებნა</div>`;
@@ -1573,6 +1604,626 @@ function renderAchievements(){
       ${u?`<div style="font-size:0.7rem;color:var(--success);margin-top:4px;">✅ განბლოკილია</div>`:""}
     </div>`;
   }).join("");
+}
+
+// ────────────────────────────────────────────
+// ADVANCED LEARNING MODES
+// ────────────────────────────────────────────
+function escapeHtml(value){
+  return String(value??"").replace(/[&<>"']/g, ch => ({
+    "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"
+  }[ch]));
+}
+function escapeAttr(value){ return escapeHtml(value).replace(/`/g,"&#096;"); }
+function levelBadge(level){ return `<span class="lesson-badge badge-${String(level).toLowerCase()}">${level}</span>`; }
+function formatShortDate(date){
+  try{ return new Date(date).toLocaleDateString("ka-GE",{month:"short",day:"numeric"}); }
+  catch(e){ return ""; }
+}
+
+const PLACEMENT_QUESTIONS=[
+  {level:"A1",q:"აირჩიე სწორი ფორმა: Ich ___ Giorgi.",options:["bin","bist","ist","sind"],correct:"bin"},
+  {level:"A1",q:"რომელი არტიკლია სწორი: ___ Haus?",options:["der","die","das"],correct:"das"},
+  {level:"A2",q:"Akkusativ: Ich sehe ___ Mann.",options:["der","den","dem","des"],correct:"den"},
+  {level:"A2",q:"სწორი წინადადება რომელია?",options:["Heute ich lerne Deutsch.","Heute lerne ich Deutsch.","Heute Deutsch ich lerne."],correct:"Heute lerne ich Deutsch."},
+  {level:"B1",q:"Perfekt: Ich ___ das Buch gelesen.",options:["bin","habe","werde","wurde"],correct:"habe"},
+  {level:"B1",q:"Konjunktiv II: Ich ___ gern mehr Zeit haben.",options:["werde","wurde","würde","war"],correct:"würde"},
+  {level:"B2",q:"Passiv: Der Vertrag ___ morgen unterschrieben.",options:["wird","ist","hat","war"],correct:"wird"},
+  {level:"C1",q:"რომელი კავშირი გამოხატავს დათმობას?",options:["obwohl","weil","damit","sobald"],correct:"obwohl"},
+  {level:"C2",q:"რომელია ყველაზე ბუნებრივი ფორმულირება?",options:["Das Problem ist sehr wichtig.","Die Tragweite des Problems ist nicht zu unterschätzen.","Das Problem macht viel wichtig.","Problematisch wichtig ist es."],correct:"Die Tragweite des Problems ist nicht zu unterschätzen."}
+];
+function placementLevelFromScore(score){
+  if(score<=2) return "A1";
+  if(score<=4) return "A2";
+  if(score<=5) return "B1";
+  if(score<=6) return "B2";
+  if(score<=8) return "C1";
+  return "C2";
+}
+function startPlacementTest(){
+  state.placementAnswers=[];
+  state.placementDone=false;
+  state.placementLevel="";
+  saveState();
+  renderPlacementTest();
+}
+function renderPlacementTest(){
+  const el=document.getElementById("placement-area");
+  if(!el) return;
+  const answers=state.placementAnswers||[];
+  const score=answers.filter(Boolean).length;
+  if(state.placementDone){
+    const level=state.placementLevel||placementLevelFromScore(score);
+    el.innerHTML=`<div class="feature-card wide">
+      <div class="feature-head"><div><div class="feature-title">შენი სავარაუდო დონეა ${level}</div><div class="feature-sub">${score}/${PLACEMENT_QUESTIONS.length} სწორი პასუხი</div></div>${levelBadge(level)}</div>
+      <div class="placement-scale">${["A1","A2","B1","B2","C1","C2"].map(l=>`<span class="${l===level?"active":""}">${l}</span>`).join("")}</div>
+      <div class="feature-actions">
+        <button class="primary-btn" onclick="startLearningForLevel('${level}')">ამ დონით სწავლა</button>
+        <button class="learn-nav-btn prev" onclick="startPlacementTest()">თავიდან გავლა</button>
+      </div>
+    </div>`;
+    return;
+  }
+  const idx=answers.length;
+  const q=PLACEMENT_QUESTIONS[idx];
+  if(!q){ state.placementDone=true; state.placementLevel=placementLevelFromScore(score); saveState(); renderPlacementTest(); return; }
+  el.innerHTML=`<div class="feature-card wide">
+    <div class="feature-head"><div><div class="feature-title">კითხვა ${idx+1}/${PLACEMENT_QUESTIONS.length}</div><div class="feature-sub">Placement test · ${q.level}</div></div>${levelBadge(q.level)}</div>
+    <div class="quiz-question">${q.q}</div>
+    <div class="quiz-options">${q.options.map(o=>`<button class="quiz-opt" onclick="answerPlacement('${escapeAttr(o)}')">${o}</button>`).join("")}</div>
+    <div class="feature-progress"><div style="width:${Math.round((idx/PLACEMENT_QUESTIONS.length)*100)}%"></div></div>
+  </div>`;
+}
+function answerPlacement(answer){
+  const idx=(state.placementAnswers||[]).length;
+  const q=PLACEMENT_QUESTIONS[idx];
+  if(!q) return;
+  state.placementAnswers.push(answer===q.correct);
+  if(state.placementAnswers.length>=PLACEMENT_QUESTIONS.length){
+    const score=state.placementAnswers.filter(Boolean).length;
+    state.placementDone=true;
+    state.placementLevel=placementLevelFromScore(score);
+    addXP(15,false);
+  }
+  saveState();
+  renderPlacementTest();
+}
+function startLearningForLevel(level){
+  learnSessionAwarded=false;
+  learnWords=buildStudyPool(w=>w.level===level).slice(0,20);
+  if(!learnWords.length) learnWords=buildStudyPool(()=>true).slice(0,20);
+  learnIdx=0;
+  navigate("learn");
+  renderLearnWord();
+  showToast(`${level} დონით სწავლის სესია დაიწყო`);
+}
+
+function getGrammarKey(ex){ return `${ex.topic}::${ex.question}`; }
+function getGrammarReviewData(ex){
+  const key=getGrammarKey(ex);
+  return state.grammarReview?.[key] || {interval:0,due:null,ease:2.2,reps:0,last:false};
+}
+function isGrammarDue(ex){
+  const d=getGrammarReviewData(ex);
+  return !!d.due && new Date(d.due)<=new Date();
+}
+function getDueGrammarExercises(){
+  return GRAMMAR_EXERCISES.filter(ex=>isGrammarDue(ex) || (state.grammarMistakes||[]).some(m=>m.question===ex.question));
+}
+function updateGrammarSRS(ex, ok){
+  state.grammarReview=state.grammarReview||{};
+  const key=getGrammarKey(ex);
+  let data=getGrammarReviewData(ex);
+  let interval=data.interval||0, ease=data.ease||2.2, reps=data.reps||0;
+  if(ok){
+    reps++;
+    interval=reps===1?2:reps===2?5:Math.max(7,Math.round(interval*ease));
+    ease=Math.min(3, ease+0.08);
+  } else {
+    reps=0;
+    interval=1;
+    ease=Math.max(1.4, ease-0.18);
+  }
+  const due=new Date();
+  due.setDate(due.getDate()+interval);
+  state.grammarReview[key]={topic:ex.topic,level:ex.level,question:ex.question,interval,ease,reps,due:due.toISOString(),last:ok};
+  saveState();
+}
+function renderGrammarSrsSummary(){
+  const due=getDueGrammarExercises();
+  const total=Object.keys(state.grammarReview||{}).length;
+  return `<div class="grammar-srs-summary">
+    <div><strong>${due.length}</strong><span>grammar review due</span></div>
+    <div><strong>${total}</strong><span>SRS-ში</span></div>
+    <button class="primary-btn" onclick="startGrammarReview()">SRS review</button>
+  </div>`;
+}
+let grammarReviewActive=false, grammarReviewIdx=0;
+function startGrammarReview(){
+  const due=getDueGrammarExercises();
+  if(!due.length){ showToast("Grammar SRS-ში დღეს due სავარჯიშო არ არის"); return; }
+  grammarReviewActive=true;
+  grammarReviewIdx=0;
+  grammarReplayMistake=null;
+  renderGrammarExercise();
+}
+function renderGrammarExercise(){
+  const area=document.getElementById("grammar-practice-area");
+  if(!area) return;
+  const pool=grammarReviewActive ? getDueGrammarExercises() : getGrammarPool();
+  const ex=grammarReplayMistake ? getExerciseFromMistake(grammarReplayMistake) : pool[(grammarReviewActive?grammarReviewIdx:state.grammarExerciseIdx) % Math.max(1,pool.length)];
+  if(!ex){
+    grammarReviewActive=false;
+    grammarReplayMistake=null;
+    area.innerHTML=`<div class="grammar-practice-card">${renderGrammarSrsSummary()}<div class="grammar-history empty">სავარჯიშო ვერ მოიძებნა.</div></div>`;
+    return;
+  }
+  grammarAnswered=false;
+  const modeTitle=grammarReplayMistake?"შეცდომის replay":grammarReviewActive?"Grammar SRS review":"პრაქტიკული სავარჯიშო";
+  area.innerHTML=`<div class="grammar-practice-card">
+    ${renderGrammarSrsSummary()}
+    <div class="grammar-topic-bar">
+      ${getGrammarTopics().map(t=>`<button class="qts-btn ${state.grammarTopic===t||(!state.grammarTopic&&t==="all")?"active":""}" onclick="setGrammarTopic('${t.replace(/'/g,"\\'")}')">${t==="all"?"ყველა თემა":t}</button>`).join("")}
+    </div>
+    <div class="grammar-practice-head">
+      <div class="grammar-practice-title">${modeTitle} · ${ex.topic}</div>
+      <span class="grammar-practice-level">${ex.level}</span>
+    </div>
+    <div class="quiz-question">${ex.question}</div>
+    <div class="quiz-options">${shuffle([...ex.options]).map(o=>`<button class="quiz-opt" onclick="answerGrammarExercise(this,'${o.replace(/'/g,"\\'")}')">${o}</button>`).join("")}</div>
+    <div class="grammar-explain" id="grammar-explain">${ex.explain}</div>
+    <button class="quiz-next-btn" id="grammar-next" onclick="${grammarReplayMistake?"finishGrammarReplay()":"nextGrammarExercise()"}">${grammarReplayMistake?"Replay დასრულება":grammarReviewActive?"შემდეგი review":"შემდეგი →"}</button>
+    ${grammarReplayMistake||grammarReviewActive?`<button class="learn-nav-btn prev grammar-replay-exit" onclick="finishGrammarReplay()">რეჟიმიდან გამოსვლა</button>`:""}
+    ${renderGrammarMistakeHistory()}
+  </div>`;
+}
+function finishGrammarReplay(){
+  grammarReplayMistake=null;
+  grammarReviewActive=false;
+  renderGrammarExercise();
+}
+function answerGrammarExercise(btn,answer){
+  if(grammarAnswered) return;
+  grammarAnswered=true;
+  const pool=grammarReviewActive ? getDueGrammarExercises() : getGrammarPool();
+  const ex=grammarReplayMistake ? getExerciseFromMistake(grammarReplayMistake) : pool[(grammarReviewActive?grammarReviewIdx:state.grammarExerciseIdx) % Math.max(1,pool.length)];
+  const ok=answer===ex.correct;
+  document.querySelectorAll("#grammar-practice-area .quiz-opt").forEach(b=>{
+    b.disabled=true;
+    if(b.textContent.trim()===ex.correct) b.classList.add("correct");
+    else if(b===btn&&!ok) b.classList.add("wrong");
+  });
+  const explain=document.getElementById("grammar-explain");
+  if(explain){
+    explain.classList.add("show");
+    explain.textContent=(ok?"სწორია. ":"სწორი პასუხი: "+ex.correct+". ")+ex.explain;
+  }
+  updateGrammarSRS(ex, ok);
+  if(grammarReplayMistake && ok){
+    state.grammarMistakes=(state.grammarMistakes||[]).filter(m=>m.date!==grammarReplayMistake.date);
+    saveState();
+    showToast("Replay სწორად გაიარე — შეცდომა history-დან მოიხსნა");
+  } else if(!ok){
+    state.grammarMistakes.push({date:new Date().toISOString(),topic:ex.topic,level:ex.level,question:ex.question,options:[...ex.options],answer,correct:ex.correct,explain:ex.explain});
+    state.grammarMistakes=state.grammarMistakes.slice(-80);
+    saveState();
+  }
+  if(ok) addXP(grammarReviewActive?6:4,false);
+  document.getElementById("grammar-next")?.classList.add("show");
+}
+function nextGrammarExercise(){
+  if(grammarReviewActive){
+    grammarReviewIdx++;
+    if(grammarReviewIdx>=getDueGrammarExercises().length){
+      grammarReviewActive=false;
+      showToast("Grammar SRS review დასრულდა");
+    }
+  } else {
+    state.grammarExerciseIdx=(state.grammarExerciseIdx||0)+1;
+  }
+  saveState();
+  renderGrammarExercise();
+}
+
+function shiftDailyGoalMonth(delta){
+  state.dailyGoalMonthOffset=(parseInt(state.dailyGoalMonthOffset||0,10)||0)+delta;
+  saveState();
+  renderDailyGoal();
+}
+function resetDailyGoalMonth(){
+  state.dailyGoalMonthOffset=0;
+  saveState();
+  renderDailyGoal();
+}
+function renderDailyGoal(){
+  const el=document.getElementById("daily-goal");
+  if(!el) return;
+  const count=getTodayPracticeIds().length;
+  const goal=Math.max(1, state.dailyGoal||10);
+  const pct=Math.min(100, Math.round((count/goal)*100));
+  const now=new Date();
+  const view=new Date(now.getFullYear(), now.getMonth()+(parseInt(state.dailyGoalMonthOffset||0,10)||0), 1);
+  const monthName=view.toLocaleDateString("ka-GE",{month:"long",year:"numeric"});
+  const daysInMonth=new Date(view.getFullYear(), view.getMonth()+1, 0).getDate();
+  const leadingBlanks=(view.getDay()+6)%7;
+  const days=Array.from({length:leadingBlanks},()=>({empty:true}));
+  for(let day=1; day<=daysInMonth; day++){
+    const d=new Date(view.getFullYear(), view.getMonth(), day);
+    const key=toDateKey(d);
+    const done=(state.dailyPractice?.[key]?.length||0);
+    const dayGoal=getGoalForDate(key);
+    days.push({key, day, done, goal:dayGoal, met:done>=dayGoal, today:key===todayKey(), future:d>now});
+  }
+  const metDays=days.filter(d=>d.met).length;
+  const weekStart=new Date(now);
+  weekStart.setDate(now.getDate()-((now.getDay()+6)%7));
+  const weekMet=Array.from({length:7},(_,i)=>{
+    const d=new Date(weekStart); d.setDate(weekStart.getDate()+i);
+    return isDailyGoalMet(toDateKey(d));
+  }).filter(Boolean).length;
+  el.innerHTML=`
+    <div class="daily-goal-top">
+      <div>
+        <div class="daily-goal-title">🎯 დღიური მიზანი</div>
+        <div class="daily-goal-sub">${count}/${goal} სიტყვა დღეს · კვირის challenge ${weekMet}/7</div>
+      </div>
+      <button class="daily-goal-action" onclick="startLearningSession()">სწავლა</button>
+    </div>
+    <div class="daily-goal-bar"><div class="daily-goal-fill" style="width:${pct}%"></div></div>
+    <div class="daily-cal-head">
+      <div class="month-controls">
+        <button onclick="shiftDailyGoalMonth(-1)" title="წინა თვე">‹</button>
+        <span>${monthName}</span>
+        <button onclick="shiftDailyGoalMonth(1)" title="შემდეგი თვე">›</button>
+        ${state.dailyGoalMonthOffset?`<button onclick="resetDailyGoalMonth()">დღეს</button>`:""}
+      </div>
+      <span>${metDays}/${daysInMonth} დღე შესრულებულია</span>
+    </div>
+    <div class="daily-calendar month-view">
+      ${["ორ","სა","ოთ","ხუ","პა","შა","კვ"].map(w=>`<div class="daily-weekday">${w}</div>`).join("")}
+      ${days.map(d=>d.empty?`<div class="daily-cal-day empty"></div>`:`<div class="daily-cal-day ${d.met?"met":d.done>0?"partial":""} ${d.today?"today":""} ${d.future?"future":""}" title="${d.key}: ${d.done}/${d.goal}"><div class="daily-cal-dot">${d.day}</div><div class="daily-cal-label">${d.done}/${d.goal}</div></div>`).join("")}
+    </div>
+    <div class="daily-goal-note">${pct>=100?"მიზანი შესრულებულია":"გააგრძელე: ყოველი უნიკალური სიტყვა დღიურ მიზანში ითვლება."}</div>`;
+}
+
+function getWeakTopics(){
+  const counts={};
+  (state.grammarMistakes||[]).forEach(m=>{ counts[m.topic]=(counts[m.topic]||0)+1; });
+  return Object.entries(counts).sort((a,b)=>b[1]-a[1]).slice(0,5);
+}
+function renderWeakDashboard(){
+  const el=document.getElementById("weak-dashboard-area");
+  if(!el) return;
+  const weakTopics=getWeakTopics();
+  const dueGrammar=getDueGrammarExercises();
+  const lowSpeech=(state.speakingHistory||[]).filter(i=>i.score<78).slice(-5).reverse();
+  const lowWriting=(state.writingHistory||[]).filter(i=>i.score<78).slice(-5).reverse();
+  const hardWords=state.difficultWords.map(findWord).filter(Boolean).slice(0,8);
+  el.innerHTML=`<div class="feature-grid">
+    <div class="feature-card"><div class="feature-title">რთული სიტყვები</div><div class="metric">${hardWords.length}</div><div class="feature-sub">${hardWords.map(w=>normalizeWordDisplay(w)).join(", ")||"ჯერ ცარიელია"}</div><button class="primary-btn" onclick="reviewWeakWords()">გამეორება</button></div>
+    <div class="feature-card"><div class="feature-title">Grammar SRS due</div><div class="metric">${dueGrammar.length}</div><div class="feature-sub">${dueGrammar.slice(0,3).map(e=>e.topic).join(", ")||"დღეს due არ არის"}</div><button class="primary-btn" onclick="startGrammarReview()">Review</button></div>
+    <div class="feature-card"><div class="feature-title">გრამატიკის შეცდომები</div>${weakTopics.length?weakTopics.map(([t,c])=>`<button class="weak-row" onclick="focusWeakGrammar('${t.replace(/'/g,"\\'")}')"><span>${t}</span><strong>${c}</strong></button>`).join(""):`<div class="feature-sub">შეცდომები ჯერ არ არის</div>`}</div>
+    <div class="feature-card"><div class="feature-title">Pronunciation</div><div class="metric">${lowSpeech.length}</div><div class="feature-sub">${lowSpeech.map(i=>`${i.target} ${i.score}%`).join(", ")||"სუფთაა"}</div><button class="primary-btn" onclick="setAudioMode('speak');navigate('audio')">Speaking</button></div>
+    <div class="feature-card"><div class="feature-title">Writing</div><div class="metric">${lowWriting.length}</div><div class="feature-sub">${lowWriting.map(i=>`${i.target} ${i.score}%`).join(", ")||"სუსტი პასუხი ჯერ არ არის"}</div><button class="primary-btn" onclick="navigate('writing')">Writing</button></div>
+    <div class="feature-card"><div class="feature-title">შენიშვნები</div><div class="metric">${Object.keys(state.wordNotes||{}).length}</div><div class="feature-sub">პირადი მინიშნებები სიტყვებზე</div><button class="primary-btn" onclick="navigate('notes')">ნახვა</button></div>
+  </div>`;
+}
+function reviewWeakWords(){
+  learnSessionAwarded=false;
+  learnWords=dedupeVocab([...state.difficultWords,...state.priorityWords,...state.reinforceWords].map(findWord).filter(Boolean)).slice(0,20);
+  if(!learnWords.length){ showToast("რთული სიტყვები ჯერ არ არის"); return; }
+  learnIdx=0;
+  navigate("learn");
+  renderLearnWord();
+}
+function focusWeakGrammar(topic){
+  state.grammarTopic=topic;
+  saveState();
+  navigate("grammar");
+}
+
+const WRITING_PROMPTS=[
+  {level:"A1",ka:"მე საქართველოდან ვარ.",de:"Ich komme aus Georgien.",hint:"kommen aus + ქვეყანა"},
+  {level:"A1",ka:"დღეს გერმანულს ვსწავლობ.",de:"Heute lerne ich Deutsch.",hint:"V2: Heute + ზმნა + ich"},
+  {level:"A2",ka:"შემიძლია ხვალ შეხვედრაზე მოსვლა.",de:"Ich kann morgen zum Termin kommen.",hint:"Modalverb + Infinitiv ბოლოში"},
+  {level:"B1",ka:"რომ მეტი დრო მქონდეს, მეტს ვისწავლიდი.",de:"Wenn ich mehr Zeit hätte, würde ich mehr lernen.",hint:"Konjunktiv II"},
+  {level:"B2",ka:"წერილი გუშინ დაიწერა.",de:"Der Brief wurde gestern geschrieben.",hint:"Präteritum Passiv"},
+  {level:"C1",ka:"ამ გადაწყვეტილების შედეგები არ უნდა დავაკნინოთ.",de:"Die Folgen dieser Entscheidung sollten nicht unterschätzt werden.",hint:"Passiv + unterschätzen"},
+  {level:"C2",ka:"მისი არგუმენტი ერთი შეხედვით დამაჯერებელია, მაგრამ საფუძვლიან ანალიზს ვერ უძლებს.",de:"Sein Argument wirkt auf den ersten Blick überzeugend, hält einer gründlichen Analyse jedoch nicht stand.",hint:"idiom: einer Analyse standhalten"}
+];
+function renderWritingPractice(){
+  const el=document.getElementById("writing-area");
+  if(!el) return;
+  const idx=state.writingIdx%WRITING_PROMPTS.length;
+  const p=WRITING_PROMPTS[idx];
+  const hist=(state.writingHistory||[]).slice(-4).reverse();
+  el.innerHTML=`<div class="feature-card wide">
+    <div class="feature-head"><div><div class="feature-title">ქართულიდან გერმანულად</div><div class="feature-sub">${p.hint}</div></div>${levelBadge(p.level)}</div>
+    <div class="writing-prompt">${p.ka}</div>
+    <textarea class="practice-textarea" id="writing-input" placeholder="დაწერე გერმანულად..."></textarea>
+    <div class="feature-actions"><button class="primary-btn" onclick="checkWritingAnswer()">შემოწმება</button><button class="learn-nav-btn prev" onclick="nextWritingPrompt()">შემდეგი</button></div>
+    <div id="writing-feedback"></div>
+  </div>
+  <div class="feature-card wide"><div class="feature-title">ბოლო writing პასუხები</div>${hist.length?hist.map(h=>`<div class="history-row"><span>${escapeHtml(h.target)}</span><strong>${h.score}%</strong><small>${formatShortDate(h.date)}</small></div>`).join(""):`<div class="feature-sub">ისტორია ჯერ ცარიელია</div>`}</div>`;
+}
+function checkWritingAnswer(){
+  const p=WRITING_PROMPTS[state.writingIdx%WRITING_PROMPTS.length];
+  const val=document.getElementById("writing-input")?.value||"";
+  const score=similarityScore(val,p.de);
+  const ok=score>=78;
+  state.writingHistory.push({date:new Date().toISOString(),prompt:p.ka,target:p.de,answer:val,score,level:p.level});
+  state.writingHistory=state.writingHistory.slice(-80);
+  if(ok) addXP(score>=92?12:8,false);
+  saveState();
+  const fb=document.getElementById("writing-feedback");
+  if(fb) fb.innerHTML=`<div class="speech-result ${ok?"ok":"bad"}"><strong>${ok?"კარგია":"კიდევ დასახვეწია"} · ${score}%</strong><br>სწორი ვარიანტი: ${p.de}<br><span>${writingTip(val,p.de)}</span></div>`;
+}
+function writingTip(answer,target){
+  const a=normalizeSpeechText(answer), t=normalizeSpeechText(target);
+  if(!a) return "დაიწყე ზმნის პოზიციით და წინადადების ბირთვით.";
+  if(!a.includes(t.slice(0,Math.min(5,t.length)))) return "შეადარე სიტყვების რიგი და ზმნის ფორმა.";
+  return "ახლოს ხარ; გადაამოწმე არტიკლები, დაბოლოებები და დიდ-მცირე ასოები.";
+}
+function nextWritingPrompt(){ state.writingIdx=(state.writingIdx+1)%WRITING_PROMPTS.length; saveState(); renderWritingPractice(); }
+
+const DICTATION_FALLBACKS=[
+  {de:"Ich lerne jeden Tag Deutsch.",ka:"ყოველდღე ვსწავლობ გერმანულს.",level:"A1"},
+  {de:"Könnten Sie das bitte wiederholen?",ka:"შეგიძლიათ გაიმეოროთ?",level:"A2"},
+  {de:"Der Termin wurde auf morgen verschoben.",ka:"შეხვედრა ხვალისთვის გადაიდო.",level:"B1"},
+  {de:"Die Entscheidung hängt von mehreren Faktoren ab.",ka:"გადაწყვეტილება რამდენიმე ფაქტორზეა დამოკიდებული.",level:"B2"},
+  {de:"Diese Entwicklung lässt sich kaum rückgängig machen.",ka:"ამ განვითარებას ძნელად დააბრუნებ უკან.",level:"C1"}
+];
+function getDictationItems(){
+  const phraseItems=(DAILY_PHRASES||[]).map(p=>({de:p.de,ka:p.ka,level:"A1",phonetic:p.phonetic}));
+  return [...phraseItems,...DICTATION_FALLBACKS];
+}
+function renderDictationPractice(){
+  const area=document.getElementById("audio-mode-area");
+  if(!area) return;
+  const items=getDictationItems();
+  const item=items[state.dictationIdx%items.length];
+  const hist=(state.dictationHistory||[]).slice(-4).reverse();
+  area.innerHTML=`<div class="audio-card">
+    <div class="grammar-practice-head"><div class="grammar-practice-title">Dictation · მოისმინე და დაწერე</div>${levelBadge(item.level)}</div>
+    <div class="audio-meta">${item.ka}${item.phonetic?` · ${item.phonetic}`:""}</div>
+    <button class="learn-audio-btn" onclick="speak('${item.de.replace(/'/g,"\\'")}')">🔊 მოსმენა</button>
+    <input class="audio-input" id="dictation-input" placeholder="დაწერე რაც გაიგე..." onkeydown="if(event.key==='Enter') checkDictationAnswer()">
+    <div class="feature-actions"><button class="primary-btn" onclick="checkDictationAnswer()">შემოწმება</button><button class="learn-nav-btn prev" onclick="nextDictation()">შემდეგი</button></div>
+    <div id="dictation-feedback"></div>
+    <div class="speech-history">${hist.map(h=>`<div class="speech-history-item"><span>${escapeHtml(h.target)}</span><strong>${h.score}%</strong><small>${escapeHtml(h.answer)}</small></div>`).join("")}</div>
+  </div>`;
+}
+function checkDictationAnswer(){
+  const item=getDictationItems()[state.dictationIdx%getDictationItems().length];
+  const val=document.getElementById("dictation-input")?.value||"";
+  const score=similarityScore(val,item.de);
+  const ok=score>=82;
+  state.dictationHistory.push({date:new Date().toISOString(),target:item.de,answer:val,score});
+  state.dictationHistory=state.dictationHistory.slice(-80);
+  if(ok) addXP(score>=94?10:7,false);
+  saveState();
+  const fb=document.getElementById("dictation-feedback");
+  if(fb) fb.innerHTML=`<div class="speech-result ${ok?"ok":"bad"}"><strong>${score}%</strong><br>სწორი ტექსტი: ${item.de}</div>`;
+}
+function nextDictation(){ state.dictationIdx=(state.dictationIdx+1)%getDictationItems().length; saveState(); renderDictationPractice(); }
+function renderAudioPractice(){
+  const area=document.getElementById("audio-practice-area");
+  if(!area) return;
+  const mode=state.audioMode||"listen";
+  area.innerHTML=`<div class="audio-practice-wrap">
+    <div class="audio-mode-tabs">
+      <button class="qts-btn ${mode==="listen"?"active":""}" onclick="setAudioMode('listen')">🎧 მოსმენა</button>
+      <button class="qts-btn ${mode==="speak"?"active":""}" onclick="setAudioMode('speak')">🎙️ მეტყველება</button>
+      <button class="qts-btn ${mode==="dictation"?"active":""}" onclick="setAudioMode('dictation')">✍️ Dictation</button>
+    </div>
+    <div id="audio-mode-area"></div>
+  </div>`;
+  if(mode==="speak") renderSpeakingPractice();
+  else if(mode==="dictation") renderDictationPractice();
+  else renderListeningPractice();
+}
+function syllablesForWord(word){
+  const text=normalizeWordDisplay(word).replace(/^(der|die|das)\s+/i,"");
+  if(!text) return [];
+  const vowels="aeiouäöüAEIOUÄÖÜ";
+  const parts=[];
+  let start=0, sawVowel=false;
+  for(let i=0;i<text.length-1;i++){
+    if(vowels.includes(text[i])) sawVowel=true;
+    if(!sawVowel || vowels.includes(text[i]) || !vowels.includes(text[i+1])) continue;
+    let split=i;
+    if(i>start+2 && text[i].toLowerCase()==="h" && text[i-1]?.toLowerCase()==="c") split=i-1;
+    if(split>start+1){
+      parts.push(text.slice(start, split));
+      start=split;
+      sawVowel=false;
+    }
+  }
+  parts.push(text.slice(start));
+  return parts.length>1 ? parts.filter(Boolean) : text.split(/[-\s]+/).filter(Boolean);
+}
+function renderSyllableFeedback(word){
+  const syl=syllablesForWord(word);
+  return `<div class="syllable-box"><span>მარცვლები</span>${syl.map((s,i)=>`<button onclick="speak('${s.replace(/'/g,"\\'")}',0.72)" title="მარცვლის მოსმენა">${i===0?"ˈ":""}${s}</button>`).join("")}</div>`;
+}
+function renderSpeakingPractice(){
+  const area=document.getElementById("audio-mode-area");
+  if(!area) return;
+  audioCurrent=audioCurrent || pickAudioWord();
+  if(!audioCurrent){ area.innerHTML=`<div class="quiz-no-words">სიტყვები ვერ მოიძებნა.</div>`; return; }
+  const target=normalizeWordDisplay(audioCurrent);
+  area.innerHTML=`<div class="audio-card">
+    <div class="grammar-practice-head"><div class="grammar-practice-title">🎙️ წარმოთქვი გერმანულად</div>${levelBadge(audioCurrent.level)}</div>
+    <div class="audio-word">${target}</div>
+    <div class="audio-meta">${audioCurrent.phonetic} · ${audioCurrent.ka}</div>
+    ${renderSyllableFeedback(audioCurrent)}
+    <div class="audio-actions">
+      <button class="learn-audio-btn" onclick="speak('${target.replace(/'/g,"\\'")}')">🔊 ნიმუში</button>
+      <button class="primary-btn" onclick="startSpeechPractice()">🎙️ ჩაწერა</button>
+      <button class="learn-nav-btn prev" style="flex:0 0 auto;" onclick="nextSpeaking()">შემდეგი</button>
+    </div>
+    <input class="audio-input" id="speaking-input" placeholder="თუ მიკროფონი არ მუშაობს, ჩაწერე რაც წარმოთქვი..." onkeydown="if(event.key==='Enter') checkSpeakingInput()">
+    <button class="primary-btn" onclick="checkSpeakingInput()">შემოწმება</button>
+    <div class="speech-result" id="speech-result">მეტყველების ამოცნობა ბრაუზერზეა დამოკიდებული; fallback ველი ყოველთვის მუშაობს.</div>
+    <div id="speech-history">${renderSpeechHistory()}</div>
+  </div>`;
+}
+function pronunciationTips(spoken,word){
+  const tips=[];
+  const target=normalizeWordDisplay(word);
+  const t=target.toLowerCase();
+  const ipa=(word?.phonetic||"").toLowerCase();
+  const s=(spoken||"").toLowerCase();
+  tips.push(`სამიზნე IPA: ${word?.phonetic||"—"}`);
+  tips.push(`მარცვლებად: ${syllablesForWord(word).join(" · ")}`);
+  IPA_TIP_RULES.forEach(rule=>{
+    if(tips.length>=5) return;
+    if(rule.ipa.test(ipa) || rule.de.test(t)) tips.push(rule.tip(word));
+  });
+  if(t.includes("ß")) tips.push(`${target}: ß ss-სავით იკითხება.`);
+  if(t.includes("w") && !s.includes("v")) tips.push(`${target}: w გერმანულად [v]-ს უახლოვდება.`);
+  return tips.slice(0,4);
+}
+
+const DIALOGUE_SCENARIOS=[
+  {title:"ექიმთან",level:"A2",steps:[
+    {bot:"Guten Tag, was fehlt Ihnen?",options:[{text:"Ich habe seit gestern Kopfschmerzen.",ok:true,tip:"სიმპტომი მკაფიოდ თქვი."},{text:"Ich bin Kopfschmerzen.",ok:false,tip:"haben + სიმპტომი."}]},
+    {bot:"Haben Sie Fieber?",options:[{text:"Ja, ich habe leichtes Fieber.",ok:true,tip:"leichtes Fieber ბუნებრივია."},{text:"Ja, ich bin heiß.",ok:false,tip:"ადამიანზე ასე არ ითქმის."}]},
+    {bot:"Ich verschreibe Ihnen ein Medikament.",options:[{text:"Wie oft soll ich es einnehmen?",ok:true,tip:"einnehmen = წამლის მიღება."},{text:"Wie viel essen ich es?",ok:false,tip:"წამალზე einnehmen."}]}
+  ]},
+  {title:"სამსახურში",level:"B1",steps:[
+    {bot:"Können Sie den Bericht bis Freitag fertigstellen?",options:[{text:"Ja, ich schaffe das bis Freitag.",ok:true,tip:"schaffen = მოსწრება."},{text:"Ja, ich mache fertig bis Freitag.",ok:false,tip:"სიტყვების რიგი და ზმნა."}]},
+    {bot:"Brauchen Sie Unterstützung?",options:[{text:"Ja, bei der Datenanalyse wäre Hilfe gut.",ok:true,tip:"bei + Dativ."},{text:"Ja, Hilfe ist gut bei Daten.",ok:false,tip:"უფრო ბუნებრივი ფორმულირება აირჩიე."}]}
+  ]},
+  {title:"მაღაზიაში",level:"A1",steps:[
+    {bot:"Kann ich Ihnen helfen?",options:[{text:"Ja, ich suche eine Jacke.",ok:true,tip:"ich suche + Akkusativ."},{text:"Ja, ich suchen Jacke.",ok:false,tip:"ich suche."}]},
+    {bot:"Welche Größe brauchen Sie?",options:[{text:"Ich brauche Größe M.",ok:true,tip:"მოკლე და ბუნებრივი."},{text:"Ich bin M.",ok:false,tip:"ზომაზე brauchen/tragen."}]}
+  ]},
+  {title:"აეროპორტში",level:"B1",steps:[
+    {bot:"Ihr Flug hat Verspätung.",options:[{text:"Wie lange dauert die Verspätung ungefähr?",ok:true,tip:"Verspätung dauern."},{text:"Wie spät ist der Flug kaputt?",ok:false,tip:"Verspätung, nicht kaputt."}]},
+    {bot:"Sie können am Schalter umbuchen.",options:[{text:"Wo befindet sich der Schalter?",ok:true,tip:"sich befinden ფორმალურია."},{text:"Wo ist machen anderes Ticket?",ok:false,tip:"umbuchen გამოიყენე."}]}
+  ]}
+];
+function renderDialogues(){
+  const el=document.getElementById("dialogues-area");
+  if(!el) return;
+  const scenario=DIALOGUE_SCENARIOS[state.dialogueScenario%DIALOGUE_SCENARIOS.length];
+  const step=scenario.steps[state.dialogueStep];
+  const hist=(state.dialogueHistory||[]).slice(-4).reverse();
+  if(!step){
+    el.innerHTML=`<div class="feature-card wide"><div class="feature-title">${scenario.title} დასრულდა</div><div class="feature-sub">შესანიშნავი პრაქტიკა რეალურ სიტუაციაში.</div><button class="primary-btn" onclick="restartDialogue()">თავიდან</button></div>`;
+    return;
+  }
+  el.innerHTML=`<div class="scenario-tabs">${DIALOGUE_SCENARIOS.map((s,i)=>`<button class="qts-btn ${i===state.dialogueScenario?"active":""}" onclick="selectDialogue(${i})">${s.title}</button>`).join("")}</div>
+  <div class="feature-card wide">
+    <div class="feature-head"><div><div class="feature-title">${scenario.title}</div><div class="feature-sub">ნაბიჯი ${state.dialogueStep+1}/${scenario.steps.length}</div></div>${levelBadge(scenario.level)}</div>
+    <div class="dialogue-bubble bot">${step.bot}</div>
+    <div class="quiz-options">${step.options.map((o,i)=>`<button class="quiz-opt" onclick="answerDialogue(${i})">${o.text}</button>`).join("")}</div>
+    <div id="dialogue-feedback"></div>
+  </div>
+  <div class="feature-card wide"><div class="feature-title">ბოლო დიალოგები</div>${hist.length?hist.map(h=>`<div class="history-row"><span>${h.scenario}</span><strong>${h.ok?"OK":"Review"}</strong><small>${formatShortDate(h.date)}</small></div>`).join(""):`<div class="feature-sub">ისტორია ჯერ ცარიელია</div>`}</div>`;
+}
+function selectDialogue(i){ state.dialogueScenario=i; state.dialogueStep=0; saveState(); renderDialogues(); }
+function restartDialogue(){ state.dialogueStep=0; saveState(); renderDialogues(); }
+function answerDialogue(i){
+  const scenario=DIALOGUE_SCENARIOS[state.dialogueScenario%DIALOGUE_SCENARIOS.length];
+  const step=scenario.steps[state.dialogueStep];
+  const opt=step.options[i];
+  state.dialogueHistory.push({date:new Date().toISOString(),scenario:scenario.title,answer:opt.text,ok:opt.ok});
+  state.dialogueHistory=state.dialogueHistory.slice(-50);
+  if(opt.ok) addXP(6,false);
+  const fb=document.getElementById("dialogue-feedback");
+  if(fb) fb.innerHTML=`<div class="speech-result ${opt.ok?"ok":"bad"}"><strong>${opt.ok?"კარგია":"სჯობს სხვა ფორმა"}</strong><br>${opt.tip}</div>`;
+  state.dialogueStep++;
+  saveState();
+  setTimeout(renderDialogues,700);
+}
+
+const READING_TEXTS=[
+  {id:"arbeit-zukunft",level:"C1",title:"Die Zukunft der Arbeit",text:"Die Arbeitswelt verändert sich rasant: Automatisierung übernimmt Routineaufgaben, während kreative Problemlösung und interkulturelle Kommunikation an Bedeutung gewinnen. Entscheidend ist nicht nur technisches Wissen, sondern die Fähigkeit, Wissen flexibel auf neue Situationen zu übertragen.",vocab:["rasant","Routineaufgaben","an Bedeutung gewinnen","übertragen"],questions:[
+    {q:"რა ხდება Routineaufgaben-თან?",options:["ისინი ქრება მთლიანად","Automatisierung იღებს მათ ნაწილს","ისინი მხოლოდ ხელით სრულდება"],correct:"Automatisierung იღებს მათ ნაწილს"},
+    {q:"ტექსტის მიხედვით რა არის გადამწყვეტი?",options:["მხოლოდ ტექნიკური ცოდნა","ცოდნის მოქნილი გამოყენება","მხოლოდ სისწრაფე"],correct:"ცოდნის მოქნილი გამოყენება"}
+  ]},
+  {id:"stadt-klima",level:"C2",title:"Städte und Klimaresilienz",text:"Klimaresiliente Städte setzen nicht allein auf technische Infrastruktur. Ebenso relevant sind soziale Netzwerke, transparente Verwaltung und die Bereitschaft, kurzfristige Bequemlichkeit zugunsten langfristiger Stabilität zu hinterfragen.",vocab:["Klimaresilienz","zugunsten","hinterfragen","Verwaltung"],questions:[
+    {q:"რა არ კმარა კლიმატგამძლე ქალაქისთვის?",options:["მხოლოდ ტექნიკური ინფრასტრუქტურა","სოციალური ქსელები","გამჭვირვალე მართვა"],correct:"მხოლოდ ტექნიკური ინფრასტრუქტურა"},
+    {q:"zugunsten რას ნიშნავს აქ?",options:["საზიანოდ","სასარგებლოდ","შემთხვევით"],correct:"სასარგებლოდ"}
+  ]}
+];
+function renderReadingTexts(){
+  const el=document.getElementById("reading-area");
+  if(!el) return;
+  el.innerHTML=READING_TEXTS.map((text,ti)=>`<div class="feature-card wide reading-card">
+    <div class="feature-head"><div><div class="feature-title">${text.title}</div><div class="feature-sub">${text.vocab.join(" · ")}</div></div>${levelBadge(text.level)}</div>
+    <p>${text.text}</p>
+    ${text.questions.map((q,qi)=>{
+      const key=`${text.id}-${qi}`;
+      const chosen=state.readingAnswers?.[key];
+      return `<div class="reading-question"><strong>${q.q}</strong><div class="quiz-options compact">${q.options.map(o=>`<button class="quiz-opt ${chosen===o?(o===q.correct?"correct":"wrong"):""}" onclick="answerReading(${ti},${qi},'${o.replace(/'/g,"\\'")}')">${o}</button>`).join("")}</div>${chosen?`<div class="feature-sub">სწორი პასუხი: ${q.correct}</div>`:""}</div>`;
+    }).join("")}
+  </div>`).join("");
+}
+function answerReading(ti,qi,answer){
+  const text=READING_TEXTS[ti], q=text.questions[qi], key=`${text.id}-${qi}`;
+  const first=!state.readingAnswers[key];
+  state.readingAnswers[key]=answer;
+  if(first && answer===q.correct) addXP(8,false);
+  saveState();
+  renderReadingTexts();
+}
+
+function getNoteWordList(){
+  return dedupeVocab([
+    ...Object.keys(state.wordNotes||{}).map(findWord).filter(Boolean),
+    ...state.favoriteWords.map(findWord).filter(Boolean),
+    ...getLearnedVocab().slice(0,20),
+    ...VOCABULARY.slice(0,20)
+  ]);
+}
+function openWordNote(event,id){
+  if(event) event.stopPropagation();
+  state.selectedNoteWord=normalizeWordKey(id);
+  saveState();
+  navigate("notes");
+}
+function selectNoteWord(id){ state.selectedNoteWord=normalizeWordKey(id); saveState(); renderNotes(); }
+function renderNotes(){
+  const el=document.getElementById("notes-area");
+  if(!el) return;
+  const words=getNoteWordList();
+  if(!state.selectedNoteWord && words[0]) state.selectedNoteWord=getWordId(words[0]);
+  const selected=findWord(state.selectedNoteWord)||words[0];
+  const note=selected ? (state.wordNotes?.[getWordId(selected)]||"") : "";
+  const notesCount=Object.keys(state.wordNotes||{}).filter(id=>state.wordNotes[id]).length;
+  el.innerHTML=`<div class="notes-layout">
+    <div class="feature-card notes-list"><div class="feature-title">სიტყვები (${notesCount})</div>
+      <input class="audio-input" id="notes-search" placeholder="ძებნა..." oninput="filterNoteWords()">
+      <div id="notes-word-list">${words.map(w=>`<button class="note-word ${getWordId(w)===getWordId(selected)?"active":""}" data-note-word="${normalizeWordDisplay(w).toLowerCase()} ${w.ka.toLowerCase()}" onclick="selectNoteWord('${getWordId(w)}')"><span>${normalizeWordDisplay(w)}</span><small>${w.ka}</small></button>`).join("")}</div>
+    </div>
+    <div class="feature-card notes-editor">${selected?`
+      <div class="feature-head"><div><div class="feature-title">${normalizeWordDisplay(selected)}</div><div class="feature-sub">${selected.phonetic} · ${selected.ka}</div></div>${levelBadge(selected.level)}</div>
+      <textarea class="practice-textarea" id="word-note-input" placeholder="შენი შენიშვნა, ასოციაცია ან მაგალითი...">${escapeHtml(note)}</textarea>
+      <div class="feature-actions"><button class="primary-btn" onclick="saveWordNote('${getWordId(selected)}')">შენახვა</button><button class="learn-nav-btn prev" onclick="deleteWordNote('${getWordId(selected)}')">წაშლა</button></div>`:`<div class="feature-sub">სიტყვები ვერ მოიძებნა.</div>`}
+    </div>
+  </div>`;
+}
+function filterNoteWords(){
+  const q=(document.getElementById("notes-search")?.value||"").toLowerCase();
+  document.querySelectorAll(".note-word").forEach(btn=>{ btn.style.display=btn.dataset.noteWord.includes(q)?"":"none"; });
+}
+function saveWordNote(id){
+  const val=document.getElementById("word-note-input")?.value||"";
+  state.wordNotes[id]=val.trim();
+  if(!state.wordNotes[id]) delete state.wordNotes[id];
+  saveState();
+  renderNotes();
+  renderVocab();
+  showToast("შენიშვნა შენახულია");
+}
+function deleteWordNote(id){
+  delete state.wordNotes[id];
+  saveState();
+  renderNotes();
+  renderVocab();
 }
 
 // ────────────────────────────────────────────
