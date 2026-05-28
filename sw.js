@@ -1,9 +1,9 @@
-const CACHE_NAME = "deutschgeo-v6";
+const CACHE_NAME = "deutschgeo-v7";
 const ASSETS = [
   "./",
   "./index.html",
-  "./css/style.css?v=6",
-  "./js/main.js?v=6",
+  "./css/style.css?v=7",
+  "./js/main.js?v=7",
   "./json/vocabulary.json",
   "./json/daily_phrases.json",
   "./json/achievements.json",
