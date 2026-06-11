@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<meta name="theme-color" content="#F5F7FC" />
+<meta name="description" content="ისწავლე უცხო ენა ქართულად — გრამატიკა, SRS, წერა, მეტყველება და მეხსიერება. მუშაობს ოფლაინაც." />
+<link rel="manifest" href="manifest.json" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="LinguaPath" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png" />
+<script>try{var _s=JSON.parse(localStorage.getItem('linguapath:v1')||'{}');var _t=(_s.settings&&_s.settings.theme)||'light';document.documentElement.setAttribute('data-theme',_t);}catch(e){}</script>
+<title>LinguaPath — ენების შესწავლა</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Inter:wght@400;500;600;700&family=Noto+Serif+Georgian:wght@500;600;700&family=Noto+Sans+Georgian:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ====== ENTRY / COURSE SELECT ====== -->
+<section id="entry">
+  <div class="brand-mark">LinguaPath</div>
+  <h1>ისწავლე ენა, <em>ქართულად</em></h1>
+  <p class="sub">აირჩიე კურსი, ისწავლე გრამატიკა სრულად, გაიმეორე SRS-ით და ივარჯიშე წერით, მეტყველებითა და მეხსიერებით — ყველაფერი შენს ბრაუზერში.</p>
+  <div class="eyebrow label">აირჩიე შესასწავლი ენა</div>
+  <div class="lang-grid" id="langGrid"></div>
+  <div class="entry-foot">
+    <span>⚡ მონაცემები ინახება მხოლოდ ამ მოწყობილობაზე</span><span>·</span>
+    <span>ბექენდის გარეშე</span>
+  </div>
+</section>
+
+<!-- ====== APP ====== -->
+<div id="app">
+  <div class="mobhead">
+    <div class="logo"><span class="dot"></span> LinguaPath</div>
+    <div class="stat-pills" id="mobPills"></div>
+  </div>
+  <div class="shell">
+    <aside class="side">
+      <div class="logo"><span class="dot"></span> LinguaPath</div>
+      <nav id="navDesk"></nav>
+      <div class="spacer"></div>
+      <div class="mini glass" id="courseMini"></div>
+    </aside>
+    <main class="main" id="main"></main>
+  </div>
+  <nav class="botnav" id="navMob"></nav>
+</div>
+
+<div class="overlay" id="overlay"><div class="modal glass" id="modal"></div></div>
+<div class="toast-wrap" id="toasts"></div>
+
+<script src="js/01-data.js"></script>
+<script src="js/02-state.js"></script>
+<script src="js/03-gamification.js"></script>
+<script src="js/04-srs.js"></script>
+<script src="js/05-audio.js"></script>
+<script src="js/06-ui.js"></script>
+<script src="js/07-views-main.js"></script>
+<script src="js/08-srs-write.js"></script>
+<script src="js/09-exercises.js"></script>
+<script src="js/10-views-more.js"></script>
+<script src="js/11-boot.js"></script>
+<script src="js/12-palette.js"></script>
+</body>
+</html>
